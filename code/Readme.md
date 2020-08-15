@@ -6,6 +6,7 @@ We provided a simple maximum entropy model using contextual, lexical and gazette
       ./rel_classifier.py
 
 ```
+### How to run baseline model:
 
 To run and get the prediction on the test data, you need download the [stanford dependecy parser](https://mega.nz/file/HcgEyIJI#keL_1DL00BcLn_DwsswZuWrOuyJaJ1T9OPtJQpjjMXs) and unzip it  under the`./feature_engineering/` directory. 
 
