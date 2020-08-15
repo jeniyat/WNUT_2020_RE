@@ -65,8 +65,8 @@ The participants are required to produce predictions on the protocols as [StandO
 ```
 .
 ├── code
-│   ├── baseline_maxent
-│   └── eval
+│   ├── rel_classifier.py
+│   └── evalutation.py
 └── data
     ├── dev_data
     ├── test_data
