@@ -40,7 +40,7 @@ def parse_args():
     parameters_maxent = OrderedDict()
     
     parser.add_argument(
-        "-gold_data", default=".../data/test_data/",
+        "-gold_data", default="../data/test_data/",
         help="Standoff_Format gold files"
     )
 
