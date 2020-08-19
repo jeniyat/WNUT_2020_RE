@@ -64,8 +64,10 @@ The participants are required to produce predictions on the protocols as [StandO
 ## Directory Structure 
 ```
 .
+
 ├── code
 │   ├── rel_classifier.py
+│   ├── predict_relations.py
 │   └── evalutation.py
 └── data
     ├── dev_data
