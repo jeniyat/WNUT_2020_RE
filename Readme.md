@@ -64,7 +64,6 @@ The participants are required to produce predictions on the protocols as [StandO
 ## Directory Structure for Important Files and Folders
 ```
 .
-
 ├── code
 │   ├── rel_classifier.py
 │   ├── predict_relations.py
