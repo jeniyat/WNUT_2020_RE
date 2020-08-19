@@ -61,7 +61,7 @@ We have provided a feature based [Maximum Entropy Model](./code/Readme.md#-The-b
 
 The participants are required to produce predictions on the protocols as [StandOff format](./data/Readme.md#-The-standoff-format:), which will be compared with the gold data using the [evalution script](./code/Readme.md#-The-evaluation-system).
 
-## Directory Structure 
+## Directory Structure for Important Files and Folders
 ```
 .
 
