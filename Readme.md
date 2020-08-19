@@ -54,7 +54,7 @@ After discarding the duplicate protocols, the remaining 615 unique protocols are
 
 ## Baselines
 
-We have provided a feature based [Maximum Entropy Model](./code/Readme.md#-The-baseline-relation-extraction-model) for the Named Entity Recognition Task.
+We have provided a feature based [Logistic Regression Model](./code/Readme.md#-The-baseline-relation-extraction-model) for the Named Entity Recognition Task.
 
 
 ## Evaluation

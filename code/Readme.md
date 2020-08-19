@@ -1,6 +1,6 @@
 # The baseline relation extraction model:
 
-We provided a simple maximum entropy model using contextual, lexical and gazetter features. The following script contains the baseline Feature Based CRF model:
+We provided a simple logistic regression model using contextual, lexical and gazetter features. The following script contains the baseline Feature Based CRF model:
 
 ```
       ./rel_classifier.py
