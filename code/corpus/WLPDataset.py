@@ -172,7 +172,7 @@ class Features(object):
     def tranform(self, df, feat):
         # only the columns in df are used to generate one hot vectors
         rel_df = self.filter_by_features(self.rel_df, feat)
-        print(len(rel_df.values))
+        # print(len(rel_df.values))
         self.encoder.fit(rel_df.values)
         df = self.filter_by_features(df, feat)
         return self.encoder.transform(df.values)
@@ -202,6 +202,11 @@ class WLPDataset:
         self.tag_idx = self.make_bio_dict(cfg.LABELS)
         self.rel_label_idx = {k: v for v, k in enumerate(cfg.RELATIONS)}
         self.rel_label_idx[cfg.NEG_REL_LABEL] = len(self.rel_label_idx)
+        self.rel_index_to_label = {}
+
+        for label in self.rel_label_idx:
+            self.rel_index_to_label[self.rel_label_idx[label]]=label
+
         # self.tokens2d, self.pnos = self.__gen_data(replace_digit=cfg.REPLACE_DIGITS)
 
         # self.verify_tokens(self.tokens2d)
@@ -302,7 +307,7 @@ class WLPDataset:
                 rel_label_idx[cfg.NEG_REL_LABEL] for link in links]
 
     def extract_rel_data(self):
-        print("total no of links in protocols:")
+        # print("total no of links in protocols:")
         # print(sum([len(p.relations) for p in self.protocols]))
         relations = [p.relations for p in self.protocols]
         relations = []
@@ -311,6 +316,7 @@ class WLPDataset:
                 relations.append(p.relations)
             else:
                 relations.append([])
+        # print("rleations from WLPDataset: ",relations)
                 
         y = self.to_idx(list(itertools.chain.from_iterable(relations)))
 
@@ -347,7 +353,7 @@ class WLPDataset:
 
         self.char_index = gen_list2id_dict(list_of_chars, insert_words=['<w>', '</w>', '<s>', '</s>'])
 
-        print(self.char_index)
+        # print(self.char_index)
 
         cfg.CHAR_VOCAB = len(self.char_index.items())
 

@@ -20,6 +20,22 @@ The classifier can be trained and test using the  `./rel_classifier.py` script w
 python rel_classifier.py  -train_data "../../data/train_data/" -test_data "../../data/test_data/"
 ```
 
+### How to save prediction from baseline model:
+
+To run and get the prediction on the test data, you need download the [stanford dependecy parser](https://mega.nz/file/HcgEyIJI#keL_1DL00BcLn_DwsswZuWrOuyJaJ1T9OPtJQpjjMXs) and unzip it  under the`./feature_engineering/` directory. 
+
+The classifier can be trained and the predictions on the test data can be saves using the  `./predict_relations.py` script with the following parameters:
+
+1) The `<location of StandOff format train data>` in `-train_data` parameter, 
+2) The `<location of StandOff format test data>` in the `-test_data` parameter, and 
+3) The `<location of StandOff format predicted output>` in the `-op_dir` parameter
+
+
+```
+python predict_relations.py  -train_data "../../data/train_data/" -test_data "../../data/test_data/" -op_dir "output/"
+```
+
+
 
 # The evaluation system:
 

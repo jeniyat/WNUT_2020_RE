@@ -1,5 +1,5 @@
-import sys
-sys.path.append("/home/jeniya/WLP-RE-LR-baseline/WLP-Parser/")
+import sys,os
+sys.path.append(os.getcwd())
 
 import os
 import pickle
@@ -28,6 +28,8 @@ import features_config as feat_cfg
 
 from preprocessing.feature_engineering.GeniaTagger import GeniaTagger
 from os import path
+
+from shutil import copy2
 
 
 logger = logging.getLogger(__name__)
@@ -92,6 +94,74 @@ class ProtoFile:
 
             self.relations = self.gen_relations()
 
+    
+    def write_rels(self, rel_label_ids, rel_label2id, write_copy=None):
+        # reverse the label2id dict for relation labels, as the input, rel_label_ids, will contain numbers/ids
+        # pred_relations  = []
+        if len(rel_label_ids) > 0 and len(self.tags) > 1:
+            rel_id2label = {v: k for k, v in rel_label2id.items()}
+
+            # assign the relation labels
+            for relation, label in zip(self.relations, rel_label_ids):
+                relation.label = rel_id2label[label]
+
+            # write to brat file
+            if write_copy is not None:
+                # make a copy of the brat file and write the relations into that copy.
+                copy2(self.text_file, write_copy + ".txt")
+                copy2(self.ann_file, write_copy + ".ann")
+                self.__write_rels(write_copy + ".ann")
+            else:
+                self.__write_rels(self.ann_file)
+        else:
+            if write_copy is not None:
+                copy2(self.text_file, write_copy + ".txt")
+                copy2(self.ann_file, write_copy + ".ann")
+
+    def __write_rels(self, dst_ann_file):
+        # This function will write self.relations into the given ann filename
+        r = 1
+        e = 1
+        ret = []
+        act_queue = {}
+        # print("printing len of relations: ",len(self.relations))
+        for relation in self.relations:
+
+            # only if relation has a label do we write into the brat file
+            if relation.label != '0':
+                assert isinstance(relation, Relation)
+                # create an E relation, if either arg is an action
+
+                if relation.arg1_tag.tag_name == 'Action' or relation.arg2_tag.tag_name == "Action":
+                    if relation.arg1_tag.tag_name == 'Action':
+                        act = relation.arg1_tag
+                        arg = relation.arg2_tag
+                    else:
+                        act = relation.arg2_tag
+                        arg = relation.arg1_tag
+                    # E5    Action:T12 Acts-on:T13
+                    if act.tag_id in act_queue.keys():
+                        act_queue[act.tag_id] += " {0}:{1}".format(relation.label, arg.tag_id)
+                    else:
+                        act_queue[act.tag_id] = "E{0}\tAction:{1} {2}:{3}".format(e, act.tag_id, relation.label,
+                                                                                  arg.tag_id)
+                        e += 1
+
+                # else create an R relation
+                else:
+                    ret.append("R{0}\t{1} Arg1:{2} Arg2:{3}\n".format(r,
+                                                                      relation.label,
+                                                                      relation.arg1_tag.tag_id,
+                                                                      relation.arg2_tag.tag_id))
+                    r += 1
+
+        for act_id, event in act_queue.items():
+            ret.append(event + '\n')
+
+        with open(dst_ann_file, 'a') as f:
+            f.writelines(ret)
+
+    
     @staticmethod
     def clean_html_tag(token):
         token.word = html.unescape(token.word)
@@ -507,6 +577,9 @@ class ProtoFile:
 
     def gen_relations(self):
         r_cache = os.path.join(cfg.REL_PICKLE_DIR, self.protocol_name + '.p')
+        relations = self.__gen_relations()
+        
+        return relations
         
         if path.exists(r_cache) :
             try:
@@ -803,3 +876,5 @@ if __name__ == '__main__':
             filename = filename_base+ protocol_name
             print("now reading : ", filename)
             pro = ProtoFile(filename, genia, True, False, False, cfg.FILTER_ALL_NEG)
+
+

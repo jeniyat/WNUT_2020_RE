@@ -119,6 +119,11 @@ DEP_GENIA_DIR = os.path.join(CURRENT_DIR, "results/pickles/dep_genia_graphs")
 PARSE_PICKLE_DIR = os.path.join(CURRENT_DIR, "results/pickles/parse_trees")
 REL_PICKLE_DIR = os.path.join(CURRENT_DIR, "results/pickles/relations")
 
+
+Train_Dataset_PICKLE = os.path.join(CURRENT_DIR, "results/pickles/datasets/train.p")
+Test_Dataset_PICKLE = os.path.join(CURRENT_DIR, "results/pickles/datasets/test.p")
+Dev_Dataset_PICKLE = os.path.join(CURRENT_DIR, "results/pickles/datasets/dev.p")
+
 DB = os.path.join(CURRENT_DIR, "results/pickles/datasets.p")
 DB_MAXENT = os.path.join(CURRENT_DIR, "results/pickles/dataset_maxent.p")
 DB_MAXENT_WITH_PARSETREES = os.path.join(CURRENT_DIR, "results/pickles/dataset_maxent_parse_trees.p")

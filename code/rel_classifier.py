@@ -43,10 +43,16 @@ def parse_args():
         help="Standoff_Format test files"
     )
 
+    parser.add_argument(
+        "-dev_data", default="../data/dev_data/",
+        help="Standoff_Format dev files"
+    )
+
     opts = parser.parse_args()
 
     parameters_maxent["train_data"]=opts.train_data
     parameters_maxent["test_data"]=opts.test_data
+    parameters_maxent["dev_data"]=opts.dev_data
 
     return parameters_maxent
 
@@ -60,6 +66,11 @@ def main():
     # dev = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=cfg.DEV_ARTICLES_PATH)
     # test = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=cfg.TEST_ARTICLES_PATH)
     test = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["test_data"])
+    dev = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["dev_data"])
+
+    pickle.dump(test, open('results/pickles/datasets/test.p', 'wb'))
+    pickle.dump(train, open('results/pickles/datasets/train.p', 'wb'))
+    pickle.dump(dev, open('results/pickles/datasets/dev.p', 'wb'))
 
 
     
