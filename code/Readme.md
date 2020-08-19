@@ -94,6 +94,23 @@ python evaluation.py  -gold_data "../data/test_data/" -pred_data "RE_Outputs/"
 
 ```
 
+### Import evalution function inside another script:
+
+The evalutaion funciton is utilizing `classification_report` and `precision_recall_fscore_supportcan` from `sklearn.metrics` and can be from other python scripts as below:
+
+```
+
+from sklearn.metrics import classification_report, precision_recall_fscore_support
+
+
+print(classification_report(y_gold, y_pred, target_names=cfg.RELATIONS, labels=range(len(cfg.RELATIONS))))
+print("Macro", precision_recall_fscore_support(y_gold, y_pred, average='macro', labels=range(len(cfg.RELATIONS))))
+print("Micro", precision_recall_fscore_support(y_gold, y_pred, average='micro', labels=range(len(cfg.RELATIONS))))
+
+```
+
+
+
 # Requirements:
 
 All the codes are written in python 3. The following python modules are required by the scripts provided in this code-base.
