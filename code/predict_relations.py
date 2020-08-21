@@ -16,7 +16,7 @@ import argparse
 
 import shutil
 
-import evalutation
+import evaluation
 
 
 def single_run(train, x_train, y_train, test, x_test, y_test, output_dir):
@@ -139,7 +139,7 @@ def main():
         x_test = train.features.tranform(test_df, feat)
         single_run(train, x_train, y_train, test, x_test, y_test, output_dir)
 
-    evalutation.find_perfomance(gold_data_location=parameters_maxent["test_data"], pred_data_location=output_dir)
+    evaluation.find_perfomance(gold_data_location=parameters_maxent["test_data"], pred_data_location=output_dir)
 
 
 if __name__ == '__main__':

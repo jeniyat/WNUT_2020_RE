@@ -100,10 +100,10 @@ The evalutaion funciton is utilizing `classification_report` and `precision_reca
 
 ```
 
-import evalutation
+import evaluation
 
 
-evalutation.find_perfomance(gold_data_location=parameters_maxent["test_data"], pred_data_location=output_dir)
+evaluation.find_perfomance(gold_data_location="../data/test_data", pred_data_location="outputs")
 
 ```
 
