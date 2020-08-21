@@ -618,19 +618,7 @@ class ProtoFile:
                 token_arg2 = [token.original for token in self.tokens2d[sent_idx2][arg2[0]:arg2[1]]]
 
                 # TODO fix all these errors
-                if self.basename == "protocol_371":
-                    if sent_idx1 == 18 and token_arg1[-1] == "tubes":
-                        token_arg1[-1] = "tube"
-
-                    if sent_idx1 == 18 and token_arg2[-1] == "tubes":
-                        token_arg2[-1] = "tube"
-
-                if self.basename == "protocol_577":
-                    if sent_idx1 == 53 and token_arg1[-1] == "RPE":
-                        token_arg1[-1] = "AW2"
-                    if sent_idx1 == 53 and token_arg2[-1] == "RPE":
-                        token_arg2[-1] = "AW2"
-
+                
                 # protocol 600 gave problem too
                 # (many protocols like this that have text in Tag different from text in self.sents fail too.)
 
@@ -699,7 +687,7 @@ class Relation(object):
         self.arg1 = arg1
         self.arg2 = arg2
         self.p = protocol
-        self.label = l_name
+        self.label = ''.join([i for i in l_name if not i.isdigit()])
         self.arg1_tag = arg1_tag
         self.arg2_tag = arg2_tag
         self.parse_tree = sent_parse_tree

@@ -143,8 +143,7 @@ NO_NE_LABEL = "O"
 LABELS = ["Action", "Reagent", "Location", "Device", "Mention", "Method", "Amount", "Concentration", "Size", "Time",
           "Temperature", "pH", "Speed", "Seal", "Modifier", "Generic-Measure", "Numerical", "Measure-Type"]
 
-RELATIONS = ["Acts-on", "Site", "Creates", "Using", "Count", "Measure-Type-Link", "Coreference-Link", "Mod-Link",
-             "Setting", "Measure", "Meronym", "Or", "Of-Type"]
+RELATIONS = ['Site', 'Setting', 'Creates', 'Measure-Type-Link', 'Coreference-Link', 'Mod-Link', 'Count', 'Meronym', 'Using', 'Measure', 'Commands', 'Of-Type', 'Or',  'Product', 'Acts-on']
 
 BIO_LABELS = [""]
 
@@ -168,7 +167,7 @@ PLOT_SAVE_DIR = os.path.join(CURRENT_DIR, "results/plots")
 
 BATCH_TYPE = "multi"
 
-NEG_REL_LABEL = "0"
+NEG_REL_LABEL = "O"
 
 # SKIP_FILES = ["/Users/chaitanyakulkarni/Work/pHd/action-sequence-labeler/simple_input/protocol_29"]
 # SKIP_FILES = ["/home/bai/projects/WLP-Parser/WLP-Dataset/train/protocol_136"]
@@ -180,8 +179,7 @@ NEG_REL_LABEL = "0"
 # "/home/jeniya/WLP-RE-LR-baseline/WLP-Parser/WLP-Dataset/train_full/protocol_474",
 # "/home/jeniya/WLP-RE-LR-baseline/WLP-Parser/WLP-Dataset/train_full/protocol_570"]
 
-SKIP_FILES=["/home/jeniya/WLP-RE-LR-baseline/WLP-Parser/WLP-Dataset/train_full/protocol_29", 
-"/home/jeniya/WLP-RE-LR-baseline/WLP-Parser/WLP-Dataset/train_full/protocol_136"]
+SKIP_FILES=[]
 
 def ver_print(string, value):
     if VERBOSE:

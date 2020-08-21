@@ -100,12 +100,10 @@ The evalutaion funciton is utilizing `classification_report` and `precision_reca
 
 ```
 
-from sklearn.metrics import classification_report, precision_recall_fscore_support
+import evalutation
 
 
-print(classification_report(y_gold, y_pred, target_names=cfg.RELATIONS, labels=range(len(cfg.RELATIONS))))
-print("Macro", precision_recall_fscore_support(y_gold, y_pred, average='macro', labels=range(len(cfg.RELATIONS))))
-print("Micro", precision_recall_fscore_support(y_gold, y_pred, average='micro', labels=range(len(cfg.RELATIONS))))
+evalutation.find_perfomance(gold_data_location=parameters_maxent["test_data"], pred_data_location=output_dir)
 
 ```
 
@@ -117,7 +115,7 @@ All the codes are written in python 3. The following python modules are required
 
 
 ```
-sklearn-crfsuite
+sklearn
 nltk
 codecs
 io

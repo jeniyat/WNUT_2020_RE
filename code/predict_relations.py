@@ -16,6 +16,8 @@ import argparse
 
 import shutil
 
+import evalutation
+
 
 def single_run(train, x_train, y_train, test, x_test, y_test, output_dir):
     model = LogisticRegression(solver='lbfgs', multi_class='multinomial', n_jobs=8)
@@ -90,6 +92,9 @@ def main():
 
     output_dir = parameters_maxent["output_directory"]
 
+    train = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["train_data"])
+    test = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["test_data"])
+
     shutil.rmtree(output_dir, ignore_errors=True)
 
     if not os.path.exists(output_dir):
@@ -133,6 +138,8 @@ def main():
         x_train = train.features.tranform(train_df, feat)
         x_test = train.features.tranform(test_df, feat)
         single_run(train, x_train, y_train, test, x_test, y_test, output_dir)
+
+    evalutation.find_perfomance(gold_data_location=parameters_maxent["test_data"], pred_data_location=output_dir)
 
 
 if __name__ == '__main__':

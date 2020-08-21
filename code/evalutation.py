@@ -37,74 +37,215 @@ def parse_args():
 
     return parameters_maxent
 
+
+def get_key( protocol_name, sent_idx, arg1_tag, arg2_tag):
+    arg1_tag_start = arg1_tag.start
+    arg1_tag_end = arg1_tag.end
+
+    arg2_tag_start = arg2_tag.start
+    arg2_tag_end = arg2_tag.end
+
+    key = protocol_name+"---"+str(sent_idx)+"---"+str(arg1_tag_start)+"---"+str(arg1_tag_end)+"---"+str(arg2_tag_start)+"---"+str(arg2_tag_end)
+
+    return key
+
+
 def main():
     parameters_maxent = parse_args()
 
-    gold_data = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["gold_data"])
-    pred_data = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["pred_data"])
+    # gold_data = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["gold_data"])
+    # pred_data = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["pred_data"])
+
+    # pickle.dump(pred_data , open('pred_data.p', 'wb'))
+    # pickle.dump(gold_data , open(cfg.Test_Dataset_PICKLE, 'wb'))
+    try:
+        gold_data = pickle.load(open(cfg.Test_Dataset_PICKLE, 'rb'))
+    except Exception as e:
+        gold_data = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["gold_data"])
+        pickle.dump(pred_data , open('pred_data.p', 'wb'))
+    
+    pred_data = pickle.load(open('pred_data.p', 'rb'))
 
 
     y_gold = []
     y_pred = []
     
+    
+    gold_data_protocol_label_dict = {}
+
+    pred_data_protocol_label_dict = {}
+
+    list_of_pred_protocols = pred_data.protocols
     list_of_gold_protocols = gold_data.protocols
-    list_of_pred_protocols = []
+
+    
 
     for protocol_gold in list_of_gold_protocols:
-        for protocol_pred in pred_data.protocols:    
-            if protocol_gold.basename == protocol_pred.basename:
-                list_of_pred_protocols.append(protocol_pred)
-                break
+        for relation in protocol_gold.relations:
+            
+            protocol_name = relation.p.basename
+            sent_number  = relation.sent_idx
+
+            arg1_tag = relation.arg1_tag
+            arg2_tag = relation.arg2_tag
 
 
+            relation_label = relation.label
+            
 
-    for protocol_index in range(len(list_of_gold_protocols)):
-        gold_protocol = list_of_gold_protocols[protocol_index]
-        pred_protocol = list_of_pred_protocols[protocol_index]
 
-        gold_relations = []
-        pred_relations = []
+            key_ = get_key(protocol_name, sent_number, arg1_tag, arg2_tag)
 
-        if gold_protocol.relations is not None:
-            gold_relations.append(gold_protocol.relations)
+            
+            gold_data_protocol_label_dict[key_] = relation_label
+    
+
+    for protocol_pred in list_of_pred_protocols:
+        for relation in protocol_pred.relations:
+            
+            protocol_name = relation.p.basename
+            sent_number  = relation.sent_idx
+
+            arg1_tag = relation.arg1_tag
+            arg2_tag = relation.arg2_tag
+
+
+            relation_label = relation.label
+            
+
+            key_ = get_key(protocol_name, sent_number, arg1_tag, arg2_tag)
+
+            
+            pred_data_protocol_label_dict[key_] = relation_label
+
+
+    for key_ in pred_data_protocol_label_dict:
+        if key_ in gold_data_protocol_label_dict:
+            pred_label = pred_data_protocol_label_dict[key_]
+            gold_label = gold_data_protocol_label_dict[key_]
         else:
-            gold_relations.append([])
+            gold_label = cfg.NEG_REL_LABEL
 
-        
-        if pred_protocol.relations is not None:
-            pred_relations.append(pred_protocol.relations)
-        else:
-            pred_relations.append([])
+        gold_index = gold_data.rel_label_idx[gold_label]
+        pred_index = gold_data.rel_label_idx[pred_label]
 
+        y_gold.append(gold_index)
+        y_pred.append(pred_index)
 
-        gold_y = gold_data.to_idx(list(itertools.chain.from_iterable(gold_relations)))
-        pred_y = gold_data.to_idx(list(itertools.chain.from_iterable(pred_relations)))
+    for key_ in gold_data_protocol_label_dict:
+        if key_ not in pred_data_protocol_label_dict:
+            pred_label = cfg.NEG_REL_LABEL
+            gold_label = gold_data_protocol_label_dict[key_]
 
-        
-        gold_len = len(gold_y)
-        pred_len = len(pred_y)
-        no_rel_id = gold_data.rel_label_idx['0']
-        
+            gold_index = gold_data.rel_label_idx[gold_label]
+            pred_index = gold_data.rel_label_idx[pred_label]
 
-        while len(gold_y) > len(pred_y):
-            pred_y.append(no_rel_id)
+            y_gold.append(gold_index)
+            y_pred.append(pred_index)
 
-        while len(pred_y) > len(gold_y):
-            gold_y.append(no_rel_id)
-
-        # print(len(gold_y))
-        # print(len(pred_y))
-        y_gold.extend(gold_y)
-        y_pred.extend(pred_y)
-
-
-
-
-    print(len(y_gold), len(y_pred))
-
+    print(len(y_gold))
+    print(len(y_pred))
     print(classification_report(y_gold, y_pred, target_names=cfg.RELATIONS, labels=range(len(cfg.RELATIONS))))
     print("Macro", precision_recall_fscore_support(y_gold, y_pred, average='macro', labels=range(len(cfg.RELATIONS))))
     print("Micro", precision_recall_fscore_support(y_gold, y_pred, average='micro', labels=range(len(cfg.RELATIONS))))
+
+
+            
+    
+
+    
+
+    
+    
+
+
+def find_perfomance(gold_data_location, pred_data_location):
+    gold_data = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=gold_data_location)
+    pred_data = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=gold_data_location)
+
+    y_gold = []
+    y_pred = []
+    
+    
+    gold_data_protocol_label_dict = {}
+
+    pred_data_protocol_label_dict = {}
+
+    list_of_pred_protocols = pred_data.protocols
+    list_of_gold_protocols = gold_data.protocols
+
+    
+
+    for protocol_gold in list_of_gold_protocols:
+        for relation in protocol_gold.relations:
+            
+            protocol_name = relation.p.basename
+            sent_number  = relation.sent_idx
+
+            arg1_tag = relation.arg1_tag
+            arg2_tag = relation.arg2_tag
+
+
+            relation_label = relation.label
+            
+
+
+            key_ = get_key(protocol_name, sent_number, arg1_tag, arg2_tag)
+
+            
+            gold_data_protocol_label_dict[key_] = relation_label
+    
+
+    for protocol_pred in list_of_pred_protocols:
+        for relation in protocol_pred.relations:
+            
+            protocol_name = relation.p.basename
+            sent_number  = relation.sent_idx
+
+            arg1_tag = relation.arg1_tag
+            arg2_tag = relation.arg2_tag
+
+
+            relation_label = relation.label
+            
+
+            key_ = get_key(protocol_name, sent_number, arg1_tag, arg2_tag)
+
+            
+            pred_data_protocol_label_dict[key_] = relation_label
+
+
+    for key_ in pred_data_protocol_label_dict:
+        if key_ in gold_data_protocol_label_dict:
+            pred_label = pred_data_protocol_label_dict[key_]
+            gold_label = gold_data_protocol_label_dict[key_]
+        else:
+            gold_label = cfg.NEG_REL_LABEL
+
+        gold_index = gold_data.rel_label_idx[gold_label]
+        pred_index = gold_data.rel_label_idx[pred_label]
+
+        y_gold.append(gold_index)
+        y_pred.append(pred_index)
+
+    for key_ in gold_data_protocol_label_dict:
+        if key_ not in pred_data_protocol_label_dict:
+            pred_label = cfg.NEG_REL_LABEL
+            gold_label = gold_data_protocol_label_dict[key_]
+
+            gold_index = gold_data.rel_label_idx[gold_label]
+            pred_index = gold_data.rel_label_idx[pred_label]
+
+            y_gold.append(gold_index)
+            y_pred.append(pred_index)
+
+    print(len(y_gold))
+    print(len(y_pred))
+    print(classification_report(y_gold, y_pred, target_names=cfg.RELATIONS, labels=range(len(cfg.RELATIONS))))
+    print("Macro", precision_recall_fscore_support(y_gold, y_pred, average='macro', labels=range(len(cfg.RELATIONS))))
+    print("Micro", precision_recall_fscore_support(y_gold, y_pred, average='micro', labels=range(len(cfg.RELATIONS))))
+
+    
 
 
 

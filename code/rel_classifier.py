@@ -24,9 +24,11 @@ def single_run(x_train, y_train, x_test, y_test):
     print("Results on test set: ")
     pred_test = model.predict(x_test)
 
-    print(classification_report(y_test, pred_test, target_names=cfg.RELATIONS, labels=range(len(cfg.RELATIONS))))
-    print("Macro", precision_recall_fscore_support(y_test, pred_test, average='macro', labels=range(len(cfg.RELATIONS))))
-    print("Micro", precision_recall_fscore_support(y_test, pred_test, average='micro', labels=range(len(cfg.RELATIONS))))
+    # print(classification_report(y_test, pred_test, target_names=cfg.RELATIONS, labels=range(len(cfg.RELATIONS))))
+    # print("Macro", precision_recall_fscore_support(y_test, pred_test, average='macro', labels=range(len(cfg.RELATIONS))))
+    # print("Micro", precision_recall_fscore_support(y_test, pred_test, average='micro', labels=range(len(cfg.RELATIONS))))
+
+    
 
 
 def parse_args():
@@ -98,3 +100,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
