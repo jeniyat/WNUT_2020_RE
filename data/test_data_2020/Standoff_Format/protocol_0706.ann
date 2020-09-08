@@ -1,0 +1,160 @@
+T1	Reagent 0 17	Drosophila embryo
+T2	Method 18 28	collection
+T3	Action 29 34	Place
+T4	Location 38 54	apple-agar plate
+T5	Location 62 84	embryo collection cage
+T6	Action 88 95	provide
+T7	Reagent 98 107	substrate
+T8	Method 112 122	egg laying
+T9	Modifier 124 132	Prior to
+T10	Action 133 139	adding
+T11	Location 144 149	plate
+T12	Action 151 156	smear
+T13	Modifier 159 164	small
+T14	Measure-Type 165 173	quantity
+T15	Reagent 177 188	yeast paste
+T16	Modifier 190 193	dry
+T17	Reagent 194 199	yeast
+T18	Action 200 205	mixed
+T19	Reagent 211 216	water
+T20	Modifier 222 252	peanut-butter like consistency
+T21	Location 263 269	centre
+T22	Reagent 277 287	apple-agar
+T23	Reagent 305 310	yeast
+T24	Action 316 325	encourage
+T25	Method 326 336	egg laying
+T26	Modifier 293 304	addition of
+T27	Modifier 338 350	Water soaked
+T28	Modifier 351 360	absorbent
+T29	Action 381 386	added
+T30	Location 394 398	cage
+T31	Action 402 409	provide
+T32	Modifier 410 418	moisture
+T33	Action 420 423	Add
+T34	Location 442 446	cage
+T35	Action 451 456	place
+T36	Location 457 461	cage
+T37	Temperature 465 472	25±1 °C
+T38	Time 478 486	12 h:12h
+T39	Time 508 516	24 hours
+T40	Method 487 503	light:dark cycle
+T41	Action 518 523	Check
+T42	Location 528 535	surface
+T43	Location 543 559	apple-agar plate
+T44	Reagent 564 568	eggs
+T45	Modifier 586 593	too few
+T46	Reagent 594 598	eggs
+T47	Action 610 617	require
+T48	Modifier 620 626	longer
+T49	Method 627 645	habituation period
+T50	Action 647 654	Replace
+T51	Modifier 662 667	fresh
+T52	Location 668 684	apple-agar plate
+T53	Action 686 693	re-soak
+T54	Action 714 719	leave
+T55	Modifier 739 741	in
+T56	Location 742 746	cage
+T57	Modifier 753 760	further
+T58	Time 761 769	24 hours
+T59	Action 771 775	Take
+T60	Modifier 776 785	egg laden
+T61	Location 786 802	apple-agar plate
+T62	Location 812 816	cage
+T63	Action 821 827	remove
+T64	Modifier 828 837	remaining
+T65	Reagent 838 849	yeast paste
+T66	Modifier 858 862	dead
+T68	Location 878 890	agar surface
+T69	Action 892 900	Submerge
+T70	Location 905 921	apple-agar plate
+T71	Concentration 925 927	1x
+T72	Reagent 928 931	PBS
+T73	Modifier 936 942	gently
+T74	Action 943 951	dislodge
+T75	Reagent 952 956	eggs
+T77	Location 966 978	agar surface
+T78	Modifier 986 990	fine
+T79	Device 991 1001	paintbrush
+T80	Modifier 1003 1007	most
+T81	Reagent 1008 1012	eggs
+T82	Action 1021 1026	found
+T83	Location 1034 1044	outer edge
+T84	Reagent 1052 1056	agar
+T85	Modifier 1058 1073	While suspended
+T86	Reagent 1077 1080	PBS
+T87	Action 1082 1090	transfer
+T88	Reagent 1095 1099	eggs
+T89	Location 1105 1116	falcon tube
+T90	Action 1121 1126	leave
+T91	Time 1131 1136	5 min
+T92	Reagent 1151 1155	eggs
+T93	Action 1159 1163	sink
+T94	Location 1171 1177	bottom
+T95	Reagent 1181 1189	solution
+T96	Action 1191 1194	Cut
+T97	Modifier 1199 1205	bottom
+T98	Size 1206 1209	4mm
+T99	Modifier 1216 1230	p1000 filtered
+T100	Device 1231 1242	pipette tip
+T101	Action 1260 1264	draw
+T102	Mention 1252 1256	this
+T103	Amount 1265 1269	1 mL
+T104	Modifier 1274 1278	eggy
+T105	Reagent 1279 1287	solution
+T106	Action 1290 1295	taken
+T107	Location 1305 1311	bottom
+T108	Location 1319 1330	falcon tube
+T109	Action 1332 1340	Transfer
+T110	Size 1351 1357	1.5 mL
+T111	Location 1358 1378	microcentrifuge tube
+T112	Action 1392 1398	settle
+T113	Action 1405 1415	drawing up
+T114	Reagent 1416 1424	solution
+T115	Modifier 1427 1442	more consistent
+T116	Measure-Type 1443 1449	number
+T117	Reagent 1453 1457	eggs
+T118	Action 1461 1469	achieved
+T119	Method 1473 1487	snap-releasing
+T120	Device 1492 1507	pipette plunger
+T121	Method 1523 1537	gentle-release
+T122	Action 1539 1542	Cut
+T123	Modifier 1547 1553	bottom
+T124	Size 1554 1558	4 mm
+T125	Modifier 1559 1562	off
+T126	Modifier 1210 1213	off
+T127	Modifier 1565 1577	p20 filtered
+T128	Device 1578 1589	pipette tip
+T129	Action 1591 1594	Set
+T130	Device 1599 1606	pipette
+T131	Modifier 1612 1619	desired
+T132	Measure-Type 1620 1626	volume
+T133	Action 1631 1635	draw
+T134	Location 1650 1656	bottom
+T135	Location 1664 1684	microcentrifuge tube
+T136	Modifier 1686 1691	again
+T137	Action 1692 1697	using
+T138	Method 1702 1724	snap-release pipetting
+T139	Action 1738 1746	practice
+T140	Modifier 1749 1759	consistent
+T141	Measure-Type 1760 1766	number
+T142	Reagent 1770 1774	eggs
+T143	Action 1782 1790	obtained
+T144	Measure-Type 1794 1800	volume
+T145	Amount 1804 1807	5μL
+T146	Action 1813 1820	produce
+T147	Numerical 1821 1826	102±4
+T148	Reagent 1827 1831	eggs
+T149	Action 1833 1841	Dispense
+T150	Modifier 1842 1851	collected
+T151	Reagent 1852 1856	eggs
+T152	Action 1878 1883	leave
+T153	Action 1887 1894	develop
+T156	Location 1862 1873	food source
+T157	Reagent 361 372	cotton wool
+T158	Reagent 424 438	fly population
+T159	Reagent 600 605	flies
+T160	Reagent 698 709	cotton wool
+T161	Reagent 724 738	fly population
+T162	Reagent 863 868	flies
+T67	Action 1138 1146	allowing
+T76	Action 1383 1388	allow

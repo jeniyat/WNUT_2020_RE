@@ -1,0 +1,83 @@
+T3	Reagent 19 23	agar
+T4	Action 24 27	Add
+T5	Amount 28 31	25g
+T6	Reagent 32 40	LB broth
+T7	Amount 53 56	15g
+T8	Reagent 57 61	agar
+T9	Amount 66 69	40g
+T10	Reagent 70 77	LB agar
+T11	Amount 91 96	litre
+T12	Reagent 100 105	water
+T13	Action 107 110	Mix
+T14	Modifier 111 115	well
+T15	Method 119 128	inverting
+T16	Location 129 135	bottle
+T17	Modifier 136 149	several times
+T19	Action 174 183	Sterilize
+T20	Method 187 198	autoclaving
+T21	Time 203 209	20 min
+T22	Generic-Measure 213 219	15 psi
+T23	Generic-Measure 221 232	1.05 kg/cm2
+T24	Device 237 249	liquid cycle
+T26	Action 261 270	autoclave
+T27	Reagent 278 283	media
+T28	Modifier 284 296	still liquid
+T29	Modifier 301 312	cool enough
+T30	Modifier 316 322	safely
+T31	Action 323 329	handle
+T32	Location 330 336	bottle
+T34	Reagent 343 350	LB agar
+T35	Location 356 362	bottle
+T36	Location 368 374	plates
+T37	Device 384 401	laminar flow hood
+T38	Action 403 408	Allow
+T39	Amount 410 415	50 mL
+T40	Modifier 416 419	per
+T41	Location 420 425	plate
+T42	Modifier 87 90	per
+T43	Action 427 432	Leave
+T44	Location 433 439	plates
+T45	Device 443 455	laminar hood
+T46	Modifier 456 461	until
+T47	Reagent 462 466	agar
+T48	Action 467 471	sets
+T49	Time 474 481	30 mins
+T50	Reagent 489 493	agar
+T51	Action 498 501	set
+T52	Action 503 510	replace
+T53	Seal 511 514	lid
+T54	Action 516 522	invert
+T55	Location 523 529	plates
+T56	Action 534 539	store
+T57	Modifier 546 555	air tight
+T58	Location 556 559	bag
+T59	Temperature 563 567	4 °C
+T60	Location 569 575	Plates
+T61	Action 586 593	removed
+T62	Temperature 599 603	4 °C
+T63	Modifier 604 612	at least
+T64	Time 613 616	1 h
+T65	Modifier 617 627	before use
+T66	Action 632 638	placed
+T67	Temperature 642 647	30 °C
+T68	Device 648 657	incubator
+T69	Action 662 669	prevent
+T70	Method 670 682	condensation
+T71	Seal 688 691	lid
+T72	Reagent 706 710	agar
+T73	Location 711 718	surface
+T74	Action 720 724	wipe
+T75	Seal 725 729	lids
+T76	Modifier 730 733	dry
+T77	Device 739 746	Kimwipe
+T78	Action 751 756	store
+T79	Location 757 763	plates
+T80	Modifier 764 772	inverted
+T81	Action 692 700	dropping
+T1	Reagent 4 17	Luria-Bertani
+T2	Reagent 0 2	LB
+T18	Reagent 156 162	powder
+T82	Action 163 172	dissolved
+T25	Action 338 342	pour
+T33	Modifier 473 474	~
+T83	Modifier 409 410	~

@@ -1,0 +1,133 @@
+T2	Action 28 34	detect
+T3	Reagent 35 62	respiratory syncytial virus
+T4	Action 63 66	Fix
+T5	Reagent 71 76	cells
+T6	Action 77 84	immerge
+T7	Mention 85 89	them
+T8	Modifier 97 106	pure cold
+T9	Reagent 107 114	acetone
+T10	Time 119 123	5min
+T11	Action 125 129	Wash
+T12	Concentration 130 132	3X
+T13	Reagent 137 143	sample
+T14	Reagent 147 150	PBS
+T15	Time 155 159	3min
+T16	Temperature 172 188	room temperature
+T17	Temperature 190 194	r.t.
+T18	Action 197 209	Permeabilize
+T19	Reagent 214 219	cells
+T20	Action 220 228	incubate
+T21	Concentration 234 238	0.1%
+T22	Reagent 239 250	Triton-X100
+T23	Time 255 260	15min
+T24	Temperature 264 268	r.t.
+T25	Action 269 273	Wash
+T26	Concentration 274 276	3X
+T27	Reagent 281 287	sample
+T28	Reagent 291 294	PBS
+T29	Time 299 303	3min
+T30	Temperature 316 319	r.t
+T31	Action 321 329	Incubate
+T32	Reagent 334 339	cells
+T33	Concentration 345 350	1:100
+T34	Reagent 351 359	dilution
+T35	Modifier 364 372	anti-RSV
+T36	Reagent 373 398	blend monoclonal antibody
+T37	Reagent 434 437	PBS
+T38	Concentration 443 445	1%
+T39	Reagent 446 466	Bovine Serum Albumin
+T40	Reagent 468 471	BSA
+T41	Concentration 477 481	0.2%
+T42	Reagent 482 490	Tween 20
+T43	Action 492 496	Keep
+T44	Mention 497 499	it
+T45	Device 520 527	chamber
+T46	Time 532 537	30min
+T47	Temperature 541 545	r.t.
+T48	Action 546 550	Wash
+T49	Concentration 551 553	3X
+T50	Reagent 558 564	sample
+T51	Reagent 568 571	PBS
+T52	Time 576 580	5min
+T53	Temperature 593 596	r.t
+T54	Action 598 606	Incubate
+T55	Reagent 611 617	sample
+T56	Time 622 627	15min
+T57	Temperature 631 634	r.t
+T58	Reagent 642 656	Block solution
+T59	Concentration 658 661	10%
+T60	Reagent 665 679	specific serum
+T61	Action 680 687	diluted
+T62	Reagent 691 694	PBS
+T63	Concentration 695 697	1X
+T64	Action 700 704	Wash
+T65	Concentration 705 707	3X
+T66	Reagent 712 718	sample
+T67	Reagent 722 725	PBS
+T68	Time 730 734	3min
+T69	Temperature 747 750	r.t
+T70	Action 752 760	Incubate
+T71	Reagent 765 770	cells
+T72	Reagent 780 807	secondary antibody solution
+T73	Time 812 817	30min
+T74	Temperature 821 825	r.t.
+T75	Device 850 857	chamber
+T76	Reagent 872 918	Donkey anti-mouse IgG (H+L) secondary antibody
+T77	Action 919 929	conjugated
+T78	Reagent 935 951	Alexa Fluor® 488
+T79	Action 1011 1018	diluted
+T80	Concentration 1019 1024	1:200
+T81	Reagent 1028 1031	PBS
+T82	Concentration 1037 1039	1%
+T83	Reagent 1040 1043	BSA
+T84	Action 1045 1049	Wash
+T85	Concentration 1050 1052	3X
+T86	Reagent 1057 1063	sample
+T87	Reagent 1067 1070	PBS
+T88	Time 1075 1079	5min
+T89	Temperature 1092 1095	r.t
+T90	Action 1097 1105	Incubate
+T91	Reagent 1110 1115	cells
+T92	Concentration 1121 1127	5µg/ml
+T93	Reagent 1131 1144	DAPI solution
+T94	Action 1146 1153	diluted
+T95	Reagent 1157 1160	PBS
+T96	Time 1166 1170	5min
+T97	Temperature 1174 1178	r.t.
+T98	Device 1203 1210	chamber
+T99	Action 1212 1216	Wash
+T100	Concentration 1217 1219	2X
+T101	Reagent 1224 1230	sample
+T102	Reagent 1234 1237	PBS
+T103	Time 1242 1246	5min
+T104	Temperature 1259 1262	r.t
+T105	Action 1264 1269	Mount
+T106	Seal 1270 1279	coverslip
+T107	Generic-Measure 1287 1291	drop
+T108	Reagent 1295 1310	mounting medium
+T109	Concentration 1312 1315	90%
+T110	Reagent 1316 1324	glycerol
+T111	Action 1325 1332	diluted
+T112	Reagent 1336 1339	PBS
+T113	Action 1342 1346	Seal
+T114	Seal 1347 1356	coverslip
+T115	Seal 1362 1373	nail polish
+T116	Action 1423 1428	Store
+T117	Temperature 1440 1445	-20°C
+T118	Temperature 1449 1453	+4°C
+T119	Action 1377 1384	prevent
+T120	Device 1411 1421	microscope
+T1	Method 0 24	Immunofluorescence Assay
+T121	Modifier 160 164	each
+T122	Modifier 304 308	each
+T123	Modifier 509 519	humidified
+T124	Location 500 506	inside
+T125	Modifier 581 585	each
+T126	Modifier 735 739	each
+T127	Modifier 839 849	humidified
+T128	Location 830 836	inside
+T129	Modifier 1080 1084	each
+T130	Location 1183 1189	inside
+T131	Modifier 1192 1202	humidified
+T132	Modifier 1247 1251	each
+T133	Location 1405 1410	under

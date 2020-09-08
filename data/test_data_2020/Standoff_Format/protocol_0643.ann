@@ -1,0 +1,54 @@
+T1	Action 35 42	Amplify
+T2	Reagent 43 50	samples
+T3	Amount 54 64	triplicate
+T4	Action 140 144	Pool
+T5	Action 660 667	Measure
+T6	Measure-Type 668 681	concentration
+T9	Modifier 705 711	final 
+T10	Action 562 567	Clean
+T11	Action 739 743	Send
+T12	Amount 747 754	aliquot
+T13	Method 759 769	sequencing
+T14	Reagent 781 799	sequencing primers
+T15	Device 588 621	MoBio UltraClean PCR Clean-Up Kit
+T16	Action 363 370	Combine
+T17	Reagent 494 498	pool
+T18	Reagent 711 715	pool
+T19	Action 266 274	Quantify
+T20	Reagent 275 284	amplicons
+T21	Device 290 324	Quant-iT PicoGreen dsDNA Assay Kit
+T22	Reagent 390 398	amplicon
+T23	Reagent 409 415	sample
+T24	Amount 417 423	240 ng
+T25	Numerical 432 438	single
+T26	Modifier 440 447	sterile
+T27	Location 448 452	tube
+T28	Action 216 219	Run
+T29	Reagent 220 229	amplicons
+T30	Reagent 240 246	sample
+T31	Location 253 264	agarose gel
+T32	Modifier 507 519	gel-isolated
+T33	Reagent 553 560	samples
+T34	Reagent 568 581	amplicon pool
+T35	Numerical 193 199	single
+T36	Measure-Type 200 206	volume
+T37	Amount 208 213	75 µL
+T38	Reagent 179 185	sample
+T39	Reagent 79 85	sample
+T40	Amount 119 124	25-µL
+T41	Method 125 138	PCR reactions
+T42	Numerical 107 108	3
+T43	Modifier 488 493	final
+T44	Method 156 169	PCR reactions
+T45	Amount 145 155	triplicate
+T46	Action 94 103	amplified
+T47	Reagent 0 7	EMP 16S
+T48	Method 8 34	Illumina Amplicon Protocol
+T49	Action 109 118	replicate
+T50	Modifier 174 178	each
+T51	Modifier 235 239	each
+T52	Modifier 541 552	low-biomass
+T7	Measure-Type 686 701	A260/A280 ratio
+T8	Modifier 730 737	cleaned
+T53	Modifier 74 78	each
+T54	Modifier 404 408	each

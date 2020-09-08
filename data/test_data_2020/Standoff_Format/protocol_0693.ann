@@ -1,0 +1,758 @@
+T1	Method 0 26	Single-cell RNA extraction
+T2	Method 31 55	cDNA library preparation
+T3	Modifier 61 72	challenging
+T4	Modifier 73 79	marine
+T5	Reagent 80 88	protists
+T6	Reagent 95 105	Acantharea
+T7	Action 107 114	Collect
+T8	Modifier 120 128	favorite
+T9	Modifier 129 135	marine
+T10	Reagent 136 144	protists
+T11	Device 154 166	plankton net
+T12	Modifier 170 181	your choice
+T13	Action 186 189	use
+T14	Size 192 208	100 μm-mesh-size
+T15	Device 209 224	Rigo simple net
+T16	Size 226 231	20 cm
+T17	Action 243 250	Observe
+T18	Reagent 251 267	plankton samples
+T19	Device 276 297	dissecting microscope
+T20	Action 299 306	Isolate
+T21	Modifier 307 317	individual
+T22	Reagent 318 326	protists
+T23	Modifier 334 346	pulled-glass
+T24	Device 347 359	micropipette
+T25	Modifier 360 369	connected
+T26	Device 376 386	aspirator 
+T27	Modifier 399 407	silicone
+T28	Size 421 428	0.45 μm
+T29	Device 429 435	filter
+T30	Action 437 445	Transfer
+T31	Reagent 446 454	protists
+T32	Modifier 458 463	small
+T33	Modifier 465 470	clean
+T34	Location 471 483	petri dishes
+T35	Action 490 499	including
+T36	Modifier 504 512	smallest
+T37	Measure-Type 513 519	volume
+T38	Reagent 523 531	seawater
+T39	Modifier 532 540	possible
+T40	Modifier 547 554	sterile
+T41	Device 555 562	dropper
+T42	Action 566 569	add
+T43	Amount 570 576	0.2 μm
+T44	Modifier 577 594	filter sterilized
+T45	Reagent 595 603	seawater
+T46	Action 607 612	rinse
+T47	Modifier 617 625	isolated
+T48	Reagent 626 634	protists
+T49	Action 635 641	Repeat
+T50	Method 642 651	transfers
+T51	Method 656 662	rinses
+T52	Reagent 673 681	protists
+T53	Modifier 682 693	of interest
+T54	Modifier 698 703	clean
+T55	Modifier 708 728	free of contaminants
+T56	Modifier 663 668	until
+T57	Action 730 735	Image
+T58	Reagent 740 747	protist
+T59	Modifier 748 758	as desired
+T60	Action 777 787	self-clean
+T61	Reagent 765 773	protists
+T62	Time 792 800	0.5–2 hr
+T64	Modifier 810 815	glass
+T65	Device 816 828	micropipette
+T66	Action 832 840	transfer
+T67	Reagent 845 852	protist
+T68	Modifier 859 886	Axygen maxymum recovery PCR
+T69	Location 887 892	tube 
+T63	Action 892 901	including
+T70	Modifier 906 914	smallest
+T71	Measure-Type 915 921	volume
+T72	Reagent 925 933	seawater
+T73	Modifier 934 942	possible
+T74	Device 944 953	Aspirator
+T75	Modifier 958 963	glass
+T76	Device 964 976	micropipette
+T77	Action 977 983	set-up
+T78	Action 985 990	Place
+T79	Location 995 1003	PCR tube
+T80	Device 1014 1035	dissecting microscope
+T81	Action 1039 1045	ensure
+T83	Modifier 1063 1074	of interest
+T85	Location 1092 1096	tube
+T84	Modifier 1085 1087	in
+T82	Reagent 1055 1062	protist
+T86	Action 1098 1101	Add
+T87	Amount 1102 1107	30 μL
+T88	Reagent 1111 1129	Qiagen RLT+ Buffer
+T89	Concentration 1136 1138	1%
+T90	Reagent 1139 1156	β-mercaptoethanol
+T91	Modifier 1165 1171	sample
+T92	Location 1172 1176	tube
+T93	Action 1178 1183	Place
+T94	Reagent 1184 1190	sample
+T95	Modifier 1194 1199	small
+T96	Modifier 1200 1207	plastic
+T97	Modifier 1208 1218	zip-locked
+T98	Location 1219 1222	bag
+T99	Modifier 1236 1242	sample
+T101	Modifier 1260 1271	water-proof
+T102	Action 1284 1292	submerge
+T103	Reagent 1293 1299	sample
+T104	Reagent 1303 1318	liquid nitrogen
+T100	Action 1250 1256	pencil
+T105	Location 1272 1277	paper
+T106	Action 1320 1325	Store
+T107	Reagent 1326 1333	samples
+T108	Temperature 1337 1343	−80 °C
+T109	Modifier 1344 1355	until ready
+T110	Action 1359 1366	proceed
+T111	Method 1372 1386	RNA extraction
+T112	Modifier 1388 1402	Representative
+T113	Reagent 1403 1415	acantharians
+T114	Action 1416 1420	used
+T115	Method 1429 1437	protocol
+T116	Size 1453 1459	100 μm
+T117	Size 1474 1479	50 μm
+T118	Reagent 1488 1515	Agencourt RNAClean XP beads
+T119	Action 1519 1524	reach
+T120	Temperature 1525 1541	room temperature
+T121	Action 1545 1553	removing
+T122	Location 1563 1576	refridgerator
+T123	Modifier 1577 1585	at least
+T124	Time 1586 1596	30 minutes
+T125	Modifier 1597 1607	before use
+T126	Modifier 1615 1621	frozen
+T127	Reagent 1622 1629	samples
+T128	Action 1633 1637	thaw
+T129	Temperature 1638 1646	over ice
+T130	Action 1648 1654	Vortex
+T131	Modifier 1655 1659	each
+T132	Reagent 1660 1666	sample
+T133	Numerical 1667 1669	2x
+T134	Time 1674 1680	10 sec
+T135	Speed 1684 1691	speed 7
+T136	Device 1697 1711	Vortex-Genie 2
+T137	Modifier 1713 1719	Gently
+T138	Action 1720 1724	spin
+T139	Modifier 1725 1729	each
+T140	Reagent 1730 1736	sample
+T141	Action 1740 1747	collect
+T142	Reagent 1748 1754	liquid
+T143	Location 1762 1768	bottom
+T144	Location 1776 1780	tube
+T183	Action 1781 1789	Incubate
+T184	Modifier 1790 1794	each
+T185	Reagent 1795 1801	sample
+T186	Temperature 1805 1821	room temperature
+T187	Time 1826 1831	5 min
+T188	Action 1833 1842	Determine
+T189	Measure-Type 1847 1853	volume
+T190	Modifier 1857 1861	each
+T191	Reagent 1862 1868	sample
+T192	Device 1877 1889	micropipette
+T193	Action 1891 1894	set
+T194	Device 1899 1906	pipette
+T195	Amount 1910 1915	50 μL
+T196	Action 1920 1927	draw up
+T197	Modifier 1932 1938	entire
+T198	Reagent 1939 1945	sample
+T199	Action 1947 1955	decrease
+T200	Measure-Type 1960 1966	volume
+T201	Device 1974 1981	pipette
+T203	Reagent 2026 2032	sample
+T204	Location 2041 2048	opening
+T205	Device 2056 2067	pipette tip
+T206	Modifier 2083 2088	final
+T207	Measure-Type 2089 2095	volume
+T208	Action 2072 2078	record
+T209	Temperature 2105 2121	room temperature
+T210	Reagent 2122 2158	Agencourt RNAClean XP magnetic beads
+T211	Action 2098 2104	Vortex
+T212	Action 2160 2163	Add
+T213	Reagent 2164 2169	beads
+T214	Modifier 2173 2177	each
+T215	Reagent 2178 2184	sample
+T216	Generic-Measure 2190 2195	2.2:1
+T217	Measure-Type 2196 2199	v:v
+T218	Measure-Type 2200 2205	ratio
+T219	Action 2207 2215	multiply
+T220	Measure-Type 2220 2226	volume
+T221	Modifier 2230 2234	each
+T222	Reagent 2235 2241	sample
+T223	Numerical 2245 2248	2.2
+T224	Action 2252 2261	determine
+T225	Measure-Type 2266 2272	volume
+T226	Reagent 2276 2290	magnetic beads
+T227	Action 2294 2297	add
+T228	Modifier 2300 2310	Thoroughly
+T229	Action 2311 2314	mix
+T230	Modifier 2315 2319	each
+T231	Reagent 2320 2326	sample
+T232	Method 2330 2339	pipetting
+T233	Modifier 2344 2350	entire
+T234	Measure-Type 2351 2357	volume
+T235	Reagent 2359 2365	sample
+T236	Reagent 2368 2373	beads
+T237	Modifier 2375 2386	up and down
+T238	Modifier 2387 2395	at least
+T239	Numerical 2396 2404	10 times
+T240	Action 2406 2414	Incubate
+T241	Reagent 2415 2422	samples
+T242	Reagent 2428 2445	RNAClean XP beads
+T243	Temperature 2449 2465	room temperature
+T244	Time 2470 2476	30 min
+T245	Modifier 2480 2485	fully
+T246	Action 2486 2490	bind
+T247	Reagent 2495 2498	RNA
+T248	Reagent 2506 2511	beads
+T249	Action 2513 2518	Place
+T250	Reagent 2519 2526	samples
+T251	Device 2530 2544	magnetic stand
+T252	Reagent 2551 2557	sample
+T253	Modifier 2566 2571	clear
+T254	Time 2573 2580	2–5 min
+T255	Modifier 2545 2550	until
+T256	Modifier 2591 2603	multichannel
+T257	Device 2604 2611	pipette
+T258	Action 2613 2619	remove
+T259	Modifier 2624 2629	clear
+T260	Reagent 2630 2641	supernatant
+T261	Modifier 2647 2650	all
+T262	Reagent 2651 2658	samples
+T263	Modifier 2659 2666	without
+T264	Action 2667 2677	disturbing
+T265	Reagent 2682 2687	beads
+T266	Action 2689 2696	Discard
+T267	Reagent 2701 2712	supernatant
+T268	Action 2714 2718	Fill
+T269	Modifier 2721 2728	sterile
+T270	Modifier 2730 2743	nuclease-free
+T271	Modifier 2744 2754	disposable
+T272	Location 2755 2764	reservoir
+T273	Concentration 2770 2773	80%
+T274	Reagent 2774 2781	ethanol
+T275	Reagent 2783 2787	etOH
+T276	Modifier 2792 2805	nuclease free
+T277	Reagent 2806 2811	water
+T278	Modifier 2820 2832	multichannel
+T279	Device 2833 2840	pipette
+T280	Modifier 2917 2929	multichannel
+T281	Device 2930 2937	pipette
+T282	Modifier 2996 3008	multichannel
+T283	Device 3009 3016	pipette
+T284	Modifier 3018 3023	again
+T285	Action 2939 2945	remove
+T286	Action 2842 2845	add
+T287	Amount 2846 2852	200 μL
+T288	Concentration 2856 2859	80%
+T289	Concentration 2950 2953	80%
+T290	Reagent 2860 2864	etOH
+T291	Reagent 2954 2958	etOH
+T292	Amount 3028 3034	200 μL
+T293	Concentration 3038 3041	80%
+T294	Reagent 3042 3046	etOH
+T295	Modifier 3050 3054	each
+T296	Reagent 3055 3061	sample
+T297	Modifier 2964 2967	all
+T298	Reagent 2968 2975	samples
+T299	Action 2980 2987	discard
+T300	Modifier 2868 2872	each
+T301	Modifier 2880 2887	without
+T302	Action 2888 2898	disturbing
+T303	Reagent 2903 2908	beads
+T304	Reagent 2873 2879	sample
+T305	Action 3024 3027	add
+T306	Action 3063 3069	Remove
+T307	Reagent 3070 3077	samples
+T308	Device 3087 3101	magnetic stand
+T309	Modifier 3106 3112	gently
+T310	Action 3113 3117	spin
+T311	Action 3121 3128	collect
+T312	Modifier 3129 3141	all remainig
+T313	Reagent 3142 3146	etOH
+T314	Action 3148 3153	Place
+T315	Reagent 3154 3161	samples
+T316	Device 3174 3188	magnetic stand
+T317	Size 3199 3204	10 μL
+T318	Device 3205 3216	pipette tip
+T319	Action 3220 3226	remove
+T320	Modifier 3227 3240	all remaining
+T321	Reagent 3241 3245	etOH
+T322	Modifier 3251 3255	each
+T323	Reagent 3256 3262	sample
+T324	Action 3264 3268	Dry 
+T325	Reagent 3272 3286	magnetic beads
+T326	Action 3290 3297	leaving
+T146	Seal 3302 3313	sample caps
+T147	Modifier 3314 3318	open
+T148	Action 3323 3331	watching
+T149	Reagent 3336 3348	bead pellets
+T150	Modifier 3349 3358	carefully
+T151	Reagent 3367 3379	bead pellets
+T152	Action 3380 3384	lose
+T153	Modifier 3391 3396	sheen
+T154	Modifier 3401 3409	begin to
+T155	Action 3410 3416	appear
+T156	Modifier 3417 3422	matte
+T157	Action 3424 3429	close
+T159	Seal 3434 3445	sample lids
+T160	Action 3449 3456	prevent
+T161	Method 3457 3468	over drying
+T162	Action 3470 3475	Elute
+T163	Reagent 3480 3483	RNA
+T164	Reagent 3493 3507	magnetic beads
+T165	Modifier 3509 3519	As soon as
+T166	Reagent 3520 3525	beads
+T167	Modifier 3530 3533	dry
+T168	Modifier 3535 3541	before
+T169	Action 3549 3555	appear
+T170	Reagent 3563 3574	bead pellet
+T171	Action 3577 3580	add
+T172	Amount 3581 3586	11 μL
+T173	Reagent 3590 3604	elution buffer
+T174	Reagent 3608 3615	samples
+T175	Reagent 3621 3635	elution buffer
+T176	Action 3636 3644	contains
+T177	Amount 3645 3653	10.72 μL
+T178	Modifier 3657 3670	nuclease-free
+T179	Reagent 3671 3676	water
+T180	Amount 3681 3688	0.28 μL
+T181	Reagent 3692 3707	RNase inhibitor
+T182	Modifier 3708 3718	per sample
+T327	Action 3718 3725	Pipette
+T328	Reagent 3730 3744	elution buffer
+T329	Modifier 3745 3749	over
+T330	Reagent 3750 3762	bead pellets
+T331	Reagent 3773 3779	pellet
+T332	Action 3780 3789	breaks up
+T333	Reagent 3797 3811	elution buffer
+T334	Reagent 3819 3833	elution buffer
+T335	Action 3843 3848	added
+T336	Modifier 3852 3855	all
+T337	Reagent 3856 3863	samples
+T338	Action 3865 3868	mix
+T339	Reagent 3873 3880	samples
+T340	Method 3884 3905	pipetting up and down
+T341	Numerical 3906 3914	10 times
+T342	Modifier 3918 3925	further
+T343	Action 3926 3935	resuspend
+T344	Reagent 3936 3941	beads
+T345	Mention 3943 3947	they
+T346	Modifier 3966 3983	fully resuspended
+T347	Modifier 3951 3954	not
+T348	Modifier 3985 3991	Gently
+T349	Action 3992 3996	spin
+T350	Reagent 3997 4004	samples
+T351	Action 4008 4015	collect
+T352	Reagent 4020 4026	eluate
+T353	Action 4028 4033	Place
+T354	Reagent 4038 4045	samples
+T355	Device 4058 4072	magnetic stand
+T356	Reagent 4083 4090	samples
+T357	Action 4091 4097	appear
+T358	Modifier 4098 4103	clear
+T359	Modifier 4073 4078	until
+T360	Action 4105 4112	Collect
+T361	Modifier 4113 4119	eluted
+T362	Reagent 4120 4123	RNA
+T363	Action 4127 4137	aspirating
+T364	Amount 4138 4145	10.5 μL
+T365	Modifier 4149 4153	each
+T366	Reagent 4154 4160	sample
+T367	Modifier 4162 4169	without
+T368	Action 4170 4180	disturbing
+T369	Reagent 4185 4190	beads
+T370	Action 4196 4203	tranfer
+T371	Modifier 4204 4210	eluted
+T372	Reagent 4211 4214	RNA
+T373	Modifier 4218 4223	clean
+T374	Modifier 4224 4232	low-bind
+T375	Location 4233 4242	PCR tubes
+T376	Action 4244 4251	Prepare
+T377	Numerical 4252 4255	10X
+T378	Reagent 4256 4271	Reaction Buffer
+T379	Amount 4273 4278	15 μL
+T380	Numerical 4279 4282	10X
+T381	Reagent 4283 4295	lysis buffer
+T382	Amount 4297 4301	5 μL
+T383	Reagent 4302 4317	RNase inhibitor
+T384	Action 4319 4322	mix
+T385	Modifier 4323 4330	without
+T386	Action 4331 4338	causing
+T387	Action 4348 4352	spin
+T388	Action 4352 4355	Add
+T389	Amount 4356 4360	1 μL
+T390	Numerical 4364 4367	10X
+T391	Reagent 4368 4383	Reaction Buffer
+T392	Modifier 4387 4391	each
+T393	Reagent 4392 4398	sample
+T394	Action 4400 4407	Pipette
+T395	Action 4411 4414	mix
+T396	Modifier 4419 4425	gently
+T397	Action 4426 4430	spin
+T398	Action 4432 4435	Add
+T399	Amount 4436 4440	1 μL
+T400	Reagent 4444 4472	3' SMART-sew CDS Primer II A
+T401	Concentration 4474 4479	12 μM
+T402	Modifier 4484 4488	each
+T403	Reagent 4489 4495	sample
+T404	Action 4497 4504	Pipette
+T405	Action 4508 4511	mix
+T406	Modifier 4513 4519	Gently
+T407	Action 4520 4524	spin
+T408	Action 4526 4532	Anneal
+T409	Reagent 4533 4543	CDS primer
+T410	Reagent 4547 4550	RNA
+T411	Action 4552 4560	Incubate
+T412	Reagent 4561 4568	samples
+T413	Temperature 4572 4577	72 °C
+T414	Time 4582 4587	3 min
+T415	Modifier 4593 4602	preheated
+T416	Device 4603 4615	thermocycler
+T417	Modifier 4623 4629	heated
+T418	Seal 4630 4633	lid
+T419	Action 4635 4642	Prepare
+T420	Reagent 4643 4658	PCR master mix 
+T421	Modifier 4658 4663	WHILE
+T422	Reagent 4664 4671	samples
+T423	Action 4676 4686	incubating
+T424	Device 4694 4706	thermocycler
+T425	Modifier 4708 4711	Per
+T426	Numerical 4731 4733	5%
+T427	Amount 4743 4749	4.2 μL
+T428	Numerical 4750 4752	5X
+T429	Reagent 4753 4782	Ultra Low First-Strand Buffer
+T430	Amount 4782 4789	1.05 μL
+T431	Reagent 4790 4818	SMART-seq v4 Oligonucleotide
+T432	Concentration 4820 4825	46 μM
+T433	Amount 4826 4835	0.5025 μL
+T434	Reagent 4837 4852	RNase Inhibitor
+T435	Modifier 4854 4859	After
+T436	Time 4864 4869	3 min
+T437	Method 4870 4879	annealing
+T438	Modifier 4886 4897	immediately
+T439	Action 4898 4903	place
+T440	Reagent 4904 4911	samples
+T441	Temperature 4912 4918	on ice
+T442	Time 4923 4928	2 min
+T443	Modifier 4930 4946	During this time
+T444	Action 4948 4952	mix 
+T445	Reagent 4952 4985	SMARTScribe Reverse Transcriptase
+T446	Method 4989 4998	pipetting
+T447	Action 5008 5011	add
+T448	Amount 5012 5018	2.1 μL
+T449	Modifier 5019 5029	per sample
+T450	Reagent 5037 5051	PCR master mix
+T451	Modifier 5053 5059	Gently
+T452	Action 5060 5066	vortex
+T453	Reagent 5067 5081	PCR master mix
+T454	Action 5086 5095	spin down
+T455	Action 5097 5100	Add
+T456	Amount 5101 5107	7.5 μL
+T457	Reagent 5111 5125	PCR master mix
+T458	Modifier 5129 5133	each
+T459	Reagent 5134 5140	sample
+T460	Action 5142 5145	Mix
+T461	Method 5149 5158	pipetting
+T462	Modifier 5163 5169	gently
+T463	Action 5170 5174	spin
+T464	Action 5176 5183	Transer
+T465	Reagent 5184 5191	samples
+T466	Modifier 5197 5204	preated
+T467	Device 5205 5217	thermocycler
+T468	Modifier 5223 5229	heated
+T469	Seal 5230 5233	lid
+T470	Temperature 5262 5267	42 °C
+T471	Time 5272 5279	90 mins
+T472	Temperature 5280 5285	70 °C
+T473	Time 5290 5297	10 mins
+T474	Temperature 5297 5301	4 °C
+T476	Reagent 5310 5317	Samples
+T477	Action 5322 5326	stay
+T478	Temperature 5330 5334	4 °C
+T479	Time 5335 5344	overnight
+T480	Action 5345 5352	Prepare
+T481	Reagent 5353 5363	master mix
+T482	Modifier 5365 5375	Per sample
+T483	Numerical 5377 5379	5%
+T484	Amount 5397 5405	26.25 μL
+T485	Reagent 5406 5423	SeqAmp PCR Buffer
+T486	Amount 5423 5430	1.05 μL
+T487	Reagent 5431 5445	PCR Primer IIA
+T488	Amount 5445 5451	1.05 μ
+T489	Reagent 5453 5474	SeqAmp DNA Polymerase
+T490	Modifier 5474 5480	Gently
+T491	Action 5481 5487	vortex
+T492	Reagent 5488 5498	master mix
+T493	Modifier 5503 5509	gently
+T494	Action 5510 5519	spin down
+T495	Action 5521 5524	Add
+T496	Amount 5525 5530	30 μL
+T497	Reagent 5534 5544	master mix
+T498	Modifier 5548 5552	each
+T499	Reagent 5553 5559	sample
+T500	Action 5561 5564	Mix
+T501	Method 5568 5577	pipetting
+T502	Modifier 5579 5585	Gently
+T503	Action 5586 5595	spin down
+T504	Action 5597 5602	Place
+T505	Reagent 5603 5610	samples
+T506	Modifier 5614 5623	preheated
+T507	Device 5624 5636	thermocycler
+T508	Modifier 5642 5648	heated
+T509	Seal 5649 5652	lid
+T510	Temperature 5680 5685	95 °C
+T511	Time 5690 5695	1 min
+T512	Numerical 5695 5699	17 x
+T513	Temperature 5701 5706	98 °C
+T514	Time 5711 5717	10 sec
+T515	Temperature 5719 5724	65 °C
+T516	Time 5729 5735	30 sec
+T517	Temperature 5737 5742	68 °C
+T518	Time 5747 5752	3 min
+T519	Temperature 5753 5758	72 °C
+T520	Time 5763 5769	10 min
+T521	Temperature 5769 5773	4 °C
+T523	Reagent 5781 5788	Samples
+T524	Action 5793 5797	stay
+T525	Temperature 5801 5805	4 °C
+T526	Time 5806 5815	overnight
+T527	Reagent 5823 5835	AMPure beads
+T528	Action 5839 5844	reach
+T529	Temperature 5845 5861	room temperature
+T530	Time 5863 5869	30 min
+T531	Action 5872 5875	Add
+T532	Amount 5876 5880	1 μL
+T533	Numerical 5884 5887	10X
+T534	Reagent 5888 5900	lysis buffer
+T535	Modifier 5904 5908	each
+T536	Reagent 5909 5915	sample
+T537	Action 5917 5923	Vortex
+T538	Reagent 5924 5936	AMPure beads
+T539	Amount 5942 5947	50 μL
+T540	Reagent 5951 5956	beads
+T541	Modifier 5960 5964	each
+T542	Reagent 5965 5971	sample
+T543	Action 5938 5941	Add
+T544	Method 5980 5989	pipetting
+T545	Modifier 5994 6000	entire
+T546	Measure-Type 6001 6006	voume
+T547	Amount 6008 6014	101 μL
+T548	Modifier 6016 6027	up and down
+T549	Numerical 6028 6036	10 times
+T550	Action 5973 5976	Mix
+T551	Action 6038 6046	Incubate
+T552	Time 6051 6056	8 min
+T553	Modifier 6058 6064	Gently
+T554	Action 6065 6069	spin
+T555	Reagent 6074 6081	samples
+T556	Action 6091 6096	place
+T557	Mention 6097 6101	them
+T558	Device 6109 6121	magnet stand
+T559	Mention 6128 6132	they
+T560	Action 6133 6139	appear
+T561	Modifier 6140 6145	clear
+T562	Action 6147 6152	Place
+T563	Reagent 6153 6160	samples
+T564	Device 6173 6187	magnetic stand
+T565	Size 6198 6203	10 μL
+T566	Device 6204 6215	pipette tip
+T567	Action 6219 6225	remove
+T568	Modifier 6226 6239	all remaining
+T569	Reagent 6240 6244	etOH
+T570	Modifier 6250 6254	each
+T571	Reagent 6255 6261	sample
+T572	Action 6263 6267	Dry 
+T573	Reagent 6271 6285	magnetic beads
+T574	Action 6289 6296	leaving
+T576	Seal 6301 6312	sample caps
+T577	Modifier 6313 6317	open
+T578	Action 6322 6330	watching
+T579	Modifier 6331 6340	carefully
+T580	Action 6355 6359	lose
+T581	Reagent 6349 6354	beads
+T582	Modifier 6366 6371	sheen
+T583	Modifier 6376 6384	begin to
+T584	Action 6385 6391	appear
+T585	Modifier 6392 6397	matte
+T586	Action 6399 6404	close
+T587	Seal 6411 6415	lids
+T588	Action 6419 6426	prevent
+T589	Method 6427 6438	over drying
+T590	Mention 6405 6410	their
+T591	Modifier 6440 6450	As soon as
+T592	Reagent 6451 6456	beads
+T593	Modifier 6461 6464	dry
+T594	Modifier 6466 6472	before
+T595	Action 6480 6486	appear
+T596	Reagent 6494 6505	bead pellet
+T597	Action 6508 6511	add
+T598	Amount 6512 6517	20 μL
+T599	Reagent 6521 6535	Elution Buffer
+T600	Concentration 6537 6542	10 mM
+T601	Reagent 6543 6550	Tris-Cl
+T602	pH 6552 6558	pH 8.5
+T603	Reagent 6563 6570	samples
+T604	Reagent 6578 6592	elution buffer
+T605	Action 6602 6607	added
+T606	Modifier 6611 6614	all
+T607	Reagent 6615 6622	samples
+T608	Action 6624 6627	mix
+T609	Reagent 6632 6639	samples
+T610	Method 6643 6664	pipetting up and down
+T611	Numerical 6665 6673	10 times
+T612	Modifier 6677 6684	further
+T613	Action 6685 6694	resuspend
+T614	Reagent 6695 6700	beads
+T615	Action 6702 6710	Incubate
+T616	Reagent 6711 6716	beads
+T617	Reagent 6720 6734	Elution Buffer
+T618	Time 6739 6745	10 min
+T619	Modifier 6747 6753	longer
+T620	Reagent 6761 6766	beads
+T621	Modifier 6772 6782	over dried
+T622	Modifier 6785 6791	Gently
+T623	Action 6792 6796	spin
+T624	Reagent 6797 6804	samples
+T625	Action 6809 6814	place
+T626	Device 6818 6832	magnetic stand
+T627	Reagent 6843 6850	samples
+T628	Action 6851 6857	beocme
+T629	Modifier 6858 6863	clear
+T630	Action 6865 6873	Transfer
+T631	Amount 6874 6879	18 μL
+T632	Modifier 6883 6888	clear
+T633	Reagent 6889 6900	supernatant
+T634	Modifier 6904 6907	new
+T635	Modifier 6908 6916	low-bind
+T636	Location 6917 6926	PCR tubes
+T637	Action 6927 6934	Prepare
+T638	Reagent 6935 6957	Qubit working solution
+T639	Modifier 6958 6968	Per sample
+T640	Numerical 6975 6976	2
+T641	Reagent 6977 6986	standards
+T642	Amount 6988 6994	200 μL
+T643	Reagent 6995 7011	dsDNA HS Buffer 
+T644	Amount 7011 7015	1 μL
+T645	Reagent 7016 7032	dsDNA HS Reagent
+T646	Action 7034 7037	Add
+T647	Amount 7038 7044	190 μL
+T648	Reagent 7045 7067	Qubit working solution
+T649	Numerical 7071 7072	2
+T650	Location 7073 7090	Qubit assay tubes
+T651	Action 7092 7095	Add
+T652	Amount 7096 7101	10 μL
+T653	Reagent 7102 7128	Qubit dsDNA HS Standard #1
+T654	Location 7132 7135	one
+T655	Amount 7140 7145	10 μL
+T656	Reagent 7146 7163	dsDNA Standard #2
+T657	Location 7171 7177	second
+T658	Modifier 7179 7194	For each sample
+T659	Action 7196 7199	add
+T660	Amount 7200 7206	199 μL
+T661	Reagent 7207 7229	Qubit working solution
+T662	Amount 7234 7238	1 μL
+T663	Reagent 7239 7245	sample
+T664	Location 7251 7267	Qubit assay tube
+T665	Modifier 7269 7276	Briefly
+T666	Action 7277 7283	vortex
+T667	Modifier 7284 7288	each
+T668	Reagent 7289 7297	standard
+T669	Reagent 7302 7308	sample
+T670	Action 7310 7318	Incubate
+T671	Reagent 7319 7328	standards
+T672	Reagent 7333 7340	samples
+T673	Time 7345 7350	2 min
+T674	Action 7352 7356	Read
+T675	Reagent 7357 7364	samples
+T676	Device 7372 7393	Qubit 3.0 Fluorometer
+T677	Modifier 7395 7404	Typically
+T678	Reagent 7410 7414	cDNA
+T679	Measure-Type 7415 7428	concentration
+T680	Modifier 7439 7448	less than
+T681	Concentration 7449 7457	10 ng/μL
+T682	Modifier 7471 7478	maximum
+T683	Device 7493 7519	High Sensitivity DNA assay
+T684	Reagent 7528 7532	cDNA
+T685	Measure-Type 7533 7546	concentration
+T686	Modifier 7550 7559	more than
+T687	Concentration 7560 7569	0.5 ng/μL
+T688	Action 7579 7585	dilute
+T689	Reagent 7586 7593	samples
+T690	Numerical 7597 7600	1/2
+T691	Numerical 7604 7608	1/10
+T692	Action 7609 7615	Follow
+T693	Device 7652 7698	Agilent Bioanalyzer High Sensitivity DNA assay
+T694	Method 7620 7644	manufacturer's protocol 
+T695	Action 7794 7800	Dilute
+T696	Reagent 7801 7805	cDNA
+T697	Concentration 7809 7818	0.2 ng/μL
+T698	Modifier 7819 7829	per sample
+T699	Method 7848 7859	C1V1 = C2V2
+T700	Measure-Type 7881 7894	concentration
+T701	Device 7909 7914	Qubit
+T702	Concentration 7930 7939	0.2 ng/μL
+T703	Measure-Type 7945 7948	V2 
+T704	Measure-Type 7865 7867	C1
+T705	Measure-Type 7920 7922	C2
+T706	Amount 7951 7955	6 μL
+T707	Action 7895 7903	measured
+T708	Action 7957 7962	Solve
+T709	Measure-Type 7967 7970	V1 
+T710	Action 7974 7978	add 
+T711	Measure-Type 7978 7981	V1 
+T712	Reagent 7984 7990	sample
+T713	Measure-Type 7994 7997	V2 
+T714	Measure-Type 7999 8002	V1 
+T715	Modifier 8008 8021	nuclease free
+T716	Reagent 8022 8027	water
+T717	Action 8029 8032	Use
+T718	Amount 8033 8037	1 μL
+T719	Action 8041 8046	check
+T720	Measure-Type 8051 8064	concentration
+T721	Modifier 8072 8079	diluted
+T722	Reagent 8080 8084	cDNA
+T723	Device 8094 8116	Qubit 3.0 HS DNA assay
+T724	Action 8118 8124	Follow
+T725	Method 8129 8153	manufacturer's protocol 
+T726	Device 8161 8192	Nextera XT DNA Library Prep Kit
+T727	Action 8196 8203	prepare
+T728	Action 8226 8233	Perform
+T729	Modifier 8234 8240	manual
+T730	Method 8241 8254	normalization
+T731	Modifier 8283 8286	not
+T732	Action 8287 8290	use
+T733	Method 8291 8309	bead normalization
+T734	Action 8312 8320	Quantify
+T735	Device 8336 8345	Qubit 3.0
+T736	Action 8350 8359	determine
+T737	Modifier 8364 8371	average
+T738	Measure-Type 8380 8384	size
+T739	Measure-Type 8395 8401	length
+T740	Device 8412 8450	Bioanalyzer High Sensitivity DNA assay
+T741	Action 8515 8525	calculate 
+T742	Measure-Type 8473 8486	concentration
+T743	Modifier 8491 8499	average 
+T744	Measure-Type 8507 8512	size 
+T745	Measure-Type 8529 8537	molarity
+T746	Action 8566 8572	dilute
+T747	Modifier 8573 8584	accordingly
+T748	Modifier 8585 8591	before
+T749	Action 8592 8599	pooling
+T750	Device 408 414	tubing
+T751	Action 759 764	Allow
+T752	Action 802 805	Use
+T753	Modifier 1004 1009	under
+T754	Action 1482 1487	Allow
+T755	Action 1609 1614	Allow
+T145	Method 4712 4720	reaction
+T158	Reagent 8204 8224	sequencing libraries
+T202	Reagent 8258 8278	sequencing libraries
+T522	Reagent 8604 8624	sequencing libraries
+T756	Generic-Measure 8554 8556	nM
+T475	Measure-Type 232 240	diameter
+T575	Reagent 8465 8472	library
+T757	Reagent 8499 8506	library
+T758	Reagent 8541 8550	libraries

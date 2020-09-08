@@ -1,0 +1,374 @@
+T1	Method 53 67	DNA extraction
+T2	Action 77 81	Wear
+T3	Action 108 116	handling
+T4	Reagent 117 126	materials
+T5	Reagent 175 186	genomic DNA
+T6	Reagent 188 192	gDNA
+T7	Method 194 203	isolation
+T8	Action 221 224	add
+T9	Reagent 232 241	material 
+T10	Location 256 262	wells 
+T11	Location 269 300	96-well PowerBead® DNA Plate(s)
+T12	Action 310 316	Remove
+T13	Reagent 317 325	nuclease
+T14	Reagent 330 354	nucleotide contamination
+T15	Location 360 373	work surfaces
+T16	Device 378 389	instruments
+T17	Modifier 390 395	prior
+T18	Action 399 407	starting
+T19	Action 408 413	using
+T20	Modifier 417 428	appropriate
+T21	Reagent 429 437	solution
+T22	Reagent 447 457	RNase AWAY
+T23	Action 511 517	wiping
+T26	Reagent 559 566	ethanol
+T27	Modifier 535 558	molecular biology grade
+T29	Reagent 588 600	contaminants
+T28	Action 570 576	remove
+T30	Action 602 608	Remove
+T31	Location 613 633	PowerBead® DNA Plate
+T32	Action 709 719	centrifuge
+T33	Time 724 732	1 minute
+T34	Speed 736 744	2500 x g
+T35	Action 748 754	pellet
+T36	Reagent 759 771	garnet beads
+T38	Action 788 796	addition
+T39	Action 798 804	Remove
+T40	Location 809 824	Square Well Mat
+T41	Location 834 844	Bead Plate
+T42	Action 849 858	set aside
+T43	Modifier 864 871	sterile
+T44	Action 882 886	Add 
+T45	Reagent 886 893	samples
+T46	Location 897 907	Bead Plate
+T47	Action 952 960	continue
+T48	Action 987 993	Ensure
+T49	Action 1015 1021	retain
+T50	Location 1026 1041	Square Well Mat
+T51	Modifier 1047 1054	sterile
+T52	Action 1064 1069	Clean
+T53	Location 1074 1087	work surfaces
+T54	Device 1092 1103	instruments
+T55	Reagent 1109 1119	RNase AWAY
+T56	Action 1169 1173	wipe
+T57	Modifier 1174 1177	dry
+T58	Action 1183 1189	repeat
+T24	Concentration 523 534	70% to 100%
+T25	Concentration 1195 1203	70%-100%
+T59	Reagent 1204 1211	ethanol
+T60	Action 1213 1217	wipe
+T61	Modifier 1218 1221	dry
+T62	Action 1223 1230	Turn on
+T63	Location 1233 1243	water bath
+T64	Temperature 1247 1251	65°C
+T65	Location 1266 1275	reservoir
+T66	Modifier 1258 1265	sterile
+T67	Action 1277 1280	add
+T68	Amount 1281 1287	400 μl
+T69	Reagent 1288 1304	RNase A Solution
+T70	Amount 1308 1313	75 ml
+T71	Reagent 1317 1336	PowerBead® Solution
+T72	Modifier 1357 1362	every
+T73	Location 1363 1376	96-well plate
+T74	Action 1390 1399	processed
+T75	Action 1401 1404	Add
+T76	Amount 1405 1410	750 μ
+T77	Reagent 1415 1428	Bead Solution
+T78	Reagent 1429 1445	RNase A Solution
+T79	Location 1454 1458	well
+T80	Modifier 1449 1453	each
+T81	Location 1466 1479	Bead Plate(s)
+T82	Action 1481 1486	Check
+T83	Location 1491 1500	bottle(s)
+T84	Reagent 1504 1515	SL Solution
+T85	Reagent 1517 1529	Lysis buffer
+T86	Reagent 1534 1545	precipitate
+T87	Modifier 1549 1556	visible
+T88	Action 1558 1562	heat
+T89	Temperature 1566 1570	60°C
+T90	Modifier 1577 1586	dissolved
+T91	Action 1588 1591	Add
+T92	Amount 1592 1597	60 μl
+T93	Reagent 1601 1612	SL Solution
+T94	Location 1621 1625	well
+T95	Modifier 1616 1620	each
+T96	Action 1627 1633	Secure
+T97	Location 1638 1653	Square Well Mat
+T98	Action 1655 1664	retained 
+T99	Action 1678 1686	addition
+T100	Location 1690 1700	Bead Plate
+T101	Modifier 1702 1709	tightly
+T102	Location 1717 1722	plate
+T103	Action 1724 1729	Place
+T104	Modifier 1730 1736	sealed
+T105	Location 1737 1750	Bead Plate(s)
+T106	Temperature 1754 1758	65°C
+T107	Location 1759 1769	water bath
+T108	Time 1774 1784	10 minutes
+T109	Modifier 1789 1792	NOT
+T110	Action 1793 1801	SUBMERGE
+T111	Location 1806 1814	PLATE(S)
+T112	Action 1816 1822	Remove
+T113	Reagent 1830 1835	water
+T114	Modifier 1823 1829	excess
+T115	Location 1845 1858	Bead Plate(s)
+T119	Reagent 6 16	Microbiome
+T120	Device 656 703	QIAGEN® MagAttract® PowerSoil® DNA KF Kit (384)
+T149	Action 1911 1916	Place
+T150	Location 1921 1934	Bead Plate(s)
+T151	Numerical 1943 1946	two
+T153	Location 1947 1961	Adapter Plates
+T154	Modifier 1993 2001	securely
+T155	Action 2002 2008	fasten
+T156	Device 2014 2034	96-well Plate Shaker
+T157	Action 2097 2102	Shake
+T158	Speed 2112 2117	20 Hz
+T159	Time 2122 2132	20 minutes
+T160	Action 2134 2144	Centrifuge
+T161	Location 2145 2158	Bead Plate(s)
+T162	Temperature 2162 2178	room temperature
+T163	Time 2183 2192	6 minutes
+T164	Speed 2196 2204	3220 x g
+T165	Speed 2209 2217	4500 x g
+T166	Device 2231 2241	centrifuge
+T167	Method 2249 2261	centrifuging
+T168	Method 2273 2291	Bead Plate shaking
+T169	Action 2293 2296	add
+T170	Amount 2297 2303	450 μl
+T171	Reagent 2304 2315	IR Solution
+T172	Reagent 2317 2355	Inhibitor Removal Technology® Solution
+T173	Location 2365 2369	well
+T174	Modifier 2360 2364	each
+T175	Modifier 2375 2386	clean/empty
+T176	Location 2387 2403	Collection Plate
+T177	Amount 2405 2409	1 ml
+T178	Action 2434 2439	cover
+T179	Seal 2445 2463	clear Sealing Tape
+T180	Modifier 2483 2495	Sufficiently
+T181	Action 2496 2501	clean
+T182	Location 2506 2518	work surface
+T183	Device 2525 2545	multichannel pipette
+T184	Modifier 2554 2561	capable
+T185	Action 2565 2576	transfering
+T186	Measure-Type 2577 2584	volumes
+T187	Modifier 2585 2590	up to
+T188	Amount 2591 2598	1000 μl
+T189	Action 2600 2606	Remove
+T190	Modifier 2611 2628	lysate-containing
+T191	Location 2629 2642	Bead Plate(s)
+T192	Device 2652 2662	centrifuge
+T193	Action 2678 2684	remove
+T194	Action 2689 2696	discard
+T195	Location 2701 2716	Square Well Mat
+T196	Modifier 2668 2677	carefully
+T197	Action 2718 2724	Remove
+T198	Seal 2729 2741	Sealing Tape
+T199	Modifier 2751 2773	IR Solution-containing
+T200	Location 2774 2790	Collection Plate
+T201	Action 2791 2799	Transfer
+T202	Amount 2800 2806	640 μl
+T203	Reagent 2817 2823	lysate
+T204	Location 2834 2838	well
+T205	Location 2846 2856	Bead Plate
+T206	Location 2864 2880	Collection Plate
+T207	Action 2886 2889	mix
+T208	Modifier 2890 2896	gently
+T209	Method 2900 2921	pipetting up and down
+T210	Numerical 2922 2929	4 times
+T211	Action 2931 2936	Apply
+T212	Modifier 2939 2942	new
+T213	Seal 2943 2955	Sealing Tape
+T214	Reagent 2964 2969	ysate
+T215	Location 2984 3000	Collection Plate
+T216	Action 3002 3008	repeat
+T217	Modifier 3035 3041	second
+T218	Location 3042 3052	Bead Plate
+T219	Action 3054 3062	Incubate
+T220	Location 3063 3082	Collection Plate(s)
+T221	Temperature 3086 3089	4°C
+T222	Time 3094 3104	10 minutes
+T223	Action 3106 3116	Centrifuge
+T225	Location 3127 3146	Collection Plate(s)
+T226	Speed 3150 3158	3220 x g
+T227	Time 3163 3172	6 minutes
+T228	Action 3174 3180	Remove
+T229	Seal 3181 3193	Sealing Tape
+T231	Location 3209 3228	Collection Plate(s)
+T232	Action 3230 3238	Transfer
+T233	Modifier 3239 3245	entire
+T234	Measure-Type 3246 3252	volume
+T235	Reagent 3256 3267	supernatant
+T236	Amount 3271 3277	850 μl
+T237	Modifier 3302 3313	new/sterile
+T238	Size 3314 3318	1 ml
+T239	Location 3319 3335	Collection Plate
+T240	Action 3359 3366	Discard
+T241	Modifier 3371 3375	used
+T242	Location 3376 3395	Collection Plate(s)
+T243	Action 3397 3402	Apply
+T244	Modifier 3403 3406	new
+T245	Seal 3407 3419	Sealing Tape
+T246	Action 3451 3461	centrifuge
+T247	Speed 3465 3473	3220 x g
+T248	Time 3478 3487	6 minutes
+T249	Action 3489 3495	Remove
+T250	Seal 3500 3512	Sealing Tape
+T251	Location 3518 3537	Collection Plate(s)
+T253	Action 3546 3554	transfer
+T254	Amount 3555 3561	450 μl
+T255	Reagent 3565 3576	supernatant
+T256	Modifier 3582 3587	clean
+T257	Location 3588 3618	KingFisher™ Deep Well 96 Plate
+T258	Action 3620 3628	Transfer
+T259	Modifier 3633 3642	remaining
+T260	Reagent 3643 3654	supernatant
+T261	Amount 3656 3662	400 μl
+T262	Modifier 3669 3675	second
+T263	Location 3676 3706	KingFisher™ Deep Well 96 Plate
+T264	Action 3708 3715	Discard
+T265	Location 3716 3738	Collection Plate(s) #2
+T266	Modifier 3744 3748	each
+T267	Location 3749 3762	96 well plate
+T268	Modifier 3763 3772	processed
+T121	Action 3774 3781	aliquot
+T122	Amount 3782 3788	500 μl
+T123	Reagent 3789 3812	ClearMag® Wash Solution
+T124	Modifier 3816 3820	each
+T125	Location 3821 3825	well
+T126	Numerical 3829 3830	3
+T127	Location 3837 3868	KingFisher™ Deep Well 96 Plates
+T128	Amount 3874 3880	100 μl
+T129	Reagent 3881 3892	Solution EB
+T130	Reagent 3894 3908	Elution buffer
+T131	Modifier 3913 3917	each
+T132	Location 3918 3922	well
+T133	Numerical 3926 3927	1
+T134	Location 3972 3977	Plate
+T135	Size 3964 3970	200 μl
+T136	Location 3988 4001	96 well plate
+T137	Modifier 4002 4011	processed
+T138	Modifier 3983 3987	each
+T139	Action 4013 4020	suspend
+T140	Amount 4021 4025	2 ml
+T141	Reagent 4026 4048	ClearMag® Zorb Reagent
+T142	Amount 4052 4057	45 ml
+T143	Reagent 4061 4087	ClearMag® Binding Solution
+T144	Modifier 4093 4098	clean
+T145	Location 4099 4108	reservoir
+T146	Device 2045 2069	QIAGEN® TissueLyser® II;
+T147	Device 3934 3962	KingFisher™ 96 KF Microtiter
+T148	Modifier 3928 3933	clean
+T269	Action 4109 4128	Pipette up and down
+T270	Modifier 4129 4139	thoroughly
+T271	Modifier 4143 4149	evenly
+T272	Action 4150 4158	disperse
+T273	Modifier 4163 4171	magnetic
+T274	Reagent 4172 4177	beads
+T275	Reagent 4181 4189	solution
+T276	Modifier 4195 4199	each
+T277	Location 4200 4213	96 well plate
+T278	Modifier 4214 4223	processed
+T279	Action 4225 4228	add
+T280	Amount 4229 4234	47 ml
+T281	Reagent 4238 4264	ClearMag® Binding Solution
+T282	Modifier 4270 4278	separate
+T283	Modifier 4280 4285	clean
+T284	Location 4287 4296	reservoir
+T285	Action 4298 4301	Add
+T286	Amount 4302 4309	470 μl 
+T287	Reagent 4309 4358	ClearMag® Zorb Reagent/ClearMag® Binding Solution
+T288	Modifier 4362 4366	each
+T289	Location 4367 4371	well
+T290	Numerical 4375 4378	one
+T291	Modifier 4379 4403	sample lysate containing
+T292	Location 4404 4434	KingFisher™ Deep Well 96 Plate
+T293	Modifier 4443 4452	remaining
+T294	Location 4453 4487	KingFisher™ Deep Well 96 Plate(s) 
+T296	Reagent 4498 4504	lysate
+T297	Action 4506 4509	add
+T298	Amount 4510 4517	470 μl 
+T299	Reagent 4517 4543	ClearMag® Binding Solution
+T300	Modifier 4547 4551	each
+T301	Location 4552 4556	well
+T302	Action 4558 4567	Initiate 
+T303	Method 4572 4612	KF_Flex_MoBio_PowerMag_Soil_DNA' program
+T304	Device 4620 4643	KingFisher™ Flex™ robot
+T305	Action 4645 4651	Ensure
+T306	Action 4680 4687	utilize
+T307	Modifier 4688 4692	both
+T308	Reagent 4693 4715	sample lysate aliquots
+T309	Action 4801 4807	Follow
+T310	Modifier 4832 4840	properly
+T311	Action 4841 4845	load
+T312	Device 4850 4866	KingFisher™ Flex
+T313	Location 4912 4925	elution plate
+T314	Reagent 4927 4950	ClearMag® Wash Solution
+T315	Location 4958 4964	plates
+T316	Reagent 4966 4972	lysate
+T317	Reagent 4978 5004	ClearMag® Binding Solution
+T318	Location 5005 5010	plate
+T319	Reagent 5025 5031	lysate
+T320	Reagent 5043 5069	ClearMag® Binding Solution
+T321	Reagent 5070 5092	ClearMag® Zorb Reagent
+T322	Location 5093 5098	plate
+T323	Method 5121 5146	KingFisher™ Flex™ program
+T325	Action 5152 5159	execute
+T326	Location 5182 5187	plate
+T327	Modifier 5176 5181	final
+T328	Action 5191 5196	added
+T329	Action 5212 5219	pressed
+T330	Time 5253 5263	65 minutes
+T331	Action 5267 5275	complete
+T332	Method 5321 5346	KingFisher™ Flex™ program
+T333	Action 5347 5355	finishes
+T334	Action 5357 5363	remove
+T335	Reagent 5368 5372	gDNA
+T336	Location 5384 5397	elution plate
+T337	Action 5403 5407	seal
+T338	Modifier 5421 5432	appropriate
+T339	Seal 5433 5446	storage seal 
+T340	Mention 5408 5412	this
+T341	Action 5475 5481	Follow
+T342	Action 5506 5511	cycle
+T343	Device 5540 5557	KingFisher™ Flex™
+T344	Action 5563 5570	Dispose
+T345	Reagent 5578 5585	liquids
+T346	Location 5591 5597	plates
+T347	Modifier 5601 5610	hazardous
+T348	Reagent 5631 5635	gDNA
+T349	Location 5636 5649	elution plate
+T352	Action 5707 5714	discard
+T353	Modifier 5719 5726	emptied
+T354	Location 5727 5733	plates
+T355	Reagent 5739 5743	gDNA
+T356	Modifier 5751 5756	ready
+T357	Reagent 5611 5625	chemical waste
+T358	Method 204 214	extraction
+T359	Location 635 645	Bead Plate
+T360	Reagent 781 787	sample
+T37	Reagent 1338 1351	Bead Solution
+T361	Reagent 1671 1677	sample
+T116	Action 1863 1872	make sure
+T117	Location 1882 1887	wells
+T118	Modifier 1898 1910	fully sealed
+T152	Device 2424 2427	kit
+T362	Device 2477 2480	kit
+T363	Modifier 2829 2833	each
+T364	Reagent 2970 2972	IR
+T230	Reagent 3206 3208	IR
+T365	Reagent 3199 3205	lysate
+T224	Reagent 3117 3123	lysate
+T366	Reagent 3124 3126	IR
+T367	Modifier 3269 3270	~
+T368	Location 3337 3353	Collection Plate
+T369	Numerical 3354 3356	#2
+T252	Location 3423 3442	Collection Plate(s)
+T370	Numerical 3443 3445	#2
+T371	Numerical 3538 3540	#2
+T372	Modifier 3831 3836	clean
+T295	Device 4902 4910	tip comb
+T324	Seal 5451 5463	Sealing Tape
+T373	Device 5469 5472	kit
+T350	Action 5668 5675	removed
+T351	Action 5694 5700	sealed
+T374	Modifier 5680 5693	appropriately

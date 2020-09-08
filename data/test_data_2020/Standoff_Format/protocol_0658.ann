@@ -1,0 +1,78 @@
+T1	Method 0 10	Extraction
+T2	Reagent 14 25	genomic DNA
+T3	Reagent 32 48	"Edwards" buffer
+T4	Action 49 54	Grind
+T5	Reagent 55 61	tissue
+T6	Location 148 162	microfuge tube
+T7	Time 198 211	10-15 seconds
+T8	Action 213 216	Add
+T9	Amount 217 223	400 µl
+T10	Reagent 224 238	Edwards buffer
+T11	Action 240 245	Grind
+T12	Modifier 246 253	briefly
+T13	Reagent 279 285	tissue
+T14	Device 291 297	pestle
+T15	Action 299 305	Vortex
+T16	Modifier 63 68	fresh
+T17	Modifier 72 78	frozen
+T18	Reagent 86 95	seedlings
+T19	Generic-Measure 97 110	0.5-1 rosette
+T20	Reagent 114 128	cauline leaves
+T21	Reagent 130 143	inflorescence
+T22	Device 179 193	plastic pestle
+T23	Action 168 178	autoclaved
+T24	Modifier 268 278	remaining 
+T25	Action 257 263	remove
+T26	Time 306 315	5 seconds
+T27	Reagent 321 326	preps
+T28	Action 334 338	kept
+T29	Temperature 342 358	room temperature
+T30	Temperature 360 362	RT
+T31	Reagent 374 379	preps
+T32	Action 403 413	Centrifuge
+T33	Device 427 446	tabletop centrifuge
+T34	Speed 450 460	full speed
+T35	Speed 462 472	13.000 rpm
+T36	Time 414 423	5 minutes
+T37	Action 475 483	Transfer
+T38	Amount 484 490	300 µl
+T39	Reagent 491 502	supernatant
+T40	Modifier 510 515	fresh
+T41	Location 516 530	microfuge tube
+T42	Action 531 534	Add
+T43	Amount 535 541	300 µl
+T44	Reagent 542 553	isopropanol
+T45	Action 558 561	mix
+T46	Action 562 567	Leave
+T47	Time 572 581	2 minutes
+T48	Temperature 585 587	RT
+T49	Action 589 599	Centrifuge
+T50	Time 600 610	10 minutes
+T51	Temperature 614 616	RT
+T52	Action 633 640	discard
+T53	Action 618 628	Decant off
+T54	Modifier 641 644	all
+T55	Reagent 645 656	supernatant
+T56	Reagent 662 670	S1-waste
+T57	Action 672 676	Wash
+T58	Action 797 806	Resuspend
+T59	Reagent 807 813	pellet
+T60	Amount 817 822	40 µl
+T61	Modifier 826 833	sterile
+T62	Reagent 834 839	ddH2O
+T63	Action 841 849	incubate
+T64	Temperature 853 857	37°C
+T65	Amount 689 695	700 µl
+T66	Concentration 696 700	70 %
+T67	Reagent 701 705	EtOH
+T68	Action 712 722	centrifuge
+T69	Time 727 736	5 minutes
+T70	Speed 740 750	full speed
+T71	Action 755 762	discard
+T72	Reagent 763 767	EtOH
+T73	Reagent 677 683	pellet
+T74	Action 769 776	Air dry
+T75	Reagent 777 787	DNA pellet
+T76	Temperature 791 795	37°C
+T77	Numerical 398 400	20
+T78	Modifier 391 398	up to ~

@@ -1,0 +1,33 @@
+T1	Reagent 0 10	SNA medium
+T3	Modifier 20 23	all
+T4	Reagent 24 29	salts
+T5	Modifier 34 39	other
+T6	Reagent 40 51	ingredients
+T7	Amount 55 57	1l
+T8	Modifier 61 70	distilled
+T9	Reagent 71 76	water
+T10	Reagent 77 83	KN2PO4
+T11	Amount 84 86	1g
+T12	Reagent 86 90	KNO3
+T13	Amount 91 93	1g
+T14	Reagent 93 103	MgSO4-7H2O
+T15	Amount 104 108	0.5g
+T16	Reagent 108 111	KCl
+T17	Amount 112 116	0.5g
+T18	Reagent 116 123	Glucose
+T19	Amount 124 128	0.2g
+T20	Reagent 128 135	Sucrose
+T21	Amount 136 140	0.5g
+T22	Action 142 145	Add
+T23	Amount 146 150	22 g
+T24	Reagent 154 163	Kobe Agar
+T25	Action 165 170	Bring
+T26	Measure-Type 171 173	pH
+T27	Modifier 177 182	about
+T28	pH 183 186	5.5
+T30	Amount 201 207	600 µl
+T31	Reagent 208 212	NaOH
+T32	Action 214 223	Autoclave
+T33	Generic-Measure 227 233	15 psi
+T34	Time 238 244	20 min
+T2	Action 11 19	Dissolve

@@ -1,0 +1,504 @@
+T1	Reagent 0 10	SARS-CoV-2
+T2	Action 11 32	Enrichment Sequencing
+T3	Method 36 62	Spiked Primer MSSPE method
+T4	Reagent 63 77	Nasopharyngeal
+T5	Reagent 82 101	oropharyngeal swabs
+T6	Action 103 111	combined
+T7	Numerical 117 120	one
+T8	Location 121 125	tube
+T9	Action 132 141	collected
+T10	Reagent 149 168	symptomatic patient
+T11	Reagent 221 231	SARS-CoV-2
+T12	Method 233 243	Extraction
+T13	Reagent 247 266	viral nucleic acids
+T14	Reagent 272 287	clinical sample
+T15	Action 292 301	performed
+T16	Device 309 334	QIAamp Viral RNA Mini Kit
+T18	Reagent 390 401	RNA samples
+T19	Action 407 420	DNAse-treated
+T20	Device 431 447	Zymo DNAse I kit
+T21	Reagent 453 465	nucleic acid
+T22	Action 470 476	tested
+T23	Method 481 516	real-time polymerase chain reaction
+T24	Reagent 521 529	COVID-19
+T25	Method 545 552	Drosden
+T26	Method 557 560	HKU
+T27	Reagent 641 649	COVID-19
+T28	Action 618 627	confirmed
+T29	Measure-Type 673 675	Ct
+T30	Generic-Measure 687 695	PUI = 24
+T31	Reagent 697 700	RNA
+T32	Action 705 715	quantified
+T33	Device 726 756	Qubit High Sensitivity RNA kit
+T34	Device 791 796	Qubit
+T35	Reagent 803 806	RNA
+T36	Measure-Type 807 820	concentration
+T37	Concentration 825 840	PUI = 6.9 ng/uL
+T38	Reagent 841 848	Library
+T39	Method 849 860	Preparation
+T40	Action 865 874	performed
+T41	Device 884 924	NEBNext Ultra II non-directional RNA kit
+T42	Method 926 939	Fragmentation
+T43	Reagent 942 965	SARS-CoV-2 primer spike
+T44	Reagent 969 983	Random primers
+T45	Concentration 987 991	1 μM
+T46	Action 996 1001	mixed
+T47	Concentration 1009 1014	10 μM
+T48	Reagent 1018 1036	SARS-CoV-2 primers
+T49	Concentration 1054 1057	1:1
+T50	Measure-Type 1058 1064	volume
+T51	Reagent 1085 1090	ERCCs
+T52	Reagent 1114 1126	RNA controls
+T53	Modifier 1095 1113	internal synthetic
+T54	Numerical 1140 1142	92
+T55	Modifier 1143 1152	synthetic
+T56	Reagent 1153 1157	RNAs
+T57	Reagent 1189 1196	microbe
+T58	Device 1204 1224	NCBI NR/NT databases
+T59	Reagent 1240 1250	FastSelect
+T60	Action 1267 1275	removing
+T61	Reagent 1276 1286	human rRNA
+T62	Action 1288 1292	omit
+T63	Modifier 1319 1332	human derived
+T64	Reagent 1333 1340	samples
+T65	Action 1350 1358	incubate
+T66	Temperature 1362 1366	94°C
+T67	Modifier 1376 1384	directly
+T68	Temperature 1388 1391	4°C
+T69	Action 1393 1397	omit
+T70	Action 1398 1410	ramping down
+T71	Device 1419 1431	Thermocycler
+T72	Modifier 1433 1439	heated
+T73	Seal 1440 1443	lid
+T74	Action 1444 1447	set
+T75	Temperature 1451 1456	105°C
+T76	Time 1460 1465	8 min
+T77	Temperature 1469 1473	94°C
+T78	Action 1475 1481	Adjust
+T79	Measure-Type 1487 1505	fragmentation time
+T80	Measure-Type 1523 1530	quality
+T81	Modifier 1534 1543	extracted
+T82	Reagent 1544 1547	RNA
+T83	Time 1549 1554	2 min
+T84	Temperature 1555 1559	75°C
+T85	Time 1559 1564	2 min
+T86	Temperature 1565 1569	70°C
+T87	Time 1570 1575	2 min
+T88	Temperature 1576 1580	65°C
+T89	Time 1580 1585	2 min
+T90	Temperature 1586 1590	60°C
+T91	Time 1591 1596	2 min
+T92	Temperature 1597 1601	55°C
+T93	Time 1601 1606	5 min
+T94	Temperature 1607 1611	37°C
+T95	Time 1612 1617	5 min
+T96	Temperature 1618 1622	25°C
+T97	Time 1623 1628	8 min
+T98	Temperature 1632 1636	94°C
+T99	Action 1638 1644	Adjust
+T100	Measure-Type 1650 1668	fragmentation time
+T101	Measure-Type 1686 1693	quality
+T102	Modifier 1697 1706	extracted
+T103	Reagent 1707 1710	RNA
+T104	Time 1712 1717	5 min
+T105	Temperature 1718 1722	25°C
+T106	Numerical 1728 1730	73
+T107	Reagent 1731 1738	primers
+T108	Action 1739 1743	tile
+T109	Reagent 1762 1778	SARS-CoV2 genome
+T110	Measure-Type 1784 1791	spacing
+T111	Modifier 1795 1796	~
+T112	Generic-Measure 1796 1801	400bp
+T113	Modifier 1827 1838	approximate
+T114	Measure-Type 1839 1847	location
+T115	Location 1855 1875	primer binding sites
+T116	Method 1877 1899	First Strand Synthesis
+T117	Action 1900 1903	Mix
+T118	Action 1921 1930	pipetting
+T120	Method 1931 1942	up and down
+T121	Time 1944 1951	10 mins
+T122	Temperature 1955 1959	25°C
+T123	Time 1960 1967	15 mins
+T124	Temperature 1971 1975	42°C
+T125	Time 1976 1983	15 mins
+T126	Temperature 1987 1991	70°C
+T127	Action 1992 1996	Hold
+T128	Temperature 2000 2003	4°C
+T129	Time 2004 2011	10 mins
+T130	Temperature 2015 2019	25°C
+T131	Action 2020 2024	Hold
+T132	Temperature 2028 2031	4°C
+T133	Method 2032 2055	Second Strand Synthesis
+T134	Device 2056 2068	Thermocycler
+T135	Modifier 2070 2076	heated
+T136	Seal 2077 2080	lid
+T137	Modifier 2081 2084	off
+T138	Time 2088 2094	1 hour
+T139	Temperature 2098 2102	16°C
+T140	Action 2104 2108	Hold
+T141	Temperature 2112 2115	4°C
+T142	Action 2117 2129	SPRI cleanup
+T143	Action 2132 2137	allow
+T144	Reagent 2138 2143	beads
+T145	Action 2147 2150	sit
+T146	Temperature 2154 2156	RT
+T147	Time 2161 2168	30 mins
+T148	Action 2176 2179	Use
+T149	Reagent 2180 2190	SPRI Beads
+T150	Concentration 2190 2194	1.8x
+T151	Measure-Type 2204 2225	beads-to-total volume
+T152	Reagent 2229 2235	sample
+T153	Action 2237 2241	Prep
+T154	Concentration 2242 2245	80%
+T155	Reagent 2246 2250	EtOH
+T156	Action 2252 2255	Add
+T157	Amount 2256 2261	144uL
+T158	Temperature 2265 2281	room temperature
+T159	Reagent 2282 2287	beads
+T160	Reagent 2291 2315	2nd Strand Synthesis Rxn
+T161	Action 2317 2320	Mix
+T162	Modifier 2321 2325	well
+T163	Action 2329 2338	pipetting
+T164	Modifier 2339 2345	gently
+T165	Action 2347 2357	Pulse spin
+T166	Location 2362 2367	tubes
+T167	Action 2388 2397	spin down
+T168	Reagent 2398 2403	beads
+T169	Action 2405 2413	Incubate
+T170	Time 2418 2424	5 mins
+T171	Temperature 2428 2444	room temperature
+T172	Action 2446 2451	Place
+T173	Reagent 2452 2459	samples
+T174	Location 2463 2476	magnetic rack
+T175	Action 2482 2490	incubate
+T176	Time 2495 2501	5 mins
+T177	Location 2509 2513	rack
+T178	Action 2515 2521	Remove
+T179	Reagent 2522 2533	supernatant
+T180	Action 2535 2538	Add
+T181	Amount 2539 2544	200uL
+T182	Concentration 2548 2551	80%
+T183	Reagent 2552 2556	EtOH
+T184	Reagent 2560 2567	samples
+T185	Location 2581 2594	magnetic rack
+T186	Action 2596 2604	Incubate
+T187	Temperature 2608 2624	room temperature
+T188	Time 2629 2632	30s
+T189	Action 2638 2644	remove
+T190	Reagent 2649 2660	supernatant
+T191	Action 2662 2668	Repeat
+T192	Reagent 2669 2673	EtOH
+T193	Action 2674 2678	wash
+T194	Numerical 2699 2706	2 times
+T195	Action 2707 2714	Air dry
+T196	Reagent 2719 2724	beads
+T197	Time 2729 2735	5 mins
+T198	Location 2749 2762	magnetic rack
+T199	Action 2764 2770	Remove
+T200	Location 2771 2775	tube
+T201	Location 2781 2794	magnetic rack
+T202	Action 2796 2801	Elute
+T203	Reagent 2802 2805	DNA
+T204	Reagent 2811 2816	beads
+T205	Amount 2822 2826	53uL
+T206	Concentration 2830 2834	0.1x
+T207	Reagent 2835 2844	TE Buffer
+T208	Concentration 2846 2850	10mM
+T209	Reagent 2851 2859	Tris-HCl
+T210	Modifier 2864 2877	Nuclease free
+T211	Reagent 2878 2883	water
+T212	Action 2885 2891	Vortex
+T213	Action 2895 2898	mix
+T214	Location 2905 2910	tubes
+T215	Action 2900 2904	Spin
+T216	Action 2915 2923	incubate
+T217	Time 2928 2934	2 mins
+T218	Temperature 2938 2954	room temperature
+T219	Location 2963 2976	magnetic rack
+T220	Action 2978 2983	Place
+T221	Location 2987 3000	magnetic rack
+T222	Reagent 3007 3015	solution
+T223	Modifier 3019 3024	clear
+T224	Modifier 3025 3026	~
+T225	Time 3027 3033	5 mins
+T226	Action 3035 3041	Remove
+T227	Amount 3042 3046	50uL
+T228	Reagent 3054 3065	supernatant
+T229	Action 3070 3078	transfer
+T230	Modifier 3084 3103	clean nuclease free
+T231	Location 3104 3112	PCR tube
+T232	Action 3114 3117	Use
+T233	Reagent 3118 3128	SPRI Beads
+T234	Concentration 3129 3133	1.8x
+T235	Measure-Type 3143 3164	beads-to-total volume
+T236	Reagent 3168 3174	sample
+T237	Reagent 3190 3197	Samples
+T238	Action 3205 3211	stored
+T239	Modifier 3212 3218	frozen
+T240	Temperature 3222 3228	-20 °C
+T241	Reagent 3233 3240	library
+T242	Action 3241 3245	prep
+T243	Time 3258 3266	next day
+T244	Action 3268 3278	End Repair
+T245	Action 3280 3283	Mix
+T246	Mention 3292 3301	following
+T247	Action 3305 3314	pipetting
+T248	Method 3315 3326	up and down
+T249	Time 3328 3335	30 mins
+T250	Temperature 3339 3343	20°C
+T251	Time 3344 3351	30 mins
+T252	Temperature 3355 3359	65°C
+T253	Method 3360 3376	Adapter Ligation
+T254	Action 3378 3384	dilute
+T255	Reagent 3385 3392	adaptor
+T256	Reagent 3396 3404	dilution
+T257	Action 3414 3420	making
+T258	Reagent 3421 3431	master mix
+T259	Reagent 3433 3440	Adaptor
+T260	Measure-Type 3441 3454	concentration
+T261	Reagent 3480 3485	input
+T262	Measure-Type 3470 3476	amount
+T263	Concentration 3487 3492	1:100
+T264	Reagent 3493 3501	dilution
+T265	Reagent 3506 3513	samples
+T266	Modifier 3514 3515	<
+T267	Amount 3515 3518	5ng
+T268	Concentration 3520 3524	1:25
+T269	Reagent 3529 3534	input
+T270	Modifier 3538 3539	>
+T271	Amount 3539 3542	5ng
+T272	Action 3543 3546	Add
+T273	Reagent 3547 3554	adaptor
+T274	Modifier 3555 3565	separately
+T275	Reagent 3572 3591	ligation master mix
+T276	Reagent 3596 3613	ligation enhancer
+T277	Action 3617 3622	avoid
+T278	Reagent 3623 3637	adaptor dimers
+T279	Device 3639 3651	Thermocycler
+T280	Modifier 3653 3659	heated
+T281	Seal 3660 3663	lid
+T282	Modifier 3664 3667	off
+T283	Time 3670 3677	15 mins
+T284	Temperature 3681 3685	20°C
+T285	Modifier 3691 3697	heated
+T286	Seal 3698 3701	lid
+T287	Modifier 3702 3705	off
+T288	Action 3706 3713	Proceed
+T289	Modifier 3714 3725	immediately
+T291	Time 3748 3755	15 mins
+T292	Temperature 3759 3763	20°C
+T293	Modifier 3769 3775	heated
+T294	Seal 3776 3779	lid
+T295	Modifier 3780 3783	off
+T290	Method 3734 3746	Purification
+T299	Reagent 3729 3733	Bead
+T301	Device 3825 3837	Thermocycler
+T302	Modifier 3839 3845	heated
+T303	Seal 3846 3849	lid
+T304	Modifier 3850 3853	off
+T305	Action 3857 3869	SPRI Cleanup
+T306	Action 3872 3877	allow
+T307	Reagent 3878 3883	beads
+T308	Action 3887 3890	sit
+T309	Temperature 3894 3896	RT
+T310	Time 3901 3908	30 mins
+T311	Action 3915 3918	Use
+T312	Reagent 3919 3928	SPRI bead
+T313	Concentration 3929 3933	0.9x
+T314	Measure-Type 3943 3964	beads-to-total volume
+T315	Reagent 3968 3974	sample
+T316	Action 3976 3979	Add
+T317	Amount 3980 3984	87uL
+T318	Temperature 3988 4004	room temperature
+T319	Reagent 4005 4010	beads
+T320	Concentration 4012 4016	0.9x
+T321	Reagent 4021 4046	Adaptor Ligation reaction
+T322	Action 4048 4051	Mix
+T323	Modifier 4052 4056	well
+T324	Action 4058 4064	Repeat
+T325	Reagent 4065 4069	EtOH
+T326	Action 4070 4074	wash
+T327	Numerical 4095 4102	2 times
+T328	Action 4104 4111	Air dry
+T329	Reagent 4116 4121	beads
+T330	Time 4126 4132	5 mins
+T331	Location 4146 4159	magnetic rack
+T332	Action 4161 4166	Elute
+T333	Reagent 4167 4170	DNA
+T334	Reagent 4176 4181	beads
+T335	Amount 4187 4191	17uL
+T336	Concentration 4195 4199	0.1x
+T337	Reagent 4200 4209	TE Buffer
+T338	Concentration 4211 4215	10mM
+T339	Reagent 4216 4224	Tris-HCl
+T340	Modifier 4229 4242	Nuclease free
+T341	Reagent 4243 4248	water
+T342	Action 4250 4256	Remove
+T343	Amount 4257 4261	15uL
+T344	Reagent 4269 4280	supernatant
+T345	Action 4285 4293	transfer
+T346	Modifier 4299 4318	clean nuclease free
+T347	Location 4319 4327	PCR tube
+T348	Action 4329 4332	Use
+T349	Reagent 4333 4342	SPRI bead
+T350	Concentration 4343 4347	0.9x
+T351	Measure-Type 4357 4378	beads-to-total volume
+T352	Reagent 4382 4388	sample
+T353	Action 4390 4395	Place
+T354	Reagent 4396 4403	samples
+T355	Location 4407 4420	magnetic rack
+T356	Action 4426 4434	incubate
+T357	Time 4439 4445	5 mins
+T358	Location 4453 4457	rack
+T359	Action 4458 4464	Remove
+T360	Reagent 4465 4476	supernatant
+T362	Reagent 4517 4527	components
+T361	Method 4478 4498	USER/Q5 Indexing PCR
+T363	Action 4499 4502	Mix
+T364	Action 4531 4540	pipetting
+T365	Method 4541 4552	up and down
+T366	Action 4554 4561	Cycling
+T367	Action 4577 4587	PCR cycles
+T368	Reagent 4609 4618	input RNA
+T369	Reagent 4624 4633	libraries
+T370	Modifier 4639 4640	<
+T371	Amount 4640 4643	5ng
+T372	Reagent 4644 4649	input
+T373	Action 4651 4658	perform
+T374	Generic-Measure 4659 4671	15-19 cycles
+T375	Method 4675 4678	PCR
+T376	Amount 4684 4690	5-20ng
+T377	Reagent 4691 4696	input
+T378	Action 4698 4705	perform
+T379	Generic-Measure 4706 4718	10-14 cycles
+T380	Method 4722 4725	PCR
+T381	Modifier 4731 4732	>
+T382	Amount 4732 4736	20ng
+T383	Reagent 4737 4742	input
+T384	Action 4744 4751	perform
+T385	Generic-Measure 4752 4762	6-8 cycles
+T386	Method 4766 4769	PCR
+T387	Action 4772 4777	allow
+T388	Reagent 4778 4783	beads
+T389	Action 4787 4790	sit
+T390	Temperature 4794 4796	RT
+T391	Time 4801 4808	30 mins
+T392	Action 4815 4818	Use
+T393	Reagent 4819 4829	SPRI Beads
+T394	Concentration 4833 4837	0.8x
+T395	Measure-Type 4847 4868	beads-to-total volume
+T396	Reagent 4872 4878	sample
+T397	Action 4880 4883	Add
+T398	Amount 4884 4888	43uL
+T399	Temperature 4892 4908	room temperature
+T400	Reagent 4909 4921	Ampure Beads
+T401	Concentration 4923 4927	0.8x
+T402	Modifier 4932 4940	barcoded
+T403	Reagent 4941 4944	DNA
+T404	Action 4946 4951	Elute
+T405	Reagent 4952 4955	DNA
+T406	Reagent 4961 4966	beads
+T407	Amount 4972 4976	23uL
+T408	Concentration 4979 4983	0.1x
+T409	Reagent 4984 4993	TE Buffer
+T410	Concentration 4995 4999	10mM
+T411	Reagent 4999 5007	Tris-HCL
+T412	Modifier 5012 5025	Nuclease free
+T413	Reagent 5026 5031	water
+T414	Action 5033 5039	Remove
+T415	Amount 5040 5044	20uL
+T416	Reagent 5052 5063	supernatant
+T417	Action 5068 5076	transfer
+T418	Modifier 5082 5101	clean nuclease free
+T419	Location 5102 5110	PCR tube
+T420	Action 5112 5115	Use
+T421	Reagent 5116 5126	SPRI Beads
+T422	Concentration 5130 5134	0.8x
+T423	Measure-Type 5144 5165	beads-to-total volume
+T424	Reagent 5169 5175	sample
+T425	Reagent 5192 5201	Libraries
+T426	Modifier 5206 5214	complete
+T427	Reagent 5216 5223	samples
+T428	Action 5231 5237	stored
+T429	Modifier 5238 5244	frozen
+T430	Temperature 5248 5254	-20 °C
+T431	Method 5271 5285	quantification
+T433	Reagent 5299 5308	Libraries
+T434	Action 5314 5324	quantified
+T435	Device 5332 5362	Qubit High Sensitivity DNA kit
+T436	Device 5371 5416	Agilent High Sensitivity D500 DNA Tapestation
+T437	Action 5417 5422	assay
+T438	Reagent 5427 5441	adapter dimers
+T439	Action 5446 5451	found
+T440	Reagent 5453 5460	library
+T441	Action 5471 5484	size selected
+T442	Measure-Type 5493 5503	SPRI ratio
+T443	Concentration 5507 5511	0.8x
+T444	Modifier 5513 5523	Quantified
+T445	Reagent 5524 5531	library
+T446	Action 5540 5552	diluted down
+T447	Measure-Type 5560 5581	loading concentration
+T448	Device 5590 5594	iSeq
+T449	Concentration 5596 5601	100pM
+T450	Device 5649 5658	sequencer
+T451	Device 5664 5677	Illumina iSeq
+T452	Action 5682 5688	loaded
+T453	Amount 5694 5698	20uL
+T454	Concentration 5704 5709	100pM
+T455	Reagent 5710 5717	library
+T456	Concentration 5725 5727	5%
+T457	Reagent 5728 5741	PhiX spike in
+T458	Action 5743 5765	Metagenomic sequencing
+T460	Action 5779 5787	uploaded
+T461	Device 5793 5802	IDseq.net
+T462	Modifier 5803 5811	directly
+T463	Device 5821 5852	Illumina Basespace Sequence Hub
+T459	Modifier 5858 5881	open-source cloud-based
+T464	Device 5882 5890	pipeline
+T465	Action 5891 5899	analyzed
+T466	Numerical 5900 5911	1.8 million
+T469	Method 5982 5990	Analyses
+T470	Reagent 5998 6014	viral components
+T471	Reagent 5955 5960	nasal
+T472	Action 5941 5947	mapped
+T473	Reagent 5965 5980	oral microbiome
+T474	Numerical 6027 6032	3,077
+T467	Reagent 5912 5917	reads
+T468	Reagent 5935 5940	reads
+T475	Reagent 6033 6049	single end reads
+T476	Action 6050 6058	aligning
+T477	Reagent 6066 6081	SARS-CoV2 taxon
+T478	Action 6083 6092	Resulting
+T479	Reagent 6093 6098	reads
+T480	Reagent 6108 6129	Betacoronovirus genus
+T481	Action 6135 6145	downloaded
+T482	Device 6151 6156	IDseq
+T483	Action 6161 6167	mapped
+T484	Measure-Type 6175 6203	NCBI genome accession number
+T485	Generic-Measure 6205 6215	MN908947.1
+T486	Measure-Type 6221 6239	geneious alignment
+T487	Action 6240 6249	displayed
+T488	Reagent 6275 6281	genome
+T489	Measure-Type 6255 6263	coverage
+T490	Measure-Type 6298 6306	coverage
+T491	Generic-Measure 6310 6315	14.9x
+T492	Numerical 6317 6320	One
+T493	Reagent 6321 6324	SNP
+T494	Action 6329 6334	noted
+T495	Measure-Type 6338 6346	position
+T496	Generic-Measure 6347 6353	25,654
+T497	Reagent 6357 6362	ORF3a
+T498	Reagent 6378 6384	valine
+T499	Reagent 6388 6395	leucine
+T500	Method 6396 6408	substitution
+T501	Action 6414 6422	compared
+T502	Measure-Type 6426 6440	NCBI accession
+T503	Generic-Measure 6441 6451	MN908947.1
+T17	Modifier 380 389	Extracted
+T504	Mention 1298 1305	reagent
+T505	Modifier 628 636	positive
+T119	Method 5290 5297	pooling
+T296	Action 3784 3791	Proceed
+T297	Modifier 3792 3803	immediately
+T298	Reagent 3807 3811	Bead
+T300	Method 3812 3824	Purification

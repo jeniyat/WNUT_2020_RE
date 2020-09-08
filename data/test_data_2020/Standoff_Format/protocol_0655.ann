@@ -1,0 +1,66 @@
+T1	Method 0 14	DNA extraction
+T2	Method 25 51	ammonium acetate technique
+T3	Action 52 55	Add
+T4	Amount 56 61	50 µl
+T5	Reagent 65 70	blood
+T6	Amount 72 78	200 µl
+T7	Reagent 84 107	DNA extraction solution
+T8	Reagent 124 132	tris-HCL
+T9	Concentration 133 138	30 mM
+T10	pH 139 143	ph 8
+T11	Reagent 145 149	EDTA
+T12	Concentration 150 155	10 mM
+T13	Concentration 161 165	0,4%
+T14	Reagent 166 169	SDS
+T15	Amount 176 180	3 µl
+T16	Reagent 181 193	proteinase K
+T17	Action 195 201	Vortex
+T18	Time 206 215	overnight
+T19	Temperature 219 222	56°
+T20	Action 229 237	incubate
+T21	Temperature 238 242	70°C
+T22	Time 250 261	three hours
+T23	Action 262 269	shaking
+T24	Modifier 270 280	frequently
+T25	Action 282 285	Add
+T26	Amount 286 292	200 µl
+T27	Reagent 293 298	AcNH4
+T28	Concentration 299 302	4 M
+T29	Action 304 310	Vortex
+T30	Action 315 323	incubate
+T31	Time 324 334	30 minutes
+T32	Action 336 341	Shake
+T33	Time 348 358	10 minutes
+T34	Action 360 370	Centrifuge
+T35	Time 371 381	15 minutes
+T36	Speed 385 394	13000 rpm
+T37	Reagent 405 416	supernatant
+T38	Modifier 420 423	new
+T39	Location 424 429	tubes
+T40	Action 396 400	Move
+T41	Action 431 434	Add
+T42	Amount 435 441	800 µl
+T43	Modifier 445 449	cold
+T44	Reagent 450 454	EtOH
+T45	Concentration 455 459	100%
+T46	Action 461 467	Remove
+T47	Reagent 472 483	supernatant
+T48	Action 485 489	Wash
+T49	Reagent 494 500	pellet
+T50	Amount 506 512	800 µl
+T51	Reagent 516 520	EtOH
+T52	Concentration 521 524	70%
+T53	Action 526 536	Centrifuge
+T54	Time 537 546	5 minutes
+T55	Speed 550 559	13000 rpm
+T56	Action 561 567	Remove
+T57	Reagent 572 583	supernatant
+T58	Action 588 591	dry
+T59	Action 593 596	Add
+T60	Amount 597 603	200 µl
+T61	Reagent 604 613	TE Buffer
+T62	Action 618 623	leave
+T63	Time 624 633	2-3 hours
+T64	Device 641 645	oven
+T65	Temperature 649 653	37°C
+T66	Modifier 342 347	every

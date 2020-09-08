@@ -1,0 +1,90 @@
+T1	Modifier 0 5	Basic
+T2	Reagent 6 18	Cell Culture
+T3	Action 32 39	Plating
+T4	Reagent 40 45	Cells
+T5	Action 46 51	Split
+T6	Reagent 52 57	cells
+T8	Method 72 128	Basic Cell Culture Maintenance: Splitting Cells protocol
+T9	Reagent 130 135	Cells
+T10	Modifier 136 144	leftover
+T11	Location 156 162	flasks
+T12	Modifier 150 156	split 
+T13	Action 179 184	count
+T14	Action 189 194	plate
+T15	Reagent 195 200	cells
+T16	Action 202 205	Add
+T17	Amount 206 211	75 μL
+T18	Reagent 212 217	media
+T19	Amount 222 227	25 μL
+T20	Modifier 228 236	leftover
+T21	Reagent 237 242	cells
+T22	Size 250 256	1.5 mL
+T23	Location 257 277	microcentrifuge tube
+T24	Concentration 280 283	1:4
+T25	Method 284 292	dilution
+T26	Action 295 298	Mix
+T27	Modifier 299 309	thoroughly
+T28	Method 313 321	flicking
+T29	Action 323 327	Load
+T30	Amount 328 333	10 μL
+T31	Device 343 356	hemacytometer
+T32	Action 361 365	view
+T33	Device 372 382	microscope
+T36	Measure-Type 390 408	cells per quadrant
+T37	Action 410 417	Average
+T38	Action 424 432	Multiply
+T39	Numerical 436 442	10,000
+T40	Measure-Type 451 466	dilution factor
+T41	Action 472 481	Calculate
+T42	Measure-Type 482 488	amount
+T43	Reagent 492 497	cells
+T44	Reagent 504 509	media
+T45	Modifier 500 503	new
+T46	Action 520 526	create
+T47	Reagent 529 539	master mix
+T48	Method 546 550	C1V1
+T49	Measure-Type 561 574	concentration
+T50	Reagent 578 583	cells
+T51	Amount 588 590	mL
+T52	Reagent 591 596	cells
+T53	Modifier 510 516	needed
+T54	Numerical 608 611	one
+T55	Location 612 616	well
+T56	Amount 619 623	1 mL
+T57	Action 625 628	Add
+T58	Numerical 629 630	3
+T59	Location 636 641	wells
+T60	Measure-Type 645 651	volume
+T61	Action 683 690	account
+T62	Action 703 709	Create
+T63	Reagent 710 720	master mix
+T64	Size 724 729	50 mL
+T65	Location 730 741	falcon tube
+T66	Action 743 749	Invert
+T67	Reagent 750 760	master mix
+T68	Modifier 761 774	several times
+T69	Modifier 780 794	before plating
+T70	Action 798 804	ensure
+T71	Modifier 811 823	evenly mixed
+T72	Action 825 830	Label
+T73	Location 831 837	plates
+T74	Action 871 874	Add
+T75	Amount 875 879	1 mL
+T76	Reagent 880 890	master mix
+T77	Modifier 894 898	each
+T78	Location 899 903	well
+T79	Modifier 905 911	Gently
+T80	Action 912 915	mix
+T81	Location 916 922	plates
+T82	Modifier 928 934	gentle
+T83	Method 935 942	shaking
+T84	Action 944 951	Return 
+T85	Reagent 955 960	cells
+T86	Device 968 977	incubator
+T87	Temperature 981 985	37°C
+T88	Concentration 990 992	5%
+T89	Reagent 993 996	CO2
+T7	Action 58 67	following
+T34	Action 384 389	Count
+T35	Location 601 605	well
+T90	Mention 805 807	it

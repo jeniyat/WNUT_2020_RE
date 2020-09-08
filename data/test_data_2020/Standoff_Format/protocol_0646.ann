@@ -1,0 +1,17 @@
+T1	Method 0 23	Single-temp DD Reaction
+T2	Reagent 24 27	DNA
+T3	Amount 28 32	1 µg
+T4	Amount 116 120	1 µl
+T5	Amount 188 192	1 µl
+T6	Numerical 154 156	10
+T7	Numerical 82 84	10
+T8	Reagent 38 46	NEBuffer
+T9	Amount 47 51	5 µl
+T10	Numerical 34 37	10X
+T11	Concentration 53 55	1X
+T12	Reagent 58 79	Restriction Enzyme #1
+T13	Reagent 130 151	Restriction Enzyme #2
+T14	Modifier 94 104	sufficient
+T15	Measure-Type 85 90	units
+T16	Measure-Type 157 162	units
+T17	Modifier 166 176	sufficient

@@ -1,0 +1,13 @@
+T1	Reagent 28 31	DNA
+T2	Amount 32 35	1µg
+T3	Amount 50 53	5µl
+T4	Reagent 41 49	NEBuffer
+T5	Concentration 55 57	1X
+T6	Numerical 37 40	10X
+T7	Reagent 60 78	Restriction Enzyme
+T8	Method 0 27	Restriction Digest Reaction
+T9	Numerical 81 89	10 units
+T10	Amount 115 118	1µl
+T11	Action 122 126	used
+T12	Modifier 105 114	generally
+T13	Modifier 93 103	sufficient

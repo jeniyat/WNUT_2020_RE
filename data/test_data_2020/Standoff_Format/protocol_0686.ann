@@ -1,0 +1,105 @@
+T1	Method 0 16	Nuclei isolation
+T2	Reagent 22 34	human kidney
+T3	Modifier 39 53	single-nucleus
+T4	Method 54 61	RNA-seq
+T5	Action 62 69	Precool
+T6	Modifier 70 73	all
+T7	Device 74 85	instruments
+T8	Reagent 90 97	buffers
+T9	Action 99 104	Start
+T10	Reagent 110 122	kidney cubes
+T11	Modifier 131 136	fresh
+T12	Modifier 140 151	snap frozen
+T14	Size 153 170	smaller than 8 mm
+T13	Action 177 182	place
+T15	Size 188 193	60 mm
+T16	Location 194 198	dish
+T17	Action 200 203	Add
+T18	Amount 204 208	1 ml
+T19	Reagent 212 216	NLB1
+T20	Action 223 228	mince
+T21	Modifier 229 238	very well
+T22	Modifier 246 251	fresh
+T23	Device 252 263	razor blade
+T24	Action 265 273	Transfer
+T25	Modifier 278 284	minced
+T26	Reagent 285 291	tissue
+T27	Reagent 297 301	NLB1
+T28	Device 309 330	Dounce tissue grinder
+T29	Action 335 338	add
+T30	Modifier 339 346	another
+T31	Amount 347 351	1 ml
+T32	Reagent 355 359	NLB1
+T33	Action 361 366	Grind
+T34	Numerical 367 378	20-30 times
+T35	Modifier 386 391	loose
+T36	Device 392 398	pestle
+T37	Action 405 409	pass
+T38	Reagent 414 424	homogenate
+T39	Size 435 441	200 µm
+T40	Device 442 450	strainer
+T41	Action 455 462	collect
+T42	Size 468 473	50 ml
+T43	Modifier 474 481	conical
+T44	Location 482 486	tube
+T45	Action 488 496	Transfer
+T46	Reagent 501 511	homogenate
+T47	Modifier 512 517	again
+T48	Device 525 546	Dounce tissue grinder
+T49	Action 548 553	Grind
+T50	Reagent 558 568	homogenate
+T51	Numerical 569 580	10-15 times
+T52	Modifier 588 593	tight
+T53	Device 594 600	pestle
+T54	Action 602 605	Add
+T55	Amount 606 610	2 ml
+T56	Reagent 614 618	NLB1
+T57	Action 623 631	incubate
+T58	Time 636 641	5 min
+T59	Temperature 642 648	on ice
+T60	Action 650 654	Pass
+T61	Reagent 659 669	homogenate
+T62	Size 680 685	40 µm
+T63	Device 686 694	strainer
+T64	Size 700 705	50 ml
+T65	Modifier 706 713	conical
+T66	Location 714 718	tube
+T67	Action 720 728	Transfer
+T68	Reagent 733 743	homogenate
+T69	Size 751 756	15 ml
+T70	Modifier 757 764	conical
+T71	Location 765 769	tube
+T72	Action 771 781	Centrifuge
+T73	Location 786 790	tube
+T74	Speed 794 799	500 G
+T75	Time 804 809	5 min
+T76	Temperature 813 816	4°C
+T77	Action 818 825	Discard
+T78	Reagent 826 837	supernatant
+T79	Modifier 839 848	Carefully
+T80	Action 849 856	suspend
+T81	Reagent 861 867	pellet
+T82	Amount 871 875	4 ml
+T83	Reagent 879 883	NLB2
+T84	Action 885 893	Incubate
+T85	Temperature 894 900	on ice
+T86	Time 905 910	5 min
+T87	Action 912 922	Centrifuge
+T88	Speed 926 931	500 G
+T89	Time 936 941	5 min
+T90	Temperature 945 948	4°C
+T92	Action 960 967	suspend
+T91	Modifier 950 959	Carefully
+T93	Reagent 972 978	pellet
+T94	Amount 982 986	2 ml
+T95	Reagent 990 993	NSB
+T96	Action 995 999	Pass
+T97	Reagent 1004 1014	suspension
+T98	Size 1025 1029	5 µm
+T99	Device 1030 1038	strainer
+T100	Size 1044 1049	50 ml
+T101	Modifier 1050 1057	conical
+T102	Location 1058 1062	tube
+T103	Action 1064 1069	Count
+T104	Reagent 1070 1076	nuclei
+T105	Device 1080 1093	hemocytometer

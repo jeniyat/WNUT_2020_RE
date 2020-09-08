@@ -1,0 +1,25 @@
+T1	Action 45 48	Add
+T2	Action 73 76	Add
+T3	Action 94 97	Add
+T4	Action 139 143	Fill
+T5	Action 160 163	Add
+T6	Action 111 113	pH
+T7	Amount 49 54	800mL
+T8	Amount 77 83	24.23g
+T9	Amount 98 104	80.06g
+T10	pH 117 120	7.6
+T11	Amount 147 149	1L
+T12	Amount 164 168	10ml
+T13	Reagent 55 58	H20
+T14	Size 62 64	1L
+T15	Location 65 71	bottle
+T16	Reagent 84 92	Tris HCL
+T17	Reagent 105 109	NaCl
+T18	Reagent 126 129	HCl
+T19	Reagent 133 137	NaOH
+T20	Reagent 155 158	H20
+T21	Reagent 169 177	Tween 20
+T22	Concentration 0 3	10x
+T23	Reagent 4 8	TBST
+T24	Reagent 10 30	Tris-Buffered Saline
+T25	Reagent 35 43	Tween 20

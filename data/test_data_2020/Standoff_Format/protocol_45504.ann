@@ -1,0 +1,101 @@
+T1	Method 15 30	rapid detection
+T2	Reagent 38 71	2019 novel coronavirus SARS-CoV-2
+T3	Method 78 96	CRISPR diagnostics
+T4	Reagent 98 116	SARS-CoV-2 DETECTR
+T6	Reagent 125 136	patient RNA
+T7	Action 168 175	Prepare
+T8	Reagent 176 198	LbCas12a RNP complexes
+T9	Reagent 207 214	samples
+T10	Action 221 227	tested
+T11	Numerical 230 233	One
+T12	Reagent 234 241	complex
+T13	Reagent 246 252	N-gene
+T14	Reagent 254 260	E-gene
+T15	Reagent 266 279	RNase P gRNAs
+T16	Reagent 299 305	sample
+T17	Action 307 315	Incubate
+T18	Reagent 316 324	LbCas12a
+T19	Reagent 330 334	gRNA
+T20	Action 338 346	generate
+T21	Reagent 347 360	RNP complexes
+T22	Time 365 373	00:30:00
+T23	Temperature 377 382	37 °C
+T24	Action 384 387	Add
+T25	Reagent 388 406	reporter substrate
+T26	Modifier 410 415	final
+T27	Measure-Type 416 429	concentration
+T28	Concentration 433 451	500 Nanomolar (nM)
+T30	Action 453 458	Place
+T31	Reagent 459 468	reactions
+T32	Location 472 475	ice
+T33	Action 491 498	proceed
+T34	Location 503 506	ice
+T35	Action 508 515	prepare
+T36	Numerical 516 521	three
+T37	Reagent 522 539	RT-LAMP reactions
+T38	Numerical 541 544	one
+T39	Reagent 554 560	N-gene
+T40	Reagent 562 568	E-gene
+T41	Reagent 574 593	RNase P primer sets
+T42	Action 595 603	Incubate
+T43	Temperature 607 612	62 °C
+T44	Time 617 625	00:20:00
+T45	Action 627 634	Combine
+T46	Amount 635 639	2 µl
+T47	Reagent 647 663	RT-LAMP reaction
+T48	Amount 669 674	20 µl
+T49	Reagent 682 694	LbCas12a RNP
+T50	Action 695 702	complex
+T51	Modifier 712 723	appropriate
+T52	Reagent 724 728	gRNA
+T53	Action 730 733	Add
+T54	Amount 734 739	80 µl
+T55	Concentration 740 742	1X
+T56	Reagent 743 755	NEBuffer 2.1
+T57	Action 757 765	Incubate
+T58	Temperature 769 774	37 °C
+T59	Time 779 787	00:10:00
+T60	Action 789 795	Insert
+T61	Device 796 846	Milenia HybriDetect 1 (TwistDx) lateral flow strip
+T62	Reagent 861 869	reaction
+T63	Modifier 847 855	directly
+T64	Action 871 876	Allow
+T65	Device 881 899	lateral flow strip
+T66	Action 903 906	run
+T67	Time 911 919	00:02:00
+T68	Temperature 923 939	Room temperature
+T69	Action 944 951	observe
+T70	Measure-Type 956 962	result
+T71	Reagent 1116 1122	sample
+T72	Modifier 1128 1136	complete
+T73	Action 1137 1145	cleavage
+T74	Reagent 1153 1170	reporter molecule
+T75	Measure-Type 1193 1199	signal
+T76	Location 974 978	line
+T77	Reagent 994 1004	sample pad
+T78	Location 1012 1024	control line
+T79	Location 1033 1037	line
+T80	Reagent 1069 1079	sample pad
+T81	Location 1087 1096	test line
+T82	Location 1207 1219	control line
+T83	Reagent 1232 1250	SARS-CoV-2 DETECTR
+T84	Method 1266 1275	detection
+T85	Numerical 1285 1292	156-625
+T86	Amount 1304 1309	20 µl
+T87	Reagent 1310 1318	reaction
+T88	Numerical 1323 1329	70-300
+T89	Time 1418 1428	30 minutes
+T90	Reagent 1429 1435	sample
+T91	Reagent 1293 1299	copies
+T92	Reagent 1330 1336	copies
+T93	Amount 1341 1343	µl
+T94	Reagent 1344 1349	input
+T95	Action 1355 1364	generates
+T96	Modifier 1367 1380	clear visible
+T97	Measure-Type 1381 1387	signal
+T98	Device 1391 1410	lateral flow strips
+T5	Action 117 124	Extract
+T99	Modifier 294 298	each
+T29	Numerical 1277 1280	n=7
+T100	Modifier 1300 1303	per
+T101	Modifier 1337 1340	per

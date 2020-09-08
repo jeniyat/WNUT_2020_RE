@@ -1,0 +1,60 @@
+T1	Method 0 17	T Cell Activation
+T2	Method 23 51	anti-CD3 Antibodies Protocol
+T3	Action 60 67	Prepare
+T4	Concentration 70 78	10 µg/ml
+T5	Reagent 79 99	solution of anti-CD3
+T6	Modifier 133 140	sterile
+T9	Reagent 107 112	UCHT1
+T10	Reagent 114 118	OKT3
+T11	Reagent 123 128	HIT3a
+T12	Action 146 154	Dispense
+T13	Amount 155 160	50 µl
+T14	Reagent 168 185	antibody solution
+T15	Location 194 203	microwell
+T16	Location 211 230	96-well assay plate
+T17	Action 294 298	Seal
+T18	Location 299 304	plate
+T19	Modifier 240 252	unstimulated
+T20	Location 253 266	control wells
+T21	Action 268 271	add
+T22	Amount 272 277	50 µl
+T23	Modifier 281 288	sterile
+T25	Reagent 141 144	PBS
+T7	Reagent 289 292	PBS
+T8	Action 306 314	Incubate
+T24	Temperature 318 322	37°C
+T26	Time 327 334	2 hours
+T27	Temperature 338 341	4°C
+T28	Time 342 351	overnight
+T29	Modifier 353 364	Aseptically
+T30	Action 365 371	decant
+T31	Reagent 372 389	antibody solution
+T32	Location 399 414	microwell plate
+T33	Action 416 420	Wash
+T34	Location 421 437	plate microwells
+T35	Numerical 438 445	3 times
+T36	Modifier 451 458	sterile
+T37	Reagent 459 462	PBS
+T38	Action 464 471	Discard
+T39	Reagent 472 478	liquid
+T40	Action 480 487	Prepare
+T41	Method 488 510	single cell suspension
+T42	Reagent 514 519	cells
+T43	Action 639 644	Cover
+T44	Seal 650 653	lid
+T45	Action 655 663	Incubate
+T46	Temperature 667 671	37°C
+T47	Concentration 675 677	5%
+T48	Reagent 678 681	CO2
+T49	Time 704 710	3 days
+T50	Action 585 592	Aliquot
+T51	Amount 593 599	200 µl
+T52	Reagent 600 615	cell suspension
+T53	Location 621 637	plate microwells
+T54	Reagent 548 567	cell culture medium
+T55	Generic-Measure 571 583	1-2 x 106/ml
+T56	Measure-Type 691 699	humidity
+T57	Generic-Measure 686 690	100%
+T58	Action 101 106	clone
+T59	Modifier 189 193	each
+T60	Modifier 535 547	supplemented

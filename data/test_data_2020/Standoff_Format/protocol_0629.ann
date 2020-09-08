@@ -1,0 +1,269 @@
+T1	Action 0 7	Pouring
+T2	Reagent 8 15	LB Agar
+T3	Location 16 22	Plates
+T4	Action 23 32	Measure  
+T5	Reagent 45 59	LB-agar powder
+T6	Amount 60 65	per L
+T7	Reagent 69 80	molten agar
+T8	Action 95 99	make
+T9	Action 122 129	measure
+T10	Location 165 171	plates
+T11	Action 186 190	pour
+T12	Action 192 200	Transfer
+T13	Reagent 205 219	LB-agar powder
+T14	Action 227 235	measured
+T15	Modifier 248 267	appropriately sized
+T16	Location 268 274	bottle
+T17	Method 279 290	autoclaving
+T18	Measure-Type 113 117	mass
+T19	Action 295 301	make  
+T20	Reagent 304 308	agar
+T21	Location 313 320	bottles
+T22	Reagent 329 333	agar
+T23	Location 338 345	bottles
+T24	Measure-Type 363 369	volume
+T25	Action 386 393	prevent
+T26	Reagent 399 410	molten agar
+T27	Device 436 445	autoclave
+T28	Action 416 428	boiling over
+T29	Action 447 455	Transfer
+T30	Modifier 460 467	sterile
+T31	Reagent 468 473	water
+T32	Modifier 496 500	same
+T33	Location 501 507	bottle
+T34	Action 512 517	swirl
+T35	Reagent 528 534	medium
+T36	Action 549 554	Cover
+T37	Location 559 566	opening
+T38	Location 574 580	bottle
+T39	Seal 590 593	cap
+T40	Seal 597 610	aluminum foil
+T41	Action 652 656	tape
+T42	Location 661 667	bottle
+T43	Seal 673 687	autoclave tape
+T44	Seal 693 707	autoclave tape
+T46	Method 731 748	autoclave process
+T47	Time 784 787	min
+T48	Action 793 796	Use
+T49	Seal 797 805	lab tape
+T50	Action 809 814	label
+T51	Location 819 825	bottle
+T53	Action 928 934	forget
+T54	Location 940 946	bottle
+T55	Device 954 963	autoclave
+T56	Action 965 970	Place
+T57	Reagent 975 982	gel mix
+T58	Device 990 999	autoclave
+T59	Action 1004 1007	run
+T60	Generic-Measure 1061 1067	20 psi
+T61	Modifier 1055 1060	under
+T62	Measure-Type 1092 1100	pressure
+T63	Action 1106 1113	prevent
+T64	Reagent 1119 1126	gel mix
+T65	Action 1132 1144	boiling over
+T66	Measure-Type 1153 1164	temperature
+T67	Method 1189 1200	sterilizing
+T68	Device 1208 1217	autoclave
+T69	Action 1230 1237	prepare
+T70	Location 1243 1264	plate pouring station
+T71	Action 1265 1269	Find
+T72	Location 1290 1299	lab bench
+T73	Action 1321 1326	Spray
+T74	Location 1336 1341	bench
+T75	Concentration 1349 1352	70%
+T76	Reagent 1353 1369	ethanol solution
+T77	Action 1374 1378	wipe
+T78	Action 1403 1408	Count
+T79	Measure-Type 1429 1435	number
+T80	Location 1439 1445	plates
+T81	Action 1450 1455	stack
+T82	Location 1469 1478	lab bench
+T83	Mention 1456 1460	them
+T84	Action 1479 1484	Label
+T85	Location 1489 1495	plates
+T86	Action 1535 1542	contain
+T87	Reagent 1573 1583	antibiotic
+T88	Reagent 1518 1524	medium
+T89	Action 1585 1593	Position
+T90	Location 1616 1620	side
+T91	Location 1653 1659	plates
+T92	Action 1673 1678	leave
+T93	Location 1693 1699	bottle
+T94	Reagent 1703 1717	molten gel mix
+T95	Location 1721 1730	tube rack
+T97	Reagent 1758 1769	antibiotics
+T98	Location 1777 1784	section
+T99	Method 1789 1803	active pouring
+T100	Method 2008 2022	active pouring
+T101	Location 1996 2003	section
+T102	Reagent 1977 1988	antibiotics
+T104	Action 1804 1812	Position
+T105	Location 1835 1839	side
+T106	Location 1872 1878	plates
+T107	Action 1892 1897	leave
+T108	Location 1912 1918	bottle
+T109	Reagent 1922 1936	molten gel mix
+T110	Location 1940 1949	tube rack
+T111	Device 1598 1603	flame
+T112	Device 1817 1822	flame
+T113	Device 1315 1320	flame
+T114	Action 2024 2031	Prepare
+T115	Reagent 2037 2048	antibiotics
+T116	Seal 641 645	seal
+T117	Modifier 631 640	air-tight
+T118	Modifier 2049 2054	Prior
+T119	Action 2058 2064	adding
+T120	Reagent 2070 2080	antibiotic
+T121	Reagent 2088 2102	molten gel mix
+T122	Action 2115 2121	create
+T123	Reagent 2130 2144	stock solution
+T124	Action 2146 2153	Prepare
+T125	Location 2156 2166	water bath
+T126	Temperature 2170 2174	60 ℃
+T127	Action 2200 2208	submerge
+T128	Generic-Measure 2210 2213	75%
+T129	Location 2221 2227	bottle
+T130	Action 2228 2238	containing
+T131	Reagent 2244 2262	molten gel mixture
+T132	Action 2264 2272	Retrieve
+T133	Reagent 2278 2293	molten agar mix
+T134	Device 2303 2312	autoclave
+T135	Modifier 2314 2323	Partially
+T136	Action 2324 2332	submerge
+T137	Reagent 2338 2352	molten gel-mix
+T138	Location 2361 2371	water bath
+T139	Action 2373 2378	Light
+T140	Device 2383 2388	flame
+T141	Location 2396 2417	plate pouring station
+T142	Action 2422 2428	dilute
+T143	Reagent 2434 2444	antibiotic
+T144	Reagent 2457 2471	molten gel mix
+T145	Method 2478 2495	sterile technique
+T146	Action 2497 2502	Swirl
+T147	Location 2512 2518	bottle
+T148	Action 2522 2528	ensure
+T149	Reagent 2554 2564	antibiotic
+T150	Reagent 2580 2584	agar
+T151	Action 2586 2590	Open
+T152	Numerical 2591 2594	one
+T153	Location 2595 2600	plate
+T154	Location 2611 2615	next
+T155	Action 2633 2638	begin
+T156	Method 2639 2646	pouring
+T157	Device 2623 2628	flame
+T158	Modifier 2601 2610	at a time
+T159	Action 2648 2655	Measure
+T160	Reagent 2679 2683	agar
+T161	Device 2691 2697	pipete
+T162	Location 2712 2717	plate
+T163	Location 2787 2792	plate
+T164	Location 2819 2825	plates
+T165	Action 2827 2831	pour
+T166	Location 2850 2856	bottle
+T167	Action 2858 2863	Leave
+T168	Location 2869 2875	plates
+T169	Location 2887 2892	bench
+T170	Location 2916 2922	plates
+T171	Action 2961 2965	test
+T172	Mention 2966 2970	them
+T173	Reagent 2988 2998	antibiotic
+T174	Action 2999 3008	functions
+T175	Action 3018 3022	Take
+T176	Numerical 3027 3030	two
+T177	Location 3031 3037	plates
+T180	Location 3051 3056	plate
+T181	Action 3058 3068	streak out
+T182	Reagent 3071 3077	strain
+T184	Modifier 3098 3107	resistant
+T185	Reagent 3115 3125	antibiotic
+T186	Location 3140 3145	plate
+T187	Action 3147 3157	streak out
+T188	Reagent 3160 3166	strain
+T189	Modifier 3178 3187	resistant
+T190	Modifier 3174 3177	not
+T191	Reagent 3195 3205	antibiotic
+T192	Action 3206 3214	Incubate
+T193	Location 3220 3226	plates
+T194	Time 3227 3236	overnight
+T195	Measure-Type 3263 3274	temperature
+T196	Action 3279 3284	check
+T197	Modifier 3244 3262	appropriate growth
+T198	Action 3297 3300	See
+T199	Location 3325 3330	below
+T200	Action 3370 3373	See
+T201	Location 3398 3403	below
+T202	Modifier 3045 3050	first
+T203	Modifier 3133 3139	second
+T204	Numerical 2124 2129	1000x
+T205	Measure-Type 2750 2756	volume
+T206	Location 3457 3462	plate
+T207	Action 3464 3470	streak
+T208	Reagent 3477 3483	strain
+T209	Modifier 3495 3504	resistant
+T210	Modifier 3491 3494	not
+T211	Reagent 3512 3522	antibiotic
+T212	Action 3523 3531	Incubate
+T213	Location 3537 3543	plates
+T214	Time 3544 3553	overnight
+T215	Modifier 3561 3579	appropriate growth
+T216	Measure-Type 3580 3591	temperature
+T217	Action 3596 3601	check
+T218	Action 3614 3617	See
+T219	Location 3642 3647	below
+T220	Modifier 3694 3699	first
+T221	Modifier 3782 3788	second
+T222	Location 3700 3705	plate
+T223	Location 3789 3794	plate
+T224	Action 3707 3713	streak
+T225	Action 3796 3802	streak
+T226	Reagent 3809 3815	strain
+T227	Reagent 3720 3726	strain
+T228	Modifier 3747 3756	resistant
+T229	Modifier 3827 3836	resistant
+T230	Reagent 3844 3854	antibiotic
+T231	Reagent 3764 3774	antibiotic
+T232	Modifier 3823 3826	not
+T233	Modifier 3450 3456	second
+T234	Action 3855 3863	Incubate
+T235	Location 3869 3875	plates
+T236	Time 3876 3885	overnight
+T237	Modifier 3893 3911	appropriate growth
+T238	Measure-Type 3912 3923	temperature
+T239	Action 3928 3933	check
+T240	Action 3946 3949	See
+T241	Location 3974 3979	below
+T242	Modifier 4026 4032	second
+T243	Location 4033 4038	plate
+T244	Action 4040 4046	streak
+T245	Reagent 4053 4059	strain
+T246	Modifier 4071 4080	resistant
+T247	Modifier 4067 4070	not
+T248	Reagent 4088 4098	antibiotic
+T249	Action 4099 4107	Incubate
+T250	Location 4113 4119	plates
+T251	Time 4120 4129	overnight
+T252	Modifier 4137 4155	appropriate growth
+T253	Measure-Type 4156 4167	temperature
+T254	Action 4172 4177	check
+T255	Action 4190 4193	See
+T256	Location 4218 4223	below
+T257	Modifier 35 44	pre-mixed
+T258	Modifier 105 112	precise
+T259	Modifier 357 362	empty
+T260	Reagent 535 547	agar colloid
+T261	Action 521 525	form
+T262	Action 623 627	make
+T263	Modifier 616 622	do not
+T45	Modifier 713 719	darken
+T264	Modifier 774 782	at least
+T265	Reagent 757 763	sample
+T52	Reagent 1035 1041	sample
+T266	Modifier 1087 1091	high
+T267	Modifier 1148 1152	high
+T268	Action 1640 1647	pouring
+T103	Reagent 2507 2511	agar
+T269	Modifier 2832 2840	directly
+T270	Action 2896 2904	solidify
+T178	Modifier 2928 2938	solidified
+T179	Modifier 2943 2948	dried
+T183	Reagent 1391 1401	paper towe

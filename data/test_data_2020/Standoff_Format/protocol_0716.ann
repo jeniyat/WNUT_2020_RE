@@ -1,0 +1,95 @@
+T1	Device 0 27	Zyppy™ Plasmid Miniprep Kit
+T2	Action 28 31	Add
+T3	Amount 32 38	600 μl
+T5	Reagent 42 59	bacterial culture
+T6	Action 60 65	grown
+T7	Reagent 69 78	LB medium
+T8	Size 84 90	1.5 ml
+T9	Location 91 111	microcentrifuge tube
+T10	Action 113 116	Add
+T11	Amount 117 123	100 μl
+T12	Concentration 127 129	7X
+T13	Reagent 130 142	Lysis Buffer
+T14	Modifier 144 148	Blue
+T16	Action 155 158	mix
+T17	Method 162 171	inverting
+T18	Location 176 180	tube
+T19	Numerical 181 190	4-6 times
+T20	Action 192 199	Proceed
+T21	Modifier 210 216	within
+T22	Time 217 226	2 minutes
+T23	Action 228 231	Add
+T24	Modifier 242 246	cold
+T25	Amount 232 238	350 μl
+T26	Reagent 247 268	Neutralization Buffer
+T27	Modifier 270 276	Yellow
+T28	Action 282 285	mix
+T29	Modifier 286 296	thoroughly
+T30	Reagent 302 308	sample
+T31	Action 314 318	turn
+T32	Modifier 319 325	yellow
+T33	Method 335 349	neutralization
+T34	Modifier 353 361	complete
+T35	Modifier 368 377	yellowish
+T36	Reagent 378 389	precipitate
+T37	Action 395 399	form
+T38	Action 401 407	Invert
+T39	Reagent 412 418	sample
+T40	Modifier 422 432	additional
+T41	Numerical 433 442	2-3 times
+T42	Action 446 452	ensure
+T43	Modifier 453 461	complete
+T44	Method 462 476	neutralization
+T45	Action 478 488	Centrifuge
+T46	Speed 492 511	11,000 – 16,000 x g
+T47	Time 516 527	2-4 minutes
+T48	Action 529 537	Transfer
+T49	Reagent 542 553	supernatant
+T50	Amount 556 562	900 μl
+T51	Modifier 573 581	provided
+T52	Location 582 603	Zymo-Spin™ IIN column
+T53	Modifier 605 610	Avoid
+T54	Action 611 621	disturbing
+T55	Reagent 626 644	cell debris pellet
+T56	Action 646 651	Place
+T57	Location 656 662	column
+T58	Location 670 685	Collection Tube
+T59	Action 690 700	centrifuge
+T60	Time 705 715	15 seconds
+T61	Action 717 724	Discard
+T62	Reagent 729 741	flow-through
+T63	Action 746 751	place
+T64	Location 756 762	column
+T65	Modifier 763 767	back
+T66	Modifier 777 781	same
+T67	Location 782 797	Collection Tube
+T68	Action 799 802	Add
+T69	Amount 803 809	200 μl
+T70	Reagent 813 829	Endo-Wash Buffer
+T71	Location 837 843	column
+T72	Action 845 855	Centrifuge
+T73	Time 860 870	30 seconds
+T74	Action 872 875	Add
+T75	Amount 876 882	400 μl
+T76	Reagent 886 904	Zyppy™ Wash Buffer
+T77	Location 912 918	column
+T78	Action 920 930	Centrifuge
+T79	Time 935 943	1 minute
+T80	Action 945 953	Transfer
+T81	Location 958 964	column
+T82	Modifier 972 977	clean
+T83	Amount 978 984	1.5 ml
+T84	Location 985 1005	microcentrifuge tube
+T85	Action 1011 1014	add
+T86	Amount 1015 1020	30 μl
+T87	Reagent 1024 1046	Zyppy™ Elution Buffer2
+T88	Modifier 1047 1055	directly
+T89	Location 1063 1076	column matrix
+T90	Action 1081 1090	let stand
+T91	Time 1095 1105	one minute
+T92	Temperature 1109 1125	room temperature
+T93	Action 1127 1137	Centrifuge
+T94	Time 1142 1152	30 seconds
+T95	Action 1156 1161	elute
+T96	Reagent 1166 1177	plasmid DNA
+T4	Modifier 555 556	~

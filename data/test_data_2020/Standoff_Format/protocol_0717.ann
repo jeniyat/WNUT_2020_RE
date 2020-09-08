@@ -1,0 +1,515 @@
+T1	Action 0 5	Plant
+T2	Modifier 6 21	nuclear genomic
+T3	Reagent 22 25	DNA
+T4	Method 26 31	preps
+T5	Action 32 36	Pour
+T6	Amount 37 43	300 mL
+T7	Modifier 44 52	ice-cold
+T8	Reagent 53 72	NEB complete buffer
+T9	Device 78 85	blender
+T10	Action 87 91	Work
+T11	Modifier 92 98	inside
+T12	Location 101 110	fume hood
+T13	Action 112 118	Weight
+T14	Amount 119 123	20 g
+T15	Reagent 127 143	kiwifruit leaves
+T16	Action 145 148	cut
+T17	Modifier 153 157	long
+T18	Action 168 176	transfer
+T19	Device 184 191	blender
+T20	Action 193 203	Homogenize
+T21	Time 208 214	30 sec
+T22	Modifier 218 229	low setting
+T23	Action 231 239	Filtrate
+T24	Reagent 240 250	homogenate
+T25	Numerical 259 267	4 layers
+T26	Device 271 282	cheesecloth
+T27	Modifier 290 297	sterile
+T28	Modifier 298 303	glass
+T29	Location 304 312	cylinder
+T30	Action 314 320	Filter
+T31	Modifier 321 326	again
+T32	Numerical 335 343	4 layers
+T33	Device 347 356	miracloth
+T34	Modifier 362 369	another
+T35	Amount 370 376	500 mL
+T36	Modifier 377 384	sterile
+T37	Modifier 385 390	glass
+T38	Location 391 399	cylinder
+T39	Action 401 407	Adjust
+T40	Measure-Type 412 418	volume
+T41	Amount 422 428	294 mL
+T42	Reagent 434 453	NEB complete buffer
+T43	Action 455 458	Add
+T44	Amount 459 463	6 mL
+T45	Concentration 467 470	25%
+T46	Reagent 471 483	Triton X-100
+T47	Reagent 487 506	NEB complete buffer
+T48	Action 510 517	placing
+T49	Location 522 525	tip
+T50	Device 533 540	pipette
+T51	Modifier 548 554	inside
+T52	Location 555 559	wall
+T53	Location 567 575	cylinder
+T54	Action 577 582	close
+T55	Location 590 593	top
+T56	Action 595 603	Dispense
+T57	Reagent 608 616	solution
+T58	Modifier 617 623	slowly
+T59	Action 628 634	rotate
+T60	Location 639 647	cylinder
+T62	Action 679 682	see
+T63	Modifier 687 697	syrup-like
+T64	Reagent 698 706	solution
+T65	Action 707 712	smear
+T66	Modifier 713 722	downwards
+T67	Modifier 723 730	towards
+T68	Reagent 735 745	homogenate
+T69	Action 746 750	Seal
+T70	Location 751 759	cylinder
+T71	Seal 765 773	parafilm
+T72	Action 778 781	mix
+T73	Modifier 782 793	very gently
+T74	Method 797 806	inversion
+T75	Numerical 807 818	10-20 times
+T76	Action 820 826	Rotate
+T77	Location 831 839	cylinder
+T78	Modifier 840 850	every time
+T79	Action 855 858	mix
+T80	Mention 859 861	it
+T81	Action 863 870	Aliquot
+T82	Reagent 875 885	homogenate
+T83	Numerical 891 894	six
+T84	Size 895 900	50 mL
+T85	Location 901 913	Falcon tubes
+T86	Action 915 924	Spin down
+T87	Speed 928 935	588 rpm
+T88	Speed 937 941	57 g
+T89	Device 953 969	SLA-600 TC rotor
+T90	Temperature 973 979	4-10°C
+T91	Time 985 990	2 min
+T92	Modifier 991 995	only
+T93	Modifier 999 1003	tiny
+T94	Reagent 1004 1010	pellet
+T95	Modifier 1011 1027	might be visible
+T96	Modifier 1032 1034	no
+T97	Reagent 1035 1041	pellet
+T98	Action 1045 1053	observed
+T99	Action 1055 1063	continue
+T101	Modifier 1079 1086	without
+T102	Action 1087 1095	changing
+T103	Location 1096 1101	tubes
+T104	Action 1103 1111	Transfer
+T105	Reagent 1116 1127	supernatant
+T106	Modifier 1133 1136	new
+T108	Size 1144 1149	50 mL
+T109	Location 1150 1162	Falcon tubes
+T110	Action 1167 1176	spin down
+T111	Speed 1180 1188	3308 rpm
+T112	Speed 1190 1196	1800 g
+T113	Modifier 1199 1203	same
+T114	Device 1204 1209	rotor
+T115	Temperature 1211 1216	10 °C
+T116	Time 1218 1224	15 min
+T117	Action 1226 1234	Transfer
+T118	Reagent 1235 1246	supernatant
+T119	Location 1252 1267	waste container
+T120	Modifier 1272 1278	proper
+T121	Method 1279 1287	disposal
+T122	Modifier 1288 1293	later
+T123	Action 1295 1304	Resuspend
+T124	Modifier 1305 1309	each
+T125	Reagent 1310 1316	pellet
+T126	Amount 1322 1327	50 mL
+T127	Reagent 1328 1353	NEB –no β-mercaptoethanol
+T128	Reagent 158 163	stems
+T148	Action 1357 1360	Mix
+T149	Modifier 1361 1367	gently
+T150	Method 1371 1380	inversion
+T151	Modifier 1381 1386	until
+T152	Reagent 1391 1397	pellet
+T153	Modifier 1401 1412	resuspended
+T154	Action 1414 1423	Spin down
+T155	Action 1441 1449	Transfer
+T156	Reagent 1450 1461	supernatant
+T157	Location 1469 1484	waste container
+T158	Modifier 1489 1495	proper
+T159	Method 1496 1504	disposal
+T160	Action 1506 1515	Resuspend
+T161	Modifier 1516 1520	each
+T162	Reagent 1521 1527	pellet
+T163	Amount 1533 1537	5 mL
+T164	Reagent 1538 1563	NEB –no β-mercaptoethanol
+T165	Action 1568 1575	collect
+T166	Modifier 1576 1579	all
+T167	Reagent 1580 1587	pellets
+T168	Numerical 1593 1596	one
+T169	Location 1597 1608	Falcon tube
+T170	Modifier 1609 1619	previously
+T171	Action 1630 1633	Add
+T172	Modifier 1634 1638	more
+T173	Reagent 1639 1664	NEB –no β-mercaptoethanol
+T174	Modifier 1668 1673	final
+T175	Measure-Type 1674 1680	volume
+T176	Amount 1684 1689	50 mL
+T177	Action 1691 1698	Collect
+T178	Reagent 1703 1709	nuclei
+T179	Method 1713 1727	centrifugation
+T180	Action 1729 1735	Weight
+T181	Location 1740 1744	tube
+T182	Action 1748 1756	find out
+T183	Modifier 1761 1766	total
+T184	Measure-Type 1767 1773	amount
+T185	Reagent 1777 1783	nuclei
+T186	Modifier 1784 1792	isolated
+T187	Amount 1799 1803	20 g
+T188	Reagent 1807 1816	kiwifruit
+T189	Modifier 1817 1832	fully developed
+T190	Action 1840 1846	expect
+T191	Modifier 1847 1852	about
+T192	Amount 1853 1858	0.2 g
+T193	Reagent 1862 1868	nuclei
+T194	Action 1884 1888	vary
+T195	Modifier 1889 1898	depending
+T196	Action 1928 1932	Keep
+T197	Location 1937 1941	tube
+T198	Temperature 1942 1948	on ice
+T199	Reagent 1981 1987	tissue
+T200	Modifier 1967 1973	nature
+T201	Action 2004 2010	select
+T202	Numerical 2011 2014	one
+T203	Action 2043 2050	isolate
+T61	Reagent 2055 2074	nuclear genomic DNA
+T204	Action 2076 2085	Resuspend
+T205	Amount 2086 2091	0.2 g
+T206	Reagent 2095 2108	nuclei pellet
+T207	Amount 2112 2117	14 mL
+T208	Reagent 2118 2130	lysis buffer
+T209	Action 2132 2135	mix
+T210	Method 2139 2148	inversion
+T211	Modifier 2153 2156	not
+T212	Action 2157 2163	vortex
+T213	Action 2165 2169	Add 
+T214	Amount 2169 2173	7 μL
+T215	Reagent 2177 2184	RNase A
+T216	Concentration 2185 2194	100 mg/mL
+T217	Action 2196 2199	Mix
+T218	Method 2203 2212	inversion
+T219	Action 2214 2222	Incubate
+T220	Time 2223 2229	10 min
+T221	Temperature 2233 2237	37°C
+T222	Modifier 2243 2249	gentle
+T223	Method 2250 2257	shaking
+T224	Action 2259 2262	Add
+T225	Amount 2263 2269	1.4 mL
+T226	Concentration 2270 2273	5 M
+T227	Reagent 2274 2283	K-Acetate
+T228	pH 2284 2288	pH 7
+T229	Action 2290 2293	mix
+T230	Method 2297 2306	inversion
+T231	Action 2308 2311	Add
+T232	Amount 2312 2318	3.5 mL
+T233	Concentration 2319 2323	100%
+T234	Reagent 2324 2331	Ethanol
+T235	Action 2333 2339	vortex
+T236	Speed 2343 2356	maximum speed
+T237	Time 2361 2365	30 s
+T238	Action 2367 2374	Extract
+T239	Reagent 2379 2385	sample
+T240	Modifier 2394 2399	equal
+T241	Measure-Type 2400 2406	volume
+T100	Reagent 2410 2436	chloroform:isoamyl alcohol
+T242	Concentration 2438 2442	24:1
+T243	Action 2445 2448	Mix
+T244	Method 2452 2461	inversion
+T245	Numerical 2462 2470	10 times
+T246	Action 2477 2482	place
+T247	Location 2487 2491	tube
+T107	Modifier 2492 2504	horizontally
+T248	Device 2508 2522	orbital shaker
+T249	Temperature 2526 2542	room temperature
+T250	Action 2547 2552	shake
+T251	Time 2557 2562	5 min
+T252	Modifier 2564 2570	gently
+T253	Action 2572 2581	Spin down
+T254	Speed 2585 2593	3000 rpm
+T255	Time 2594 2600	10 min
+T256	Temperature 2604 2620	room temperature
+T257	Device 2629 2647	swing bucket rotor
+T258	Action 2649 2657	Transfer
+T259	Modifier 2662 2669	aqueous
+T260	Reagent 2670 2675	phase
+T261	Modifier 2681 2684	new
+T262	Size 2685 2690	50 mL
+T263	Location 2691 2702	Falcon tube
+T264	Action 1620 1628	weighted
+T265	Reagent 1833 1839	leaves
+T266	Action 2706 2709	Add
+T267	Modifier 2713 2718	equal
+T268	Measure-Type 2719 2725	volume
+T269	Modifier 2729 2737	ice cold
+T270	Reagent 2738 2749	isopropanol
+T271	Action 2751 2754	Mix
+T272	Method 2758 2767	inversion
+T273	Action 2772 2777	store
+T274	Temperature 2781 2786	-20°C
+T275	Time 2791 2797	30 min
+T276	Action 2799 2808	Spin down
+T277	Speed 2812 2820	3000 rpm
+T278	Time 2825 2831	25 min
+T279	Temperature 2835 2851	room temperature
+T280	Temperature 2855 2859	10°C
+T281	Action 2861 2868	Discard
+T282	Reagent 2869 2880	supernatant
+T283	Action 2885 2888	add
+T284	Modifier 2889 2893	same
+T285	Measure-Type 2894 2900	volume
+T286	Concentration 2904 2907	70%
+T287	Reagent 2908 2915	ethanol
+T288	Action 2919 2923	wash
+T289	Reagent 2928 2934	pellet
+T290	Mention 2940 2942	it
+T291	Action 2943 2948	stand
+T292	Temperature 2952 2968	room temperature
+T293	Time 2973 2981	~ 10 min
+T294	Action 2983 2990	Collect
+T295	Reagent 2991 2994	DNA
+T296	Method 2998 3012	centrifugation
+T297	Action 3014 3021	Discard
+T298	Reagent 3026 3037	supernatant
+T299	Action 3039 3045	Remove
+T300	Modifier 3046 3056	all traces
+T301	Reagent 3060 3067	ethanol
+T302	Device 3075 3082	kimwipe
+T303	Modifier 3083 3090	without
+T304	Action 3091 3099	touching
+T305	Reagent 3104 3110	pellet
+T306	Action 3111 3118	Air dry
+T307	Reagent 3123 3133	DNA pellet
+T308	Temperature 3137 3153	room temperature
+T309	Time 3158 3167	20-30 min
+T310	Action 3172 3175	add
+T311	Amount 3176 3186	100-200 μL
+T312	Reagent 3187 3196	TE buffer
+T313	pH 3197 3203	pH 7.5
+T314	Action 3205 3208	Tap
+T315	Location 3213 3219	bottom
+T316	Location 3227 3231	tube
+T317	Reagent 3246 3252	pellet
+T318	Action 3264 3271	diffuse
+T319	Mention 3261 3263	it
+T320	Modifier 3272 3278	slowly
+T321	Temperature 3282 3298	room temperature
+T322	Time 3305 3314	few hours
+T323	Location 3325 3337	refrigerator
+T324	Time 3338 3347	overnight
+T325	Action 3235 3241	detach
+T326	Modifier 3349 3354	Avoid
+T327	Action 3355 3364	vortexing
+T328	Reagent 3369 3381	DNA solution
+T329	Speed 3385 3395	high speed
+T330	Action 3397 3402	Store
+T331	Reagent 3407 3410	DNA
+T332	Temperature 3414 3417	4°C
+T333	Modifier 3423 3432	long term
+T334	Action 3433 3440	storage
+T335	Action 3442 3446	make
+T336	Modifier 3447 3455	numbered
+T337	Reagent 3456 3464	aliquots
+T338	Action 3469 3474	store
+T339	Temperature 3478 3483	-20°C
+T340	Action 3485 3488	Use
+T341	Reagent 3489 3501	DNA aliquots
+T342	Modifier 3502 3514	sequentially
+T343	Action 3519 3524	avoid
+T344	Method 3525 3543	freeze/thaw cycles
+T345	Action 3545 3549	Add 
+T346	Amount 3549 3555	3.5 mL
+T347	Reagent 3559 3586	CTAB/NaCl extraction buffer
+T348	Amount 3591 3596	80 μL
+T349	Reagent 3597 3609	Proteinase K
+T350	Reagent 3617 3630	nuclei pellet
+T351	Action 3635 3641	vortex
+T352	Modifier 3642 3648	gently
+T353	Action 3652 3661	resuspend
+T354	Action 3663 3671	Incubate
+T355	Temperature 3675 3679	56°C
+T356	Time 3684 3692	1-2 hour
+T357	Modifier 3693 3700	without
+T358	Method 3701 3708	shaking
+T359	Modifier 3718 3721	all
+T360	Reagent 3722 3730	solution
+T361	Modifier 3734 3739	clear
+T362	Action 3741 3744	Add
+T363	Amount 3745 3750	10 μL
+T364	Reagent 3751 3758	RNase A
+T365	Concentration 3759 3768	100 mg/mL
+T366	Action 3770 3773	mix
+T367	Action 3778 3786	incubate
+T368	Temperature 3790 3806	room temperature
+T369	Time 3811 3816	5 min
+T370	Action 3818 3821	Add
+T371	Amount 3822 3828	3.5 mL
+T372	Reagent 3832 3858	chloroform:isoamyl alcohol
+T373	Concentration 3860 3864	24:1
+T374	Action 3870 3876	vortex
+T375	Action 3898 3906	obtained
+T376	Reagent 3886 3894	emulsion
+T377	Action 3908 3916	Separate
+T378	Reagent 3921 3927	phases
+T379	Method 3931 3945	centrifugation
+T380	Device 3954 3972	swing bucket rotor
+T381	Speed 3974 3982	3000 rpm
+T382	Temperature 3987 4003	room temperature
+T383	Time 4008 4014	15 min
+T384	Reagent 4023 4033	interphase
+T385	Modifier 4046 4065	organic and aqueous
+T386	Reagent 4066 4075	solutions
+T387	Modifier 4079 4088	not tight
+T388	Action 4100 4109	centrigue
+T389	Reagent 4114 4120	sample
+T390	Modifier 4125 4132	another
+T391	Time 4133 4139	15 min
+T129	Action 4143 4151	transfer
+T130	Modifier 4156 4163	aqueous
+T131	Reagent 4164 4169	phase
+T132	Modifier 4175 4178	new
+T133	Location 4179 4183	tube
+T134	Action 4188 4191	add
+T135	Modifier 4192 4197	equal
+T136	Measure-Type 4198 4204	volume
+T137	Reagent 4208 4234	chloroform:isoamyl alcohol
+T138	Action 4236 4244	Transfer
+T139	Modifier 4245 4252	aqueous
+T140	Reagent 4253 4258	phase
+T141	Modifier 4264 4267	new
+T142	Location 4268 4279	Falcon tube
+T144	Numerical 4288 4289	2
+T145	Measure-Type 4290 4297	volumes
+T146	Concentration 4301 4305	100%
+T147	Reagent 4306 4313	ethanol
+T392	Action 4284 4287	add
+T393	Action 4317 4320	Mix
+T394	Modifier 4321 4327	gently
+T395	Action 4329 4337	Incubate
+T396	Temperature 4341 4346	-20°C
+T397	Modifier 4351 4359	at least
+T398	Time 4360 4363	2 h
+T399	Action 4365 4372	Collect
+T400	Reagent 4377 4380	DNA
+T401	Method 4384 4398	centrifugation
+T402	Action 4433 4439	Follow
+T403	Device 4444 4472	Qiagen DNease Plant Maxi kit
+T404	Modifier 4523 4528	final
+T405	Reagent 4529 4545	pellet of nuclei
+T406	Action 4556 4563	divided
+T407	Numerical 4569 4570	2
+T408	Location 4571 4576	tubes
+T409	Action 4581 4586	treat
+T410	Modifier 4587 4591	each
+T411	Mention 4592 4595	one
+T412	Modifier 4603 4611	starting
+T413	Reagent 4612 4620	material
+T414	Numerical 4625 4628	one
+T415	Method 4629 4639	extraction
+T416	Device 4651 4654	kit
+T417	Action 4657 4662	elute
+T418	Reagent 4667 4670	DNA
+T419	Action 4671 4679	incubate
+T420	Location 4684 4698	binding column
+T421	Amount 4704 4708	1 mL
+T422	Reagent 4712 4721	AE buffer
+T423	Time 4726 4729	1 h
+T424	Action 4731 4740	Spin down
+T425	Device 4761 4764	kit
+T426	Action 4779 4782	Add
+T427	Modifier 4783 4790	another
+T428	Amount 4791 4793	mL
+T429	Reagent 4797 4806	AE buffer
+T430	Location 4814 4828	binding column
+T431	Action 4833 4841	incubate
+T432	Temperature 4845 4861	room temperature
+T433	Time 4866 4872	30 min
+T434	Action 4874 4883	Spin down
+T435	Modifier 4884 4889	again
+T436	Modifier 4891 4895	Each
+T437	Location 4896 4907	column/tube
+T438	Amount 4920 4924	2 mL
+T439	Reagent 4928 4938	eluted DNA
+T440	Action 4938 4945	Combine
+T441	Modifier 4946 4950	both
+T442	Reagent 4951 4958	samples
+T443	Amount 4962 4966	4 mL
+T444	Action 4972 4975	add
+T445	Numerical 4976 4980	1/10
+T446	Measure-Type 4981 4987	volume
+T447	Concentration 4991 4994	3 M
+T448	Reagent 4995 5009	sodium acetate
+T449	pH 5010 5016	pH 5.2
+T450	Action 5018 5021	mix
+T451	Action 5027 5030	add
+T452	Numerical 5031 5032	2
+T453	Measure-Type 5033 5040	volumes
+T454	Concentration 5044 5048	100%
+T455	Reagent 5049 5056	ethanol
+T456	Action 5058 5061	Mix
+T457	Action 5063 5068	Store
+T458	Temperature 5072 5075	4°C
+T459	Temperature 5079 5084	-20°C
+T460	Time 5085 5093	ovenight
+T461	Action 5093 5100	Collect
+T462	Action 5102 5106	wash
+T463	Action 5111 5120	resuspend
+T464	Reagent 5125 5131	pellet
+T465	Measure-Type 5163 5189	fragment size distribution
+T466	Action 5190 5198	obtained
+T467	Device 5209 5212	kit
+T468	Generic-Measure 5216 5225	20-40 kbp
+T469	Action 5227 5232	Check
+T470	Measure-Type 5237 5244	quality
+T471	Reagent 5252 5257	ngDNA
+T472	Measure-Type 5261 5278	absorbance ratios
+T473	Generic-Measure 5282 5292	260/280 nm
+T474	Generic-Measure 5297 5307	260/230 nm
+T475	Action 5309 5312	Aim
+T476	Numerical 5318 5321	1.8
+T477	Numerical 5327 5330	2.0
+T478	Modifier 5332 5344	respectively
+T479	Action 5346 5354	Quantify
+T480	Reagent 5359 5364	ngDNA
+T481	Method 5368 5380	fluorescence
+T482	Device 5382 5387	Qubit
+T483	Device 5391 5398	DeNovix
+T484	Modifier 5408 5424	high sensitivity
+T485	Device 5425 5428	kit
+T486	Action 5430 5434	Make
+T487	Modifier 5435 5442	10-fold
+T488	Modifier 5443 5449	serial
+T489	Reagent 5450 5459	dilutions
+T490	Action 5464 5472	quantify
+T491	Amount 5473 5479	1-5 μL
+T492	Action 5481 5484	Run
+T493	Amount 5485 5496	100- 200 ng
+T494	Reagent 5500 5505	ngDNA
+T495	Modifier 5511 5519	standard
+T496	Concentration 5520 5522	1%
+T497	Reagent 5523 5534	agarose gel
+T498	Action 5536 5543	stained
+T499	Reagent 5549 5558	Sybr safe
+T500	Reagent 5564 5574	lambda DNA
+T501	Action 5560 5563	Use
+T502	Generic-Measure 5576 5584	48.5 kbp
+T503	Reagent 5589 5596	control
+T504	Device 5621 5659	pulse field gel electrophoresis system
+T505	Action 5661 5664	run
+T506	Amount 5667 5673	200 ng
+T507	Reagent 5684 5697	lambda ladder
+T508	Modifier 5699 5705	intact
+T509	Reagent 5706 5716	lambda DNA
+T510	Generic-Measure 5721 5726	1 kb+
+T511	Reagent 5727 5733	ladder
+T512	Modifier 4918 4919	~
+T513	Modifier 4960 4961	~
+T514	Modifier 5326 5327	>
+T515	Modifier 5317 5318	~
+T516	Modifier 5665 5666	~

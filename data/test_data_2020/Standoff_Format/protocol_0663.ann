@@ -1,0 +1,52 @@
+T1	Action 56 65	Transform
+T2	Reagent 66 84	expression plasmid
+T3	Reagent 90 98	BL21(DE3
+T4	Method 0 18	Protein Expression
+T5	Reagent 25 34	BL21(DE3)
+T6	Action 101 106	Plate
+T7	Location 110 137	antibiotic selection plates
+T8	Action 139 147	Incubate
+T9	Time 148 157	overnight
+T10	Temperature 161 165	37°C
+T11	Action 167 176	Inoculate
+T12	Amount 177 180	1 L
+T13	Reagent 184 197	liquid medium
+T14	Reagent 204 214	antibiotic
+T15	Modifier 223 236	freshly grown
+T16	Reagent 237 243	colony
+T17	Amount 252 257	10 ml
+T18	Modifier 261 274	freshly grown
+T19	Reagent 275 282	culture
+T20	Numerical 291 297	single
+T21	Reagent 298 304	colony
+T22	Action 307 315	Incubate
+T23	Temperature 319 323	37°C
+T24	Measure-Type 330 335	OD600
+T25	Generic-Measure 344 351	0.4–0.8
+T26	Action 353 359	Induce
+T27	Concentration 381 387	100 mM
+T28	Reagent 397 401	IPTG
+T29	Action 441 448	Express
+T30	Reagent 449 456	protein
+T31	Measure-Type 463 475	optimal time
+T32	Measure-Type 476 487	temperature
+T33	Action 523 528	Check
+T34	Method 585 597	Western Blot
+T35	Method 601 615	activity assay
+T36	Reagent 554 583	Coomassie stained protein gel
+T37	Action 488 498	determined
+T38	Modifier 403 408	final
+T39	Measure-Type 409 422	concentration
+T40	Generic-Measure 426 428	40
+T41	Generic-Measure 432 438	400 µM
+T42	Action 617 622	Check
+T43	Measure-Type 646 664	total cell extract
+T44	Measure-Type 695 711	soluble fraction
+T45	Numerical 365 366	4
+T46	Amount 370 375	40 µl
+T47	Method 510 521	scale trial
+T48	Modifier 504 509	small
+T49	Modifier 666 673	soluble
+T50	Modifier 676 685	insoluble
+T52	Modifier 36 47	Large Scale
+T51	Reagent 388 393	stock

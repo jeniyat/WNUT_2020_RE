@@ -1,0 +1,297 @@
+T1	Method 0 29	Macrophage Phagocytosis Assay
+T2	Action 1741 1748	Perform
+T3	Method 1765 1784	microscope analysis
+T4	Location 1790 1816	Biosafety Class II Cabinet
+T5	Action 3196 3200	Stop
+T6	Method 3201 3213	phagocytosis
+T7	Action 3217 3223	adding
+T8	Amount 3224 3229	550µL
+T9	Modifier 3230 3238	ice-cold
+T10	Reagent 3239 3242	PBS
+T11	Location 3250 3254	well
+T12	Action 3086 3097	Co-incubate
+T13	Reagent 3098 3103	cells
+T14	Temperature 3153 3157	37oC
+T20	Concentration 3158 3160	5%
+T21	Reagent 3161 3164	CO2
+T22	Action 3055 3058	add
+T23	Reagent 3059 3067	bacteria
+T24	Location 3071 3084	control wells
+T25	Action 2966 2976	Supplement
+T15	Time 3108 3123	1/8/24/48 hours
+T16	Reagent 2981 2988	E. coli
+T18	Measure-Type 2994 2999	ratio
+T19	Generic-Measure 3003 3022	10 cells/macrophage
+T26	Generic-Measure 3025 3037	106 cells/mL
+T27	Action 3039 3042	add
+T28	Amount 3043 3046	1mL
+T29	Action 2889 2895	Remove
+T30	Reagent 2896 2912	macrophage media
+T31	Location 2922 2927	wells
+T32	Action 2932 2939	replace
+T33	Modifier 2945 2950	fresh
+T34	Reagent 2951 2956	media
+T35	Amount 2958 2963	500µL
+T36	Action 2762 2771	Resuspend
+T37	Concentration 2797 2799	1x
+T38	Reagent 2800 2803	PBS
+T39	Measure-Type 2833 2846	concentration
+T40	Reagent 2850 2858	bacteria
+T41	Modifier 2827 2832	final
+T42	Action 2692 2701	Spin down
+T43	Reagent 2702 2719	bacterial culture
+T44	Time 2724 2733	5 minutes
+T45	Speed 2737 2744	13,000g
+T46	Reagent 2755 2760	cells
+T47	Action 2582 2588	Induce
+T48	Reagent 2589 2597	cultures
+T49	Concentration 2603 2606	10%
+T50	Temperature 2663 2667	37oC
+T51	Device 2673 2690	shaking incubator
+T52	Action 2331 2335	Grow
+T53	Time 2401 2412	Three hours
+T54	Method 2428 2450	macrophage inoculation
+T55	Time 2464 2473	overnight
+T56	Action 2452 2463	sub-culture
+T57	Reagent 2474 2491	bacterial culture
+T58	Reagent 2502 2510	bacteria
+T59	Amount 2535 2538	1mL
+T60	Modifier 2539 2548	overnight
+T61	Reagent 2549 2556	culture
+T62	Amount 2559 2562	9mL
+T63	Modifier 2563 2568	fresh
+T64	Reagent 2569 2579	Ab free LB
+T65	Temperature 2339 2343	37oC
+T66	Device 2349 2366	shaking incubator
+T67	Measure-Type 2373 2378	OD600
+T68	Numerical 2382 2383	1
+T69	Measure-Type 2390 2398	cells/mL
+T70	Amount 2258 2263	100µL
+T71	Reagent 2607 2616	arabinose
+T72	Concentration 2630 2640	200µL/10mL
+T73	Reagent 2200 2203	GFP
+T74	Location 2977 2980	GFP
+T75	Reagent 2264 2269	stock
+T76	Amount 2273 2278	100mL
+T77	Reagent 2279 2290	Luria Broth
+T78	Reagent 2318 2329	antibiotics
+T79	Action 2160 2167	Grow up
+T80	Modifier 2168 2177	overnight
+T81	Reagent 2178 2198	cultures of bacteria
+T83	Reagent 2213 2220	E. coli
+T84	Method 2233 2256	phagocytosis experiment
+T85	Action 2113 2121	Incubate
+T86	Time 2122 2131	overnight
+T87	Temperature 2137 2141	37oC
+T88	Reagent 2145 2148	CO2
+T89	Concentration 2142 2144	5%
+T90	Device 2149 2158	incubator
+T91	Action 2061 2065	Seed
+T92	Location 2068 2073	wells
+T93	Numerical 2066 2067	4
+T94	Action 2005 2010	Plate
+T95	Reagent 2011 2016	cells
+T96	Method 2036 2059	phagocytosis experiment
+T97	Reagent 40 60	RAW264.7 macrophages
+T99	Location 60 63	GFP
+T100	Reagent 73 89	Escherichia coli
+T101	Reagent 138 142	DMEM
+T102	Reagent 221 252	ThermoFisherFoetal Bovine Serum
+T103	Reagent 254 257	FBS
+T104	Reagent 261 278	BovogenAmpicillin
+T107	Concentration 320 325	10g/L
+T108	Reagent 326 334	tryptone
+T109	Concentration 336 340	5g/L
+T110	Reagent 341 345	NaCl
+T111	Concentration 347 351	5g/L
+T112	Reagent 352 365	yeast extract
+T113	Amount 379 381	1L
+T114	Reagent 387 399	milliQ water
+T115	Concentration 399 402	10%
+T116	Reagent 403 412	arabinose
+T117	Concentration 412 417	100mM
+T118	Reagent 418 422	IPTG
+T119	Reagent 144 164	F12 Nutrient Mixture
+T120	Numerical 98 100	1x
+T121	Reagent 101 136	PBSDulbecco's Modified Eagle Medium
+T122	Reagent 190 200	phenol red
+T123	Reagent 205 217	high glucose
+T124	Reagent 177 188	L-glutamine
+T125	Location 432 446	Static 12 well
+T126	Location 447 461	plastic plates
+T127	Size 461 465	10cm
+T128	Location 466 493	cell culture treated plates
+T129	Location 508 520	Falcon tubes
+T130	Reagent 1823 1848	RAW264.7 macrophage cells
+T98	Generic-Measure 1852 1857	5x104
+T131	Location 1874 1887	12 well plate
+T132	Size 1893 1897	18mm
+T133	Location 1898 1923	diameter glass coverslips
+T134	Amount 1925 1930	500µL
+T135	Reagent 1931 1936	cells
+T136	Location 1941 1945	well
+T137	Amount 1964 1967	1mL
+T138	Modifier 1971 1976	fresh
+T139	Modifier 1977 1985	complete
+T140	Reagent 1986 2002	macrophage media
+T141	Size 520 524	18mm
+T142	Location 525 556	diameter round glass coverslips
+T143	Device 568 577	incubator
+T144	Concentration 561 563	5%
+T145	Reagent 564 567	CO2
+T146	Temperature 556 560	37oC
+T147	Temperature 577 581	37oC
+T148	Device 582 599	shaking incubator
+T149	Device 607 630	Glass microscope slides
+T150	Device 630 660	Upright fluorescent microscope
+T151	Location 697 723	Biosafety Class II cabinet
+T152	Reagent 666 669	GFP
+T153	Location 674 697	phase contrast channels
+T154	Reagent 915 918	FBS
+T155	Reagent 882 913	ThermoFisherFoetal Bovine Serum
+T156	Reagent 922 939	BovogenAmpicillin
+T157	Concentration 942 949	100mg/L
+T158	Reagent 949 958	Kanamycin
+T159	Concentration 961 967	50mg/L
+T160	Reagent 967 978	Luria Broth
+T161	Concentration 981 986	10g/L
+T162	Reagent 987 995	tryptone
+T163	Concentration 997 1001	5g/L
+T164	Reagent 762 797	PBSDulbecco's Modified Eagle Medium
+T165	Reagent 799 803	DMEM
+T166	Reagent 805 825	F12 Nutrient Mixture
+T167	Reagent 838 849	L-glutamine
+T168	Reagent 851 861	phenol red
+T169	Reagent 866 878	high glucose
+T170	Reagent 1002 1006	NaCl
+T171	Concentration 1008 1012	5g/L
+T172	Reagent 1013 1026	yeast extract
+T173	Amount 1040 1042	1L
+T174	Reagent 1048 1060	milliQ water
+T175	Concentration 1060 1063	10%
+T176	Reagent 1064 1073	arabinose
+T177	Concentration 1073 1078	100mM
+T178	Concentration 759 761	1x
+T179	Location 1100 1122	12 well plastic plates
+T180	Location 1127 1154	cell culture treated plates
+T181	Size 1122 1126	10cm
+T182	Location 1169 1181	Falcon tubes
+T183	Size 1181 1185	18mm
+T184	Location 1186 1217	diameter round glass coverslips
+T185	Temperature 1217 1221	37oC
+T186	Concentration 1222 1224	5%
+T187	Reagent 1225 1228	CO2
+T188	Temperature 1238 1242	37oC
+T189	Device 1229 1238	incubator
+T190	Device 1243 1260	shaking incubator
+T191	Device 1260 1268	Tweezers
+T192	Device 1268 1291	Glass microscope slides
+T193	Device 1291 1321	Upright fluorescent microscope
+T194	Reagent 1327 1330	GFP
+T195	Location 1335 1358	phase contrast channels
+T196	Location 1358 1384	Biosafety Class II cabinet
+T197	Location 1428 1450	12 well plastic plates
+T198	Size 1450 1454	10cm
+T199	Location 1455 1482	cell culture treated plates
+T200	Location 1497 1509	Falcon tubes
+T201	Size 1509 1513	18mm
+T202	Location 1514 1545	diameter round glass coverslips
+T203	Temperature 1545 1549	37oC
+T204	Concentration 1550 1552	5%
+T205	Reagent 1553 1556	CO2
+T206	Device 1557 1566	incubator
+T207	Temperature 1566 1570	37oC
+T208	Device 1571 1588	shaking incubator
+T209	Device 1588 1596	Tweezers
+T210	Device 1596 1619	Glass microscope slides
+T211	Device 1619 1649	Upright fluorescent microscope
+T212	Reagent 1655 1658	GFP
+T213	Location 1663 1686	phase contrast channels
+T214	Reagent 2078 2082	cell
+T215	Action 3168 3173	allow
+T216	Method 3178 3194	bacterial uptake
+T217	Action 3255 3263	Aspirate
+T218	Reagent 3264 3275	supernatant
+T219	Device 3284 3291	pipette
+T220	Action 3301 3305	wash
+T221	Reagent 3310 3315	cells
+T222	Numerical 3316 3327	three times
+T223	Modifier 3333 3337	cold
+T224	Reagent 3338 3341	PBS
+T226	Action 3354 3362	Transfer
+T227	Location 3363 3373	coverslips
+T228	Location 3379 3395	microscope slide
+T229	Reagent 3403 3414	drop of PBS
+T230	Amount 3417 3420	6µL
+T231	Device 3428 3436	tweezers
+T232	Reagent 3463 3474	macrophages
+T233	Location 3504 3520	microscope slide
+T234	Modifier 3487 3496	face down
+T235	Action 3522 3526	Seal
+T236	Location 3527 3544	microscope slides
+T237	Seal 3551 3568	clear nail polish
+T238	Action 3573 3585	allow to dry
+T239	Action 3587 3594	Analyse
+T240	Reagent 3595 3600	cells
+T241	Reagent 3854 3865	macrophages
+T242	Reagent 3877 3886	bacteria 
+T243	Numerical 3757 3759	60
+T244	Reagent 3760 3771	macrophages
+T245	Device 3610 3640	upright fluorescent microscope
+T246	Reagent 3661 3672	macrophages
+T247	Reagent 3695 3703	bacteria
+T248	Action 3705 3710	Image
+T249	Numerical 3711 3713	15
+T250	Reagent 3714 3725	macrophages
+T251	Location 3730 3739	coverslip
+T252	Numerical 3740 3743	x 4
+T253	Action 3678 3690	phagocytosed
+T254	Reagent 3934 3952	macrophagePossible
+T255	Reagent 3907 3929	intracellular bacteria
+T256	Reagent 3987 3998	macrophages
+T257	Reagent 4013 4021	bacteria
+T258	Reagent 4051 4059	bacteria
+T259	Reagent 4064 4074	macrophage
+T260	Measure-Type 3840 3850	Percentage
+T261	Measure-Type 3973 3983	Percentage
+T105	Concentration 281 288	100mg/L
+T106	Reagent 288 297	Kanamycin
+T262	Concentration 300 306	50mg/L
+T263	Reagent 306 317	Luria Broth
+T264	Size 503 507	50mL
+T265	Device 599 607	Tweezers
+T266	Device 723 740	Spectrophotometer
+T267	Device 740 750	Centrifuge
+T268	Reagent 1079 1083	IPTG
+T269	Modifier 1093 1099	Static
+T270	Size 1164 1168	50mL
+T271	Device 1384 1401	Spectrophotometer
+T272	Device 1401 1411	Centrifuge
+T273	Modifier 1421 1427	Static
+T274	Size 1492 1496	50mL
+T275	Location 1686 1704	Biosafety Class II
+T276	Action 1818 1822	Seed
+T277	Measure-Type 1858 1868	cells/well
+T278	Modifier 1937 1940	per
+T279	Action 1946 1958	supplemented
+T280	Time 2025 2035	day before
+T82	Time 2222 2232	day before
+T281	Modifier 2385 2386	~
+T282	Numerical 2386 2389	108
+T283	Modifier 2413 2419	before
+T284	Action 2495 2501	ensure
+T285	Concentration 2617 2622	100mM
+T286	Reagent 2623 2627	IPTG
+T287	Modifier 2629 2630	~
+T288	Reagent 2641 2658	bacterial culture
+T289	Action 2748 2754	pellet
+T290	Method 2881 2886	assay
+T17	Modifier 3024 3025	~
+T291	Modifier 3049 3054	Don't
+T225	Amount 3343 3347	1mL/
+T292	Action 3347 3351	wash
+T293	Action 3644 3653	determine
+T294	Modifier 3726 3729	per
+T295	Reagent 3744 3754	replicates
+T296	Measure-Type 3889 3903	Average number
+T297	Measure-Type 4024 4038	Average number

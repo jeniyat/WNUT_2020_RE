@@ -1,0 +1,233 @@
+T1	Modifier 0 11	Adult mouse
+T2	Reagent 12 18	kidney
+T3	Method 19 31	dissociation
+T4	Temperature 33 39	on ice
+T6	Reagent 51 57	kidney
+T7	Modifier 61 69	ice-cold
+T8	Reagent 70 73	PBS
+T9	Device 81 92	razor blade
+T10	Action 94 99	mince
+T11	Time 112 117	2 min
+T12	Modifier 124 128	fine
+T13	Location 138 148	petri dish
+T14	Temperature 149 155	on ice
+T15	Reagent 100 106	biopsy
+T16	Action 157 166	Weigh out
+T17	Amount 167 172	18 mg
+T18	Modifier 176 182	minced
+T19	Reagent 183 189	kidney
+T20	Location 195 205	petri dish
+T21	Action 207 215	Transfer
+T22	Size 219 225	1.5 mL
+T23	Location 226 230	tube
+T24	Amount 236 240	1 mL
+T25	Reagent 244 266	collagenase enzyme mix
+T26	Temperature 267 273	on ice
+T27	Action 275 283	Incubate
+T28	Time 288 294	20 min
+T29	Temperature 295 301	on ice
+T30	Action 303 308	Shake
+T31	Location 309 313	tube
+T32	Modifier 314 319	every
+T33	Time 320 326	30 sec
+T34	Action 328 337	Triturate
+T35	Numerical 338 341	10x
+T36	Modifier 342 347	every
+T37	Time 365 370	2 min
+T38	Action 353 361	starting
+T39	Device 379 384	p1000
+T40	Amount 392 398	700 µL
+T41	Modifier 409 414	first
+T42	Method 415 425	trituation
+T43	Action 426 433	cut off
+T44	Location 438 441	end
+T45	Device 449 458	pipet tip
+T46	Device 464 475	razor blade
+T47	Time 348 351	min
+T48	Modifier 477 482	After
+T49	Time 483 489	20 min
+T50	Reagent 495 508	tissue chunks
+T51	Action 509 515	settle
+T52	Temperature 516 522	on ice
+T53	Time 523 528	1 min
+T54	Action 530 534	Spin
+T55	Location 535 539	tube
+T56	Speed 540 544	70 g
+T57	Time 549 555	30 sec
+T58	Temperature 559 563	4 ºC
+T60	Reagent 577 586	glomeruli
+T61	Reagent 591 598	tubules
+T59	Action 567 576	spin down
+T62	Action 600 606	Remove
+T63	Amount 607 610	60%
+T64	Reagent 614 625	supernatant
+T66	Modifier 641 649	released
+T67	Reagent 650 655	cells
+T68	Action 661 666	apply
+T69	Concentration 670 675	40 µM
+T70	Device 676 682	filter
+T71	Size 686 691	50 mL
+T72	Location 692 699	conical
+T73	Action 701 706	Rinse
+T74	Device 707 713	filter
+T75	Amount 719 723	6 mL
+T76	Modifier 724 732	ice-cold
+T77	Reagent 733 740	PBS/BSA
+T78	Concentration 741 747	0.04%.
+T79	Action 748 751	Add
+T80	Amount 752 756	1 mL
+T81	Reagent 757 760	PBS
+T82	Location 764 768	tube
+T84	Modifier 780 789	remaining
+T85	Reagent 790 800	enzyme mix
+T86	Reagent 806 819	tissue chunks
+T87	Action 821 830	Triturate
+T88	Numerical 831 834	10X
+T89	Action 836 841	Apply
+T90	Concentration 845 851	100 µM
+T91	Device 852 858	filter
+T92	Size 862 867	50 mL
+T93	Location 868 875	conical
+T94	Action 877 882	Rinse
+T95	Device 883 889	filter
+T96	Amount 892 897	10 mL
+T97	Reagent 898 901	PBS
+T98	Action 913 920	removes
+T99	Modifier 921 929	residual
+T100	Reagent 930 943	tissue chunks
+T101	Action 950 956	saving
+T102	Reagent 957 966	glomeruli
+T103	Reagent 971 978	tubules
+T104	Reagent 986 998	flow-through
+T105	Action 1000 1008	Transfer
+T106	Reagent 1009 1021	flow-through
+T107	Amount 1025 1030	15 mL
+T108	Location 1031 1038	conical
+T109	Action 1040 1044	Spin
+T110	Speed 1045 1050	300 g
+T111	Time 1055 1067	five minutes
+T112	Action 1071 1077	pellet
+T113	Reagent 1078 1090	flow-through
+T115	Reagent 1106 1115	glomeruli
+T116	Reagent 1120 1127	tubules
+T117	Action 1129 1135	Remove
+T118	Reagent 1136 1147	supernatant
+T120	Action 1148 1151	Add
+T121	Amount 1152 1156	1 mL
+T122	Reagent 1157 1159	b.
+T123	Reagent 1160 1175	lich enzyme mix
+T124	Location 1179 1183	tube
+T126	Reagent 1199 1211	flow-through
+T127	Concentration 1221 1227	100 µM
+T128	Device 1228 1234	filter
+T130	Reagent 1258 1265	tubules
+T131	Reagent 1270 1279	glomeruli
+T132	Modifier 1212 1216	from
+T133	Action 1282 1291	Triturate
+T134	Numerical 1292 1295	10x
+T135	Action 1297 1305	Transfer
+T136	Size 1309 1315	1.5 mL
+T137	Location 1316 1320	tube
+T138	Time 1326 1332	15 min
+T139	Modifier 1333 1343	additional
+T140	Measure-Type 1344 1348	time
+T141	Time 1350 1356	35 min
+T142	Modifier 1357 1362	total
+T143	Method 1363 1372	digestion
+T144	Action 1374 1379	shake
+T145	Device 1383 1394	thermomixer
+T146	Speed 1398 1406	1400 RPM
+T147	Temperature 1410 1414	4 °C
+T148	Modifier 1416 1431	Halfway through
+T149	Action 1433 1437	stop
+T150	Action 1442 1449	passage
+T151	Numerical 1450 1452	5X
+T152	Generic-Measure 1455 1463	27 gauge
+T153	Device 1464 1470	needle
+T154	Action 1474 1487	help break up
+T155	Reagent 1488 1495	tubules
+T156	Reagent 1500 1509	glomeruli
+T157	Action 1511 1520	Triturate
+T158	Reagent 1521 1531	digest mix
+T159	Numerical 1532 1535	10X
+T160	Action 1540 1548	transfer
+T161	Modifier 1556 1560	same
+T162	Concentration 1561 1566	40 µM
+T163	Device 1567 1573	filter
+T164	Size 1577 1582	50 mL
+T165	Location 1583 1590	conical
+T166	Action 1592 1597	Rinse
+T167	Amount 1600 1604	6 mL
+T168	Modifier 1605 1613	ice-cold
+T169	Reagent 1614 1621	PBS/BSA
+T170	Concentration 1622 1627	0.04%
+T171	Action 1629 1637	Transfer
+T172	Reagent 1638 1650	flow-through
+T174	Size 1677 1682	15 mL
+T175	Location 1683 1690	conical
+T176	Action 1692 1696	Spin
+T177	Location 1701 1705	tube
+T178	Modifier 1711 1719	released
+T179	Reagent 1720 1725	cells
+T180	Speed 1726 1731	300 g
+T181	Time 1736 1741	5 min
+T182	Temperature 1745 1749	4 °C
+T183	Action 1751 1757	Remove
+T184	Reagent 1758 1769	supernatant
+T185	Action 1771 1776	leave
+T186	Amount 1778 1784	100 µL
+T187	Action 1787 1790	Add
+T188	Amount 1791 1797	900 µL
+T189	Reagent 1801 1816	RBC lysis buffe
+T190	Size 1825 1830	15 mL
+T191	Location 1831 1838	conical
+T193	Reagent 1854 1859	cells
+T194	Action 1861 1870	Triturate
+T195	Numerical 1871 1874	10X
+T196	Size 1881 1885	1 mL
+T197	Device 1886 1891	pipet
+T198	Action 1893 1900	Let sit
+T199	Time 1901 1908	two min
+T200	Temperature 1909 1915	on ice
+T201	Action 1917 1920	Add
+T202	Amount 1921 1926	10 mL
+T203	Modifier 1927 1935	ice-cold
+T204	Reagent 1936 1943	PBS/BSA
+T205	Concentration 1944 1949	0.04%
+T206	Action 1953 1959	dilute
+T207	Reagent 1960 1976	RBC lysis buffer
+T208	Action 1978 1982	Spin
+T209	Speed 1983 1988	300 g
+T210	Time 1993 1998	5 min
+T211	Temperature 2002 2006	4 °C
+T212	Action 2008 2014	Remove
+T213	Reagent 2015 2026	supernatant
+T214	Action 2031 2041	re-suspend
+T215	Amount 2045 2055	100-200 µL
+T216	Modifier 2056 2064	ice-cold
+T217	Reagent 2065 2072	PBS/BSA
+T218	Concentration 2073 2078	0.04%
+T219	Action 2080 2085	Check
+T220	Measure-Type 2086 2095	viability
+T221	Measure-Type 2100 2113	concentration
+T222	Device 2120 2133	hemocytometer
+T223	Reagent 2139 2150	trypan blue
+T225	Measure-Type 2178 2179	%
+T226	Modifier 2183 2189	viable
+T227	Reagent 2190 2195	cells
+T228	Method 2218 2227	procedure
+T229	Action 2236 2243	perform
+T230	Method 2244 2261	dead cell removal
+T231	Device 2272 2301	EasySep dead cell removal kit
+T232	Action 2165 2173	increase
+T233	Action 2348 2354	Adjust
+T234	Measure-Type 2355 2368	concentration
+T235	Concentration 2372 2384	100 cells/µL
+T236	Device 2389 2396	DropSeq
+T237	Concentration 2400 2414	1,000 cells/µL
+T119	Device 2419 2427	Chromium
+T5	Action 41 50	Transport
+T238	Modifier 111 112	~
+T239	Reagent 129 134	paste
+T65	Action 1246 1254	enriched
+T83	Modifier 1777 1778	~

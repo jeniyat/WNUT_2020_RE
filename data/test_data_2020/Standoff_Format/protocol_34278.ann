@@ -1,0 +1,84 @@
+T1	Modifier 0 15	WHO-recommended
+T2	Reagent 16 23	handrub
+T3	Method 24 36	formulations
+T4	Method 48 60	preparations
+T5	Action 61 65	Pour
+T6	Modifier 75 80	large
+T7	Location 81 87	bottle
+T8	Location 91 95	tank
+T9	Modifier 96 101	up to
+T10	Generic-Measure 106 120	graduated mark
+T11	Action 122 125	Add
+T12	Location 136 154	measuring cylinder
+T13	Action 156 159	Add
+T14	Location 168 186	measuring cylinder
+T15	Action 188 191	Top
+T16	Location 196 202	bottle
+T17	Location 203 207	tank
+T18	Modifier 208 213	up to
+T19	Generic-Measure 218 231	10-liter mark
+T20	Modifier 237 254	sterile distilled
+T21	Modifier 258 269	cold boiled
+T22	Reagent 270 275	water
+T23	Action 277 282	Place
+T24	Seal 287 290	lid
+T25	Seal 298 307	screw cap
+T26	Location 315 319	tank
+T27	Location 320 326	bottle
+T28	Method 353 364	preparation
+T29	Method 386 397	evaporation
+T30	Action 378 385	prevent
+T31	Action 399 402	Mix
+T32	Reagent 407 415	solution
+T33	Action 419 426	shaking
+T34	Modifier 427 433	gently
+T35	Device 466 472	paddle
+T36	Modifier 474 485	Immediately
+T37	Action 486 495	divide up
+T38	Reagent 500 508	solution
+T39	Modifier 518 523	final
+T40	Location 524 534	containers
+T41	Action 536 540	Pour
+T42	Modifier 550 555	large
+T43	Location 556 562	bottle
+T44	Location 566 570	tank
+T45	Modifier 571 576	up to
+T46	Generic-Measure 581 595	graduated mark
+T47	Action 597 600	Add
+T48	Location 611 629	measuring cylinder
+T49	Action 631 634	Add
+T50	Location 643 661	measuring cylinder
+T51	Action 663 666	Top
+T52	Location 671 677	bottle
+T53	Location 678 682	tank
+T54	Modifier 683 688	up to
+T55	Generic-Measure 693 706	10-liter mark
+T56	Modifier 712 729	sterile distilled
+T57	Modifier 733 744	cold boiled
+T58	Reagent 745 750	water
+T59	Action 752 757	Place
+T60	Seal 762 765	lid
+T61	Seal 773 782	screw cap
+T62	Location 790 794	tank
+T63	Location 795 801	bottle
+T64	Method 828 839	preparation
+T65	Action 853 860	prevent
+T66	Method 861 872	evaporation
+T67	Action 874 877	Mix
+T68	Reagent 882 890	solution
+T69	Action 894 901	shaking
+T70	Modifier 902 908	gently
+T71	Device 941 947	paddle
+T72	Action 458 463	using
+T73	Action 933 938	using
+T74	Action 949 954	Place
+T75	Location 959 966	bottles
+T76	Modifier 997 1008	Immediately
+T77	Action 1009 1018	divide up
+T78	Reagent 1023 1031	solution
+T79	Modifier 1041 1046	final
+T80	Location 1047 1057	containers
+T81	Action 1059 1064	Place
+T82	Location 1069 1076	bottles
+T83	Location 970 980	quarantine
+T84	Location 1080 1090	quarantine

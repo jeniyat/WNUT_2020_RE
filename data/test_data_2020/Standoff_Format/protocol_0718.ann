@@ -1,0 +1,343 @@
+T1	Method 0 10	Colony PCR
+T2	Method 27 53	Synechocystis sp. PCC 6803
+T3	Method 58 77	gel electrophoresis
+T4	Action 78 87	Inoculate
+T5	Amount 88 92	50µl
+T7	Modifier 93 100	sterile
+T6	Reagent 101 106	water
+T8	Location 112 116	tube
+T9	Modifier 127 134	desired
+T10	Reagent 135 141	colony
+T11	Modifier 154 158	good
+T12	Action 166 169	use
+T13	Reagent 170 183	cell-material
+T15	Location 191 201	agar plate
+T16	Location 232 242	agar plate
+T14	Modifier 256 262	enough
+T17	Reagent 263 276	cell-material
+T18	Modifier 210 217	applied
+T19	Modifier 281 291	inoculated
+T20	Reagent 292 297	water
+T21	Modifier 312 330	fresh, light green
+T22	Action 338 342	Work
+T23	Modifier 349 367	sterile conditions
+T24	Reagent 385 393	colonies
+T25	Location 402 413	agar plates
+T26	Modifier 420 427	further
+T27	Action 428 431	use
+T28	Action 433 437	Heat
+T29	Reagent 443 450	samples
+T30	Modifier 451 456	up to
+T31	Temperature 457 462	95 °C
+T32	Time 467 477	10 minutes
+T33	Modifier 497 502	don't
+T34	Action 503 507	burn
+T35	Reagent 522 529	samples
+T36	Modifier 534 537	hot
+T37	Action 540 550	Centrifuge
+T38	Reagent 556 563	samples
+T39	Speed 567 577	13,000 rpm
+T40	Time 582 590	1 minute
+T41	Action 592 599	Pipette
+T42	Amount 600 605	1-2µl
+T43	Reagent 613 624	supernatant
+T44	Modifier 632 637	fresh
+T45	Location 638 646	PCR tube
+T46	Action 655 661	freeze
+T47	Modifier 662 670	the rest
+T48	Reagent 679 686	samples
+T49	Reagent 702 708	pallet
+T50	Temperature 713 719	-20° C
+T51	Modifier 726 733	further
+T52	Action 734 737	use
+T53	Reagent 12 20	DreamTaq
+T54	Modifier 739 749	Afterwards
+T55	Action 755 759	thaw
+T56	Reagent 765 771	sample
+T57	Temperature 775 791	room temperature
+T58	Action 796 805	centifuge
+T59	Speed 812 822	13,000 rpm
+T60	Time 827 832	1 min
+T61	Mention 806 808	it
+T62	Action 846 853	pipette
+T63	Amount 854 859	1-2µl
+T64	Reagent 867 878	supernatant
+T65	Modifier 879 884	again
+T66	Modifier 891 896	later
+T67	Method 897 907	colony PCR
+T68	Action 909 916	Pipette
+T69	Reagent 922 932	master mix
+T70	Action 951 954	use
+T71	Device 959 987	Dream Taq DNA Polymerase Kit
+T72	Action 1015 1018	Use
+T73	Modifier 1023 1032	following
+T74	Reagent 1033 1041	contents
+T75	Reagent 1050 1056	sample
+T76	Numerical 1046 1049	one
+T77	Numerical 1057 1060	10x
+T78	Reagent 1061 1076	DreamTaq buffer
+T79	Amount 1078 1081	2µl
+T80	Reagent 1081 1089	dNTP Mix
+T81	Amount 1091 1096	0.4µl
+T82	Reagent 1096 1110	Forward primer
+T83	Amount 1112 1115	2µl
+T84	Reagent 1115 1129	Reverse primer
+T85	Amount 1131 1134	2µl
+T86	Reagent 1134 1157	DreamTaq DNA Polymerase
+T87	Amount 1159 1164	0.2µl
+T88	Reagent 1164 1169	Water
+T89	Modifier 1171 1184	nuclease-free
+T90	Amount 1187 1193	12.4µl
+T91	Amount 1199 1202	1µl
+T92	Amount 1216 1222	12.3µl
+T93	Amount 1228 1231	2µl
+T94	Amount 1248 1255	18-19µl
+T95	Action 1255 1262	Pipette
+T96	Reagent 1267 1291	Dream Taq DNA Polymerase
+T97	Modifier 1292 1302	in the end
+T99	Action 1316 1319	use
+T100	Reagent 1324 1357	Thermo Fisher DreamTaq Master Mix
+T102	Reagent 1378 1384	buffer
+T103	Reagent 1386 1394	dNTP Mix
+T104	Reagent 1403 1423	Dream Taq Polymerase
+T106	Action 1456 1463	pipette
+T107	Reagent 1468 1478	Master Mix
+T108	Reagent 1483 1497	forward primer
+T109	Reagent 1503 1517	reverse primer
+T110	Reagent 1523 1535	template DNA
+T111	Reagent 1203 1211	template
+T112	Reagent 1232 1240	template
+T113	Modifier 1540 1553	nuclease-free
+T114	Reagent 1554 1559	water
+T115	Action 1561 1564	Use
+T116	Modifier 1569 1576	related
+T117	Method 1577 1585	protocol
+T118	Device 1596 1616	DreamTaq PCR package
+T119	Action 1626 1633	Pipette
+T120	Amount 1634 1641	18-19µl
+T121	Reagent 1650 1660	master mix
+T122	Reagent 1669 1681	template DNA
+T123	Action 1689 1697	contains
+T124	Amount 1698 1703	1-2µl
+T125	Action 1730 1733	Run
+T126	Method 1736 1739	PCR
+T127	Reagent 1750 1757	samples
+T128	Action 1758 1763	Check
+T129	Measure-Type 1768 1770	Tm
+T130	Reagent 1779 1786	primers
+T131	Action 1790 1793	use
+T132	Modifier 1798 1803	right
+T133	Measure-Type 1804 1825	annealing temperature
+T134	Reagent 1831 1850	DreamTaq Polymerase
+T135	Measure-Type 1860 1881	annealing temperature
+T136	Temperature 1891 1895	5 °C
+T137	Modifier 1896 1901	lower
+T138	Measure-Type 1912 1914	Tm
+T139	Action 1851 1855	uses
+T140	Action 1927 1930	use
+T141	Measure-Type 1933 1944	temperature
+T142	Temperature 1953 1957	5 °C
+T143	Modifier 1958 1963	lower
+T144	Modifier 1972 1978	lowest
+T145	Reagent 1979 1985	primer
+T146	Measure-Type 1986 1988	Tm
+T147	Modifier 2006 2012	lowest
+T148	Measure-Type 2013 2015	Tm
+T149	Temperature 2019 2024	63 °C
+T150	Temperature 2042 2047	58 °C
+T151	Measure-Type 2054 2075	annealing temperature
+T152	Action 2038 2041	use
+T153	Action 2089 2094	check
+T154	Modifier 2100 2107	optimal
+T155	Measure-Type 2108 2129	annealing temperature
+T156	Device 2173 2200	Thermo Fisher Tm calculator
+T157	Action 2412 2415	use
+T158	Modifier 2420 2429	following
+T159	Method 2430 2442	PCR protocol
+T160	Modifier 2446 2453	Initial
+T161	Method 2454 2466	denaturation
+T162	Temperature 2468 2473	98° C
+T163	Time 2476 2481	2 min
+T164	Method 2485 2497	Denaturation
+T165	Temperature 2500 2505	98° C
+T166	Time 2508 2514	30 sec
+T167	Method 2519 2528	Annealing
+T168	Measure-Type 2530 2532	Tm
+T169	Time 2542 2548	30 sec
+T170	Action 2554 2557	use
+T171	Temperature 2535 2539	5° C
+T172	Temperature 2558 2563	58° C
+T173	Method 2572 2581	Extension
+T174	Temperature 2583 2588	72° C
+T175	Time 2591 2596	1 min
+T176	Modifier 2601 2606	Final
+T177	Method 2607 2616	extension
+T178	Temperature 2618 2623	72° C
+T179	Time 2626 2632	10 min
+T180	Temperature 2636 2640	4° C
+T181	Action 2641 2645	hold
+T182	Action 2645 2650	Rerun
+T183	Numerical 2680 2688	35 times
+T184	Modifier 2655 2670	second to forth
+T185	Method 2671 2675	step
+T186	Modifier 2717 2728	recommended
+T187	Method 2729 2738	extension
+T188	Time 2747 2752	1 min
+T189	Reagent 2758 2770	PCR products
+T190	Modifier 2771 2776	up to
+T191	Generic-Measure 2777 2780	2kb
+T192	Modifier 2786 2792	longer
+T193	Reagent 2793 2801	products
+T194	Measure-Type 2807 2821	extension time
+T195	Generic-Measure 2845 2853	1 min/kb
+T196	Action 2832 2841	prolonged
+T197	Action 2855 2862	Prepare
+T198	Modifier 2866 2877	appropriate
+T199	Reagent 2878 2881	gel
+T200	Method 2886 2905	gel electrophoresis
+T201	Action 2908 2915	prepare
+T202	Concentration 2919 2921	1%
+T203	Modifier 2923 2928	small
+T204	Reagent 2929 2940	agarose gel
+T205	Action 2952 2955	put
+T206	Amount 2956 2960	0.5g
+T207	Reagent 2964 2971	agarose
+T208	Amount 2975 2979	50ml
+T209	Concentration 2980 2982	1x
+T210	Reagent 2983 2986	TAE
+T211	Reagent 2988 3004	TRIS-Acetat-EDTA
+T212	Reagent 3006 3012	buffer
+T213	Modifier 3013 3023	Afterwards
+T214	Action 3024 3028	heat
+T215	Device 3040 3049	microwave
+T216	Generic-Measure 3055 3063	360 watt
+T217	Modifier 3064 3069	until
+T218	Reagent 3074 3081	agarose
+T219	Modifier 3085 3095	completely
+T220	Reagent 3114 3122	solution
+T221	Modifier 3126 3131	clear
+T222	Action 3132 3136	Cool
+T223	Temperature 3148 3164	room temperature
+T225	Modifier 3221 3224	not
+T226	Action 3225 3232	burning
+T227	Action 3243 3248	Shake
+T228	Modifier 3252 3262	some times
+T229	Modifier 3263 3268	while
+T230	Action 3274 3281	cooling
+T231	Action 3291 3296	check
+T232	Reagent 3301 3309	solution
+T233	Method 3314 3328	lump formation
+T234	Modifier 3343 3348	clear
+T235	Action 3349 3352	Add
+T236	Reagent 3358 3361	dye
+T237	Reagent 3370 3380	agarosegel
+T238	Reagent 3387 3406	midoriGreen Advance
+T239	Generic-Measure 3415 3424	1:20,0000
+T240	Measure-Type 3425 3440	dilution factor
+T241	Action 3453 3460	pipette
+T242	Amount 3461 3466	2.5µl
+T243	Reagent 3473 3493	agarose gel solution
+T244	Modifier 3494 3504	Afterwards
+T245	Action 3505 3509	pour
+T246	Modifier 3578 3589	appropriate
+T247	Modifier 3515 3523	prepared
+T248	Reagent 3524 3535	agarose gel
+T249	Location 3541 3552	gel carrier
+T250	Action 3569 3572	put
+T251	Device 3590 3599	gel combs
+T252	Reagent 3608 3619	agarose gel
+T253	Modifier 3620 3626	before
+T254	Mention 3627 3629	it
+T255	Action 3630 3637	hardens
+T256	Reagent 3648 3651	gel
+T257	Modifier 3655 3663	hardened
+T258	Action 3665 3673	take out
+T259	Device 3679 3688	gel combs
+T260	Action 3693 3696	put
+T261	Modifier 3697 3708	appropriate
+T262	Reagent 3709 3715	buffer
+T263	Location 3723 3734	gel chamber
+T264	Modifier 3735 3740	until
+T265	Reagent 3745 3756	agarose gel
+T266	Modifier 3760 3770	completely
+T267	Modifier 3638 3642	When
+T268	Action 3779 3783	Load
+T269	Reagent 3789 3796	samples
+T270	Modifier 3805 3816	appropriate
+T271	Reagent 3817 3828	loading dye
+T272	Action 3832 3835	use
+T273	Numerical 3840 3842	6x
+T274	Reagent 3843 3854	loading dye
+T275	Action 3884 3891	pipette
+T276	Amount 3892 3895	4µl
+T277	Modifier 3899 3903	each
+T278	Reagent 3904 3910	sample
+T279	Action 3912 3919	Pipette
+T280	Reagent 3925 3932	samples
+T281	Modifier 3933 3942	carefully
+T282	Modifier 3943 3954	up and down
+T283	Action 3958 3961	mix
+T284	Reagent 3967 3974	samples
+T285	Reagent 3984 3995	loading dye
+T286	Action 3996 4000	Load
+T287	Modifier 4006 4014	hardened
+T288	Reagent 4015 4025	agarosegel
+T289	Reagent 4036 4043	samples
+T290	Action 4045 4051	Adjust
+T291	Measure-Type 4056 4070	loading volume
+T292	Measure-Type 4078 4082	size
+T293	Device 4091 4099	gel comb
+T295	Modifier 4123 4134	appropriate
+T296	Reagent 4151 4158	samples
+T297	Reagent 4135 4141	ladder
+T298	Modifier 4100 4105	Don't
+T299	Action 4106 4112	forget
+T300	Action 4161 4164	use
+T301	Reagent 4169 4199	Gene Ruler 1kb Plus DNA ladder
+T302	Modifier 4201 4213	ready to use
+T303	Action 4218 4224	detect
+T304	Reagent 4227 4235	fragment
+T305	Generic-Measure 4249 4255	708 bp
+T306	Measure-Type 4241 4245	size
+T307	Action 4268 4275	pipette
+T308	Amount 4276 4279	5µl
+T309	Numerical 4296 4299	one
+T310	Location 4300 4304	slot
+T311	Reagent 4312 4323	agarose gel
+T312	Reagent 4286 4292	ladder
+T313	Action 4325 4328	Run
+T314	Reagent 4334 4337	gel
+T315	Modifier 4348 4355	desired
+T316	Measure-Type 4356 4363	voltage
+T317	Action 4367 4370	use
+T318	Generic-Measure 4371 4376	120 V
+T319	Action 4377 4383	Adjust
+T320	Measure-Type 4389 4401	running time
+T321	Measure-Type 4410 4423	fragment size
+T322	Action 4426 4429	run
+T323	Reagent 4433 4436	gel
+T324	Modifier 4437 4442	until
+T325	Mention 4443 4445	it
+T326	Action 4446 4453	reaches
+T327	Numerical 4454 4457	2/3
+T328	Reagent 4465 4468	gel
+T329	Action 4470 4475	Check
+T330	Device 4499 4513	imaging system
+T331	Device 4524 4542	ChemyDoc MP System
+T332	Action 4557 4562	check
+T333	Reagent 4566 4569	gel
+T334	Reagent 4577 4586	fragments
+T335	Reagent 4593 4612	midoriGreen Advance
+T336	Action 4616 4619	dye
+T337	Reagent 4623 4632	fragments
+T338	Reagent 4640 4651	agarose gel
+T339	Action 4664 4667	use
+T340	Reagent 4672 4689	Nucleic Acid Gels
+T341	Device 4716 4738	Image Lab 5.0 software
+T343	Reagent 4693 4701	GelGreen
+T344	Reagent 218 223	clone
+T101	Action 3096 3105	dissolved
+T105	Action 3771 3777	soaked
+T224	Action 4116 4119	use
+T98	Modifier 1241 1246	Total
+T294	Device 4546 4553	Bio-Rad

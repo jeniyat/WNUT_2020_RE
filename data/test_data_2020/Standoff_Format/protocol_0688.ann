@@ -1,0 +1,228 @@
+T1	Method 0 14	RNA extraction
+T2	Reagent 19 32	plant samples
+T3	Reagent 39 51	CTAB-pBIOZOL
+T4	Action 55 59	make
+T5	Numerical 64 66	2x
+T6	Reagent 67 78	CTAB buffer
+T7	Action 106 110	make
+T9	Action 139 148	autoclave
+T10	Action 153 160	aliquot
+T11	Concentration 162 164	2%
+T12	Reagent 165 169	CTAB
+T13	Amount 202 205	20g
+T14	Concentration 205 210	100mM
+T15	Reagent 211 215	Tris
+T16	pH 216 222	PH 8.0
+T17	Concentration 225 227	1M
+T18	Amount 239 244	100ml
+T19	Concentration 244 248	20mM
+T20	Reagent 249 253	EDTA
+T21	pH 254 260	PH 8.0
+T22	Concentration 262 267	0.5 M
+T23	Amount 275 279	40ml
+T24	Concentration 279 284	1.4 M
+T25	Reagent 285 289	NaCl
+T26	Amount 323 328	81.8g
+T27	Measure-Type 171 174	w/v
+T28	Action 333 336	add
+T29	Reagent 337 352	distilled water
+T30	Action 356 360	make
+T31	Mention 361 363	it
+T32	Amount 370 376	1000ml
+T33	Action 378 381	Add
+T34	Amount 382 387	750µl
+T35	Concentration 388 390	2x
+T36	Reagent 391 402	CTAB buffer
+T37	Amount 406 410	60µl
+T38	Reagent 414 435	beta-mercaptomethanol
+T39	Amount 440 445	750µl
+T40	Reagent 446 461	pBIOZOL reagent
+T41	Size 465 468	2ml
+T42	Location 469 484	eppendorf tubes
+T43	Action 486 489	Mix
+T44	Modifier 490 494	well
+T46	Reagent 508 520	lysis buffer
+T47	Temperature 524 528	65°C
+T48	Device 534 544	heat block
+T50	Size 550 557	1-2 cm²
+T51	Reagent 570 591	plant or leaf tissues
+T53	Device 610 627	pestle and mortar
+T54	Reagent 633 648	liquid nitrogen
+T55	Modifier 656 663	roughly
+T56	Amount 664 668	80mg
+T57	Reagent 669 676	samples
+T59	Modifier 701 707	warmed
+T60	Amount 708 713	1.5ml
+T61	Reagent 726 751	CTAB-pBIOZOL lysis buffer
+T62	Action 753 761	Incubate
+T63	Reagent 766 773	samples
+T64	Device 779 791	thermo mixer
+T65	Modifier 797 803	gentle
+T66	Action 804 810	mixing
+T67	Speed 812 818	700rpm
+T68	Time 824 834	15 minutes
+T69	Temperature 838 842	65°C
+T70	Modifier 857 866	commplete
+T71	Method 867 879	dissociation
+T72	Reagent 883 906	nucleoprotein complexes
+T73	Action 908 912	Save
+T74	Method 920 930	incubation
+T75	Modifier 914 919	After
+T76	Action 931 941	centrifuge
+T77	Speed 945 952	12000xg
+T78	Time 957 966	5 minutes
+T79	Temperature 970 973	4°C
+T80	Action 975 983	Transfer
+T81	Reagent 988 999	supernatant
+T82	Modifier 1005 1008	new
+T83	Size 1009 1014	2.0ml
+T84	Location 1015 1029	eppendorf tube
+T85	Action 1031 1034	Add
+T86	Amount 1035 1040	400µl
+T87	Reagent 1041 1051	chloroform
+T88	Modifier 1052 1055	per
+T89	Amount 1056 1061	1.5ml
+T90	Reagent 1065 1085	CTAB-pBIOZOL reagent
+T91	Action 1087 1092	Shake
+T92	Location 1097 1102	tubes
+T93	Modifier 1103 1114	vigourously
+T94	Time 1119 1122	15s
+T95	Modifier 91 100	pre-lysis
+T96	Action 1129 1139	centrifuge
+T97	Modifier 1140 1145	again
+T98	Speed 1149 1156	12000xg
+T99	Time 1161 1171	10 minutes
+T100	Temperature 1175 1178	4°C
+T101	Action 1180 1188	Transfer
+T102	Reagent 1193 1204	supernatant
+T103	Modifier 1208 1211	new
+T104	Location 1212 1217	tubes
+T105	Action 1219 1222	Add
+T106	Amount 1223 1228	700µl
+T108	Reagent 1229 1242	acidic phenol
+T109	Amount 1247 1252	200µl
+T110	Reagent 1253 1263	chloroform
+T112	Location 1275 1280	tubes
+T113	Modifier 1281 1292	vigourously
+T114	Time 1297 1307	15 seconds
+T115	Action 1312 1322	centrifuge
+T116	Speed 1327 1334	12000xg
+T117	Time 1339 1349	10 minutes
+T118	Temperature 1353 1356	4°C
+T111	Action 1265 1270	Shake
+T119	Method 1368 1382	centrifugation
+T120	Reagent 1387 1394	mixture
+T121	Action 1402 1410	seperate
+T122	Numerical 1416 1421	three
+T123	Reagent 1434 1457	phenol chloroform phase
+T124	Modifier 1487 1494	aqueous
+T125	Modifier 1481 1486	upper
+T126	Reagent 1506 1509	RNA
+T127	Modifier 1525 1532	aqueous
+T128	Action 1510 1517	remains
+T129	Action 1559 1566	extract
+T130	Reagent 1567 1570	DNA
+T131	Action 1604 1612	Transfer
+T132	Modifier 1617 1624	aqueous
+T133	Modifier 1638 1641	new
+T134	Size 1642 1647	2.0ml
+T135	Location 1648 1652	tube
+T136	Action 1657 1660	add
+T137	Modifier 1664 1676	equal amount
+T138	Reagent 1680 1690	chloroform
+T139	Reagent 1462 1472	interphase
+T140	Reagent 1495 1500	phase
+T141	Reagent 1533 1538	phase
+T142	Reagent 1625 1630	phase
+T143	Action 1691 1699	Transfer
+T144	Reagent 1704 1715	supernatant
+T145	Modifier 1721 1724	new
+T146	Size 1725 1730	1.5ml
+T147	Location 1731 1735	tube
+T148	Action 1740 1743	add
+T149	Amount 1747 1759	equal volume
+T150	Reagent 1763 1780	isopropyl alcohol
+T151	Action 1782 1785	Mix
+T152	Modifier 1786 1790	well
+T153	Action 1800 1805	leave
+T154	Temperature 1809 1814	-20°C
+T155	Time 1819 1826	2 hours
+T156	Action 1830 1841	precipitate
+T157	Action 1843 1853	Centrifuge
+T158	Speed 1857 1865	13600rpm
+T159	Time 1870 1880	20 minutes
+T160	Temperature 1884 1887	4°C
+T161	Modifier 1889 1898	Carefully
+T162	Action 1899 1905	remove
+T163	Reagent 1910 1921	supernatant
+T164	Action 1926 1930	wash
+T165	Reagent 1935 1941	pellet
+T166	Amount 1947 1950	1ml
+T167	Concentration 1954 1957	75%
+T168	Reagent 1958 1965	ethanol
+T169	Action 1967 1977	Re-suspend
+T170	Reagent 1982 1988	sample
+T171	Action 1993 2003	centrifuge
+T172	Speed 2007 2015	13600rpm
+T173	Time 2020 2029	3 minutes
+T174	Temperature 2033 2036	4°C
+T175	Action 2038 2044	Repeat
+T176	Method 2049 2061	washing step
+T177	Action 2063 2071	removing
+T178	Reagent 2076 2087	supernatant
+T179	Action 2089 2095	adding
+T180	Amount 2096 2099	1ml
+T181	Modifier 2103 2108	fresh
+T182	Concentration 2109 2112	75%
+T183	Reagent 2113 2120	ethanol
+T184	Action 2122 2134	resuspending
+T185	Reagent 2139 2146	pellent
+T186	Action 2157 2169	centrifuging
+T187	Modifier 2170 2175	again
+T188	Speed 2179 2187	13600rpm
+T189	Time 2192 2201	3 minutes
+T190	Temperature 2205 2208	4°C
+T191	Modifier 2210 2220	Completely
+T192	Action 2221 2227	remove
+T193	Reagent 2232 2239	ethanol
+T194	Modifier 2240 2247	without
+T195	Action 2248 2258	disturbing
+T196	Reagent 2263 2269	pellet
+T197	Action 2280 2287	air-dry
+T198	Location 2295 2312	biosafety cabinet
+T199	Modifier 2314 2320	Do not
+T200	Action 2321 2328	overdry
+T201	Reagent 2333 2339	pellet
+T202	Modifier 2347 2360	won't be able
+T203	Action 2364 2374	redissolve
+T204	Mention 2375 2377	it
+T205	Modifier 2384 2387	dry
+T206	Action 2396 2405	resuspend
+T207	Modifier 2409 2421	DEPC-treated
+T208	Reagent 2422 2427	water
+T209	Action 2431 2438	disolve
+T210	Reagent 2443 2449	pellet
+T211	Reagent 2457 2461	DEPC
+T212	Action 2462 2470	inhibits
+T213	Method 2471 2482	RT reaction
+T214	Action 2485 2488	Use
+T215	Amount 2489 2496	30-50µl
+T216	Reagent 2500 2505	water
+T217	Modifier 2506 2515	depending
+T218	Measure-Type 2523 2536	concentration
+T219	Modifier 2537 2543	needed
+T220	Action 2548 2556	discolve
+T221	Modifier 2557 2565	properly
+T223	Action 2605 2609	heat
+T224	Temperature 2613 2620	55-60°C
+T225	Time 2625 2631	10 min
+T226	Reagent 128 129	b
+T8	Action 496 503	Warm up
+T45	Reagent 558 566	sections
+T49	Action 546 549	Cut
+T52	Action 596 604	grind up
+T227	Reagent 714 722	aliquots
+T58	Action 686 691	added
+T107	Reagent 1422 1428	layers
+T228	Reagent 1592 1602	interphase
+T222	Method 2582 2599	pipet up and down

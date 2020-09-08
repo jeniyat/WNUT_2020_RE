@@ -1,0 +1,77 @@
+T1	Method 0 33	Assembling Viral Metagenomic Data
+T2	Method 39 45	SPAdes
+T3	Action 56 60	Open
+T4	Method 61 67	SPAdes
+T5	Action 68 72	Open
+T6	Method 73 79	SPAdes
+T7	Action 94 100	Select
+T8	Action 108 114	Select
+T9	Action 166 174	Navigate
+T10	Action 242 249	Select 
+T11	Modifier 284 297	Alternatively
+T12	Action 299 313	copy-and-paste
+T13	Action 466 474	Navigate
+T14	Action 542 549	Select 
+T15	Modifier 584 597	Alternatively
+T16	Action 599 613	copy-and-paste
+T17	Modifier 146 152	Paired
+T18	Modifier 446 452	Paired
+T19	Action 153 158	Reads
+T20	Action 453 458	Reads
+T21	Method 224 231	SPAdes 
+T22	Method 524 531	SPAdes 
+T23	Action 409 415	select
+T24	Action 709 715	select
+T25	Modifier 746 752	Paired
+T26	Action 753 758	Reads
+T27	Action 768 774	Select
+T28	Modifier 790 797	default
+T29	Modifier 817 827	sufficient
+T30	Action 903 910	changed
+T31	Numerical 924 926	35
+T32	Numerical 944 952	21,33,55
+T33	Action 962 967	found
+T34	Action 973 981	produces
+T35	Modifier 982 986	good
+T36	Reagent 987 1003	viral assemblies
+T37	Action 1029 1033	vary
+T38	Measure-Type 1017 1024	mileage
+T39	Action 1042 1046	note
+T40	Modifier 1087 1105	directly dependent
+T41	Action 1146 1154	selected
+T42	Numerical 1155 1156	2
+T43	Modifier 1157 1167	paired end
+T44	Modifier 1175 1179	Each
+T45	Modifier 1194 1200	paired
+T46	Action 1201 1206	reads
+T47	Action 1316 1329	mix-and-match
+T48	Modifier 1330 1349	paired and unpaired
+T49	Action 1350 1355	reads
+T50	Action 1379 1385	Launch
+T51	Method 1386 1394	Analysis
+T52	Action 1395 1398	Run
+T53	Time 1450 1463	hours or days
+T54	Action 1445 1449	take
+T55	Action 1497 1501	take
+T56	Time 1502 1513	a few hours
+T57	Modifier 1470 1476	sample
+T58	Action 1545 1550	found
+T59	Method 1558 1564	SPAdes
+T60	Modifier 1588 1599	abbreviated
+T61	Modifier 1610 1619	important
+T62	Action 1626 1635	generated
+T63	Modifier 1636 1651	during assembly
+T64	Modifier 1657 1671	most important
+T65	Action 1722 1731	contained
+T66	Modifier 1736 1745	assembled
+T67	Reagent 1746 1755	sequences
+T68	Action 1783 1787	save
+T69	Reagent 1762 1769	contigs
+T70	Location 249 283	OSD46_R1_shotgun_workable_PE.fastq
+T71	Location 328 380	/iplant/home/shared/iVirus/ExampleData/SPAdes/Inputs
+T72	Location 390 404	navigation bar
+T73	Location 549 583	OSD46_R2_shotgun_workable_PE.fastq
+T74	Location 628 680	/iplant/home/shared/iVirus/ExampleData/SPAdes/Inputs
+T75	Location 690 704	navigation bar
+T76	Location 1566 1584	'Output' directory
+T77	Numerical 1366 1367	5

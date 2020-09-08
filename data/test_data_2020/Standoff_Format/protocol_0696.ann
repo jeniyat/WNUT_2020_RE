@@ -1,0 +1,164 @@
+T1	Method 0 11	Preparation
+T2	Concentration 15 24	1.5 mg/mL
+T3	Reagent 25 73	Sera-mag carbolylate modified magnetic particles
+T4	Amount 80 87	500  mL
+T5	Modifier 88 93	final
+T6	Measure-Type 94 100	volume
+T7	Reagent 101 149	Sera-mag carboxylate modified magnetic particles
+T8	Concentration 151 153	5%
+T9	Concentration 162 170	50 mg/mL
+T10	Modifier 172 183	Hydrophobic
+T11	Amount 187 192	15 mL
+T12	Reagent 192 200	PEG-8000
+T13	Amount 203 208	110 g
+T14	Reagent 208 212	NaCl
+T15	Concentration 214 217	5 M
+T16	Amount 220 226	100 mL
+T17	Reagent 226 228	TE
+T18	Concentration 230 234	100X
+T19	Amount 237 241	5 mL
+T20	Reagent 241 249	Tween 20
+T21	Amount 252 258	275 µL
+T22	Reagent 154 160	solids
+T23	Action 355 360	Weigh
+T24	Reagent 361 364	PEG
+T25	Action 366 369	add
+T26	Size 373 376	1 L
+T27	Location 377 395	graduated cylinder
+T28	Action 397 400	add
+T29	Reagent 401 414	NaCl solution
+T30	Reagent 416 418	TE
+T31	Reagent 424 429	water
+T32	Amount 433 438	~95 %
+T33	Modifier 442 447	final
+T34	Measure-Type 448 454	volume
+T35	Modifier 467 473	bigger
+T36	Amount 479 485	500 mL
+T37	Action 498 501	use
+T38	Location 504 522	graduated cylinder
+T39	Amount 533 535	2x
+T40	Modifier 540 545	final
+T41	Measure-Type 546 552	volume
+T42	Action 554 559	Cover
+T43	Seal 565 573	parafilm
+T44	Action 583 587	stir
+T46	Device 593 612	magnetic stir plate
+T47	Reagent 619 622	PEG
+T50	Reagent 629 637	solution
+T51	Time 639 653	5 - 30 minutes
+T45	Action 655 658	Add
+T52	Reagent 659 667	tween 20
+T53	Action 672 676	stir
+T54	Action 680 683	mix
+T55	Modifier 684 690	gently
+T56	Action 694 699	avoid
+T57	Method 700 707	foaming
+T59	Reagent 714 728	Sera-mag beads
+T60	Amount 732 738	1.5 mL
+T61	Reagent 739 747	aliquots
+T62	Location 751 766	Eppendorf tubes
+T63	Numerical 768 775	2 times
+T64	Amount 781 788	1.5 mLs
+T65	Concentration 792 794	1x
+T66	Reagent 795 797	TE
+T67	Modifier 803 812	each wash
+T68	Action 814 823	resuspend
+T69	Reagent 824 829	beads
+T70	Method 833 842	pipetting
+T71	Modifier 852 857	final
+T72	Method 858 870	resuspension
+T73	Action 872 875	use
+T74	Amount 876 880	1 mL
+T75	Concentration 884 886	1x
+T76	Reagent 887 889	TE
+T77	Modifier 894 899	every
+T78	Amount 900 906	1.5 mL
+T79	Reagent 910 915	beads
+T80	Modifier 916 922	washed
+T81	Action 924 927	Add
+T82	Modifier 928 934	washed
+T83	Reagent 935 940	beads
+T84	Reagent 944 956	PEG solution
+T85	Action 958 961	mix
+T86	Modifier 962 966	well
+T87	Action 968 972	Fill
+T88	Amount 976 980	100%
+T89	Measure-Type 981 987	volume
+T90	Reagent 993 998	water
+T91	Action 1000 1003	Mix
+T92	Modifier 1024 1035	homogeneous
+T93	Reagent 1010 1020	suspension
+T94	Action 1037 1045	Transfer
+T95	Location 1049 1067	storage containers
+T96	Action 1069 1074	Store
+T97	Temperature 1077 1080	4˚C
+T98	Action 1082 1086	Test
+T99	Modifier 1087 1090	new
+T100	Method 1091 1107	bead preparation
+T101	Modifier 1120 1123	old
+T102	Reagent 1134 1149	AMPure XP beads
+T103	Action 1162 1169	Prepare
+T104	Amount 1172 1178	200 uL
+T105	Concentration 1182 1191	100 ng/µL
+T106	Reagent 1198 1204	ladder
+T107	Concentration 1208 1210	1x
+T108	Reagent 1211 1219	Tris-HCl
+T109	Action 1221 1228	Aliquot
+T110	Amount 1229 1234	10 µL
+T111	Concentration 1238 1247	100 ng/µL
+T112	Reagent 1248 1254	ladder
+T113	Location 1260 1265	tubes
+T114	Action 1267 1270	Add
+T115	Reagent 1271 1280	reference
+T116	Modifier 1285 1289	test
+T117	Reagent 1290 1307	bead preparations
+T118	Reagent 1317 1323	ladder
+T119	Modifier 1327 1333	varied
+T120	Measure-Type 1334 1340	ratios
+T121	Action 1342 1345	Mix
+T122	Modifier 1346 1352	gently
+T123	Method 1356 1377	pipetting up and down
+T124	Numerical 1378 1386	10 times
+T127	Modifier 1414 1420	slight
+T128	Method 1421 1430	vortexing
+T125	Method 1391 1406	inverting tubes
+T130	Location 1456 1461	sides
+T131	Location 1465 1474	container
+T132	Action 1476 1486	centrifuge
+T133	Modifier 1487 1494	quickly
+T134	Modifier 1499 1505	gently
+T135	Method 1521 1562	Magnetic Particle Based DNA Purification 
+T136	Modifier 1577 1580	1st
+T137	Method 1581 1596	incubation step
+T138	Action 1507 1515	Continue
+T139	Action 1598 1603	Elute
+T140	Amount 1607 1612	10 µL
+T142	Device 1644 1668	Agilent 2100 Bioanalyzer
+T143	Device 1676 1688	DNA 1000 kit
+T144	Measure-Type 1620 1637	fragment patterns
+T145	Measure-Type 1690 1706	Fragment pattern
+T146	Measure-Type 1787 1804	Fragment patterns
+T147	Action 1715 1720	match
+T148	Modifier 1711 1714	not
+T149	Modifier 1721 1731	commercial
+T150	Reagent 1732 1737	beads
+T151	Modifier 1738 1745	exactly
+T152	Modifier 1753 1758	lower
+T153	Measure-Type 1767 1785	bead/sample ratios
+T154	Numerical 1762 1765	1.0
+T155	Numerical 1808 1811	1.0
+T156	Measure-Type 1812 1832	bead to sample ratio
+T157	Modifier 1837 1842	above
+T158	Modifier 1843 1849	should
+T159	Action 1850 1855	match
+T126	Reagent 459 463	prep
+T160	Modifier 531 532	≥
+T48	Action 575 578	Mix
+T49	Action 709 713	Wash
+T58	Modifier 1170 1171	≥
+T161	Generic-Measure 1192 1197	50 bp
+T162	Generic-Measure 1311 1316	50 bp
+T163	Reagent 1434 1442	droplets
+T129	Action 1447 1452	stuck
+T141	Action 1614 1619	Check
+T164	Modifier 1760 1761	<

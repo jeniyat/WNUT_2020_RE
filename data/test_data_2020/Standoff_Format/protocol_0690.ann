@@ -1,0 +1,1083 @@
+T1	Reagent 0 6	Mu-DNA
+T2	Modifier 10 17	modular
+T3	Modifier 18 27	universal
+T4	Method 28 49	DNA extraction method
+T5	Modifier 50 59	adaptable
+T8	Modifier 97 103	entire
+T9	Method 104 112	protocol
+T10	Modifier 116 124	scalable
+T11	Modifier 138 145	initial
+T12	Reagent 146 152	sample
+T13	Measure-Type 153 159	weight
+T14	Modifier 163 174	transferred
+T15	Reagent 175 181	lysate
+T16	Modifier 196 204	relevant
+T17	Modifier 206 215	scalable 
+T18	Measure-Type 215 222	volumes
+T19	Action 227 232	shown
+T20	Reagent 253 260	reagent
+T21	Measure-Type 261 268	volumes
+T22	Numerical 281 284	2 X
+T23	Measure-Type 285 291	volume
+T24	Modifier 294 300	Large 
+T25	Reagent 300 306	sample
+T26	Measure-Type 307 314	weights
+T27	Action 315 323	increase
+T28	Measure-Type 324 331	volumes
+T30	Action 354 361	require
+T31	Modifier 362 370	extended
+T32	Measure-Type 371 387	centrifuge times
+T33	Modifier 394 399	lower
+T34	Measure-Type 400 402	xg
+T35	Action 406 412	obtain
+T36	Modifier 413 420	optimal
+T38	Action 440 448	Incubate
+T39	Reagent 449 468	Soil Lysis Additive
+T40	Reagent 473 489	Binding Solution
+T41	Temperature 493 497	55°C
+T42	Modifier 498 512	until required
+T44	Modifier 536 543	present
+T45	Action 544 547	mix
+T46	Modifier 548 554	gently
+T47	Modifier 555 572	until redissolved
+T48	Action 574 577	Use
+T49	Reagent 578 587	solutions
+T50	Modifier 600 604	warm
+T51	Method 605 610	LYSIS
+T52	Amount 645 651	0.25 g
+T53	Reagent 652 658	sample
+T54	Action 659 662	Add
+T55	Amount 663 668	0.5 g
+T56	Numerical 670 673	2 X
+T58	Measure-Type 674 687	sample weight
+T59	Size 692 702	1 - 1.4 mm
+T60	Modifier 712 719	sterile
+T61	Reagent 720 732	garnet beads
+T62	Size 738 742	2 mL
+T63	Modifier 743 752	screw cap
+T64	Location 753 757	tube
+T65	Action 757 760	Add
+T66	Modifier 761 766	up to
+T67	Amount 767 773	0.25 g
+T68	Reagent 777 783	sample
+T69	Location 787 791	tube
+T70	Action 791 794	Add
+T71	Amount 795 801	550 μL
+T72	Reagent 805 819	Lysis Solution
+T73	Amount 824 830	200 μL
+T74	Reagent 834 853	Soil Lysis Additive
+T75	Action 855 861	vortex
+T76	Modifier 862 869	breifly
+T77	Action 869 874	Place
+T78	Device 878 892	TissueLyser II
+T79	Modifier 897 904	similar
+T80	Device 905 914	apparatus
+T81	Generic-Measure 919 925	30 hz 
+T82	Time 929 936	10 mins
+T83	Action 936 946	Centrifuge
+T84	Speed 950 959	10,000 xg
+T85	Time 964 969	1 min
+T86	Temperature 973 989	room temperature
+T88	Action 996 1006	disturbing
+T87	Modifier 989 995	Witout
+T89	Reagent 1011 1017	pellet
+T90	Modifier 1018 1029	excessively
+T91	Action 1030 1039	transfer 
+T92	Modifier 1039 1052	all available
+T93	Reagent 1053 1064	supernatant
+T94	Size 1070 1076	1.5 mL
+T95	Location 1077 1081	tube
+T96	Action 1081 1091	Centrifuge
+T97	Speed 1095 1104	10,000 xg
+T98	Time 1109 1114	1 min
+T99	Temperature 1118 1134	room temperature
+T100	Modifier 1134 1141	Without
+T101	Action 1142 1152	disturbing
+T102	Reagent 1157 1163	pellet
+T103	Action 1165 1173	transfer
+T104	Reagent 1178 1189	supernatant
+T105	Modifier 1195 1200	fresh
+T106	Size 1201 1207	1.5 mL
+T107	Location 1208 1212	tube
+T108	Method 1213 1230	INHIBITOR REMOVAL
+T109	Modifier 1234 1243	following
+T110	Action 1254 1259	based
+T111	Amount 1263 1275	500 - 650 μL
+T112	Modifier 1279 1290	transterred
+T113	Reagent 1291 1297	lysate
+T114	Action 1299 1302	Add
+T115	Amount 1303 1309	300 μL
+T116	Numerical 1311 1316	0.6 X
+T117	Measure-Type 1317 1323	volume
+T118	Reagent 1328 1347	Flocculant Solution
+T119	Action 1349 1355	vortex
+T120	Modifier 1356 1363	briefly
+T121	Action 1368 1376	incubate
+T122	Temperature 1380 1383	4°C
+T123	Temperature 1387 1393	on ice
+T124	Modifier 1400 1407	minimum
+T125	Time 1411 1418	10 mins
+T126	Action 1418 1428	Centrifuge
+T127	Speed 1432 1441	10,000 xg
+T128	Time 1446 1451	1 min
+T129	Temperature 1455 1471	room temperature
+T130	Modifier 1471 1478	Without
+T131	Action 1479 1489	disturbing
+T132	Reagent 1494 1500	pellet
+T133	Action 1502 1510	transfer
+T134	Reagent 1515 1526	supernatant
+T135	Size 1532 1536	2 mL
+T136	Location 1537 1541	tube
+T137	Method 1542 1556	SILICA BINDING
+T138	Modifier 1560 1569	following
+T139	Action 1580 1585	based
+T140	Amount 1589 1601	600 - 700 μL
+T141	Modifier 1605 1616	transterred
+T142	Reagent 1617 1628	supernatant
+T143	Action 1630 1633	Add
+T144	Amount 1634 1641	1200 μL
+T145	Numerical 1643 1646	2 X
+T146	Measure-Type 1647 1653	volume
+T147	Reagent 1658 1674	Binding Solution
+T148	Action 1676 1682	vortex
+T149	Modifier 1683 1690	briefly
+T150	Action 1694 1697	mix
+T151	Action 1697 1705	Transfer
+T152	Amount 1706 1712	650 μL
+T153	Reagent 1720 1727	mixture
+T154	Device 1733 1744	spin column
+T155	Action 1744 1754	Centrifuge
+T156	Speed 1760 1769	10,000 xg
+T157	Time 1774 1779	1 min
+T158	Temperature 1783 1799	room temperature
+T159	Action 1801 1808	discard
+T160	Reagent 1813 1825	flow-through
+T161	Action 1825 1831	Repeat
+T162	Modifier 1852 1855	all
+T163	Reagent 1860 1867	mixture
+T164	Action 1872 1886	passed through
+T165	Device 1891 1902	spin column
+T166	Method 1903 1907	WASH
+T167	Action 1908 1911	Add
+T168	Amount 1912 1918	500 μL
+T169	Reagent 1922 1935	Wash Solution
+T170	Device 1943 1954	spin column
+T171	Action 1954 1964	Centrifuge
+T172	Speed 1968 1977	10,000 xg
+T173	Time 1982 1987	1 min
+T174	Temperature 1991 2007	room temperature
+T175	Action 2009 2016	discard
+T176	Reagent 2021 2033	flow-through
+T177	Action 2033 2043	Centrifuge
+T178	Speed 2047 2056	10,000 xg
+T179	Time 2061 2066	2 min
+T180	Temperature 2070 2086	room temperature
+T181	Action 2088 2095	replace
+T182	Location 2096 2111	collection tube
+T183	Modifier 2119 2124	fresh
+T184	Size 2125 2131	1.5 mL
+T185	Location 2132 2136	tube
+T186	Method 2137 2144	ELUTION
+T187	Action 2145 2148	Add
+T188	Amount 2149 2155	100 μL
+T189	Reagent 2159 2174	Elution Buffer 
+T190	Modifier 2174 2182	directly
+T191	Device 2190 2201	spin column
+T192	Location 2202 2210	membrane
+T193	Action 2215 2223	incubate
+T194	Time 2228 2233	1 min
+T195	Temperature 2237 2253	room temperature
+T196	Action 2253 2263	Centrifuge
+T197	Speed 2267 2276	10,000 xg
+T198	Time 2281 2286	1 min
+T199	Temperature 2290 2306	room temperature
+T200	Reagent 2306 2309	DNA
+T201	Size 2324 2330	1.5 mL
+T202	Location 2331 2336	tube 
+T204	Method 2336 2353	INHIBITOR REMOVAL
+T206	Action 2377 2382	based
+T207	Amount 2386 2398	500 - 650 μL
+T208	Modifier 2402 2413	transterred
+T209	Reagent 2414 2420	lysate
+T210	Action 2421 2424	Add
+T211	Amount 2425 2432	1200 μL
+T212	Numerical 2434 2437	2 X
+T213	Measure-Type 2438 2444	volume
+T214	Reagent 2449 2465	Binding Solution
+T215	Action 2467 2473	vortex
+T216	Modifier 2474 2481	briefly
+T217	Action 2485 2488	mix
+T218	Action 2488 2496	Transfer
+T219	Amount 2497 2503	650 μL
+T220	Reagent 2511 2518	mixture
+T221	Device 2524 2535	spin column
+T222	Action 2535 2545	Centrifuge
+T223	Speed 2551 2560	10,000 xg
+T224	Time 2565 2570	1 min
+T225	Temperature 2574 2590	room temperature
+T226	Action 2592 2599	discard
+T227	Reagent 2604 2616	flow-through
+T228	Action 2616 2622	Repeat
+T229	Modifier 2643 2646	all
+T230	Reagent 2651 2658	mixture
+T231	Action 2663 2677	passed through
+T232	Device 2682 2693	spin column
+T233	Method 2694 2698	WASH
+T234	Action 2699 2702	Add
+T235	Amount 2703 2709	500 μL
+T236	Reagent 2713 2726	Wash Solution
+T237	Device 2734 2745	spin column
+T238	Action 2745 2755	Centrifuge
+T239	Speed 2759 2768	10,000 xg
+T240	Time 2773 2778	1 min
+T241	Temperature 2782 2798	room temperature
+T242	Action 2800 2807	discard
+T243	Reagent 2812 2824	flow-through
+T244	Action 2824 2834	Centrifuge
+T245	Speed 2838 2847	10,000 xg
+T246	Time 2852 2857	2 min
+T247	Temperature 2861 2877	room temperature
+T248	Action 2879 2886	replace
+T249	Location 2887 2902	collection tube
+T250	Modifier 2910 2915	fresh
+T251	Size 2916 2922	1.5 mL
+T252	Location 2923 2927	tube
+T253	Method 2928 2935	ELUTION
+T254	Action 2936 2939	Add
+T255	Amount 2940 2946	100 μL
+T256	Reagent 2950 2965	Elution Buffer 
+T257	Modifier 2965 2973	directly
+T258	Device 2981 2992	spin column
+T259	Location 2993 3001	membrane
+T260	Action 3006 3014	incubate
+T261	Time 3019 3024	1 min
+T262	Temperature 3028 3044	room temperature
+T263	Action 3044 3054	Centrifuge
+T264	Speed 3058 3067	10,000 xg
+T265	Time 3072 3077	1 min
+T266	Temperature 3082 3097	oom temperature
+T267	Reagent 3097 3100	DNA
+T268	Size 3115 3121	1.5 mL
+T270	Location 3122 3127	tube 
+T271	Method 3127 3141	SILICA BINDING
+T273	Action 3165 3170	based
+T274	Amount 3174 3186	600 - 700 μL
+T275	Modifier 3190 3201	transterred
+T276	Reagent 3202 3213	supernatant
+T277	Action 3214 3217	Add
+T278	Amount 3218 3225	1200 μL
+T279	Numerical 3227 3230	2 X
+T280	Measure-Type 3231 3237	volume
+T281	Reagent 3242 3258	Binding Solution
+T282	Action 3260 3266	vortex
+T283	Modifier 3267 3274	briefly
+T284	Action 3278 3281	mix
+T285	Action 3281 3289	Transfer
+T286	Amount 3290 3296	650 μL
+T287	Reagent 3304 3311	mixture
+T288	Device 3317 3328	spin column
+T289	Action 3328 3338	Centrifuge
+T290	Speed 3344 3353	10,000 xg
+T291	Time 3358 3363	1 min
+T292	Temperature 3367 3383	room temperature
+T293	Action 3385 3392	discard
+T294	Reagent 3397 3409	flow-through
+T295	Action 3409 3415	Repeat
+T296	Modifier 3436 3439	all
+T297	Reagent 3444 3451	mixture
+T298	Action 3456 3470	passed through
+T299	Device 3475 3486	spin column
+T300	Method 3487 3491	WASH
+T301	Action 3492 3495	Add
+T302	Amount 3496 3502	500 μL
+T303	Reagent 3506 3519	Wash Solution
+T304	Device 3527 3538	spin column
+T305	Action 3538 3548	Centrifuge
+T306	Speed 3552 3561	10,000 xg
+T307	Time 3566 3571	1 min
+T308	Temperature 3575 3591	room temperature
+T309	Action 3593 3600	discard
+T310	Reagent 3605 3617	flow-through
+T311	Action 3617 3627	Centrifuge
+T312	Speed 3631 3640	10,000 xg
+T313	Time 3645 3650	2 min
+T314	Temperature 3654 3670	room temperature
+T315	Action 3672 3679	replace
+T316	Location 3680 3695	collection tube
+T317	Modifier 3703 3708	fresh
+T318	Size 3709 3715	1.5 mL
+T319	Location 3716 3720	tube
+T320	Method 3721 3728	ELUTION
+T321	Action 3729 3732	Add
+T322	Amount 3733 3739	100 μL
+T323	Reagent 3743 3758	Elution Buffer 
+T324	Modifier 3758 3766	directly
+T325	Device 3774 3785	spin column
+T326	Location 3786 3794	membrane
+T327	Action 3799 3807	incubate
+T328	Time 3812 3817	1 min
+T329	Temperature 3821 3837	room temperature
+T330	Action 3837 3847	Centrifuge
+T331	Speed 3851 3860	10,000 xg
+T332	Time 3865 3870	1 min
+T333	Temperature 3874 3890	room temperature
+T334	Reagent 3890 3893	DNA
+T336	Size 3908 3914	1.5 mL
+T337	Location 3915 3920	tube 
+T338	Method 3920 3924	WASH
+T339	Action 3924 3927	Add
+T340	Amount 3928 3934	500 μL
+T341	Reagent 3938 3951	Wash Solution
+T342	Device 3959 3970	spin column
+T343	Action 3970 3980	Centrifuge
+T344	Speed 3984 3993	10,000 xg
+T345	Time 3998 4003	1 min
+T346	Temperature 4007 4023	room temperature
+T347	Action 4025 4032	discard
+T348	Reagent 4037 4049	flow-through
+T349	Action 4049 4059	Centrifuge
+T350	Speed 4063 4072	10,000 xg
+T351	Time 4077 4082	2 min
+T352	Temperature 4086 4102	room temperature
+T353	Action 4104 4111	replace
+T354	Location 4112 4127	collection tube
+T355	Modifier 4135 4140	fresh
+T356	Size 4141 4147	1.5 mL
+T357	Location 4148 4152	tube
+T358	Method 4153 4160	ELUTION
+T359	Action 4161 4164	Add
+T360	Amount 4165 4171	100 μL
+T361	Reagent 4175 4190	Elution Buffer 
+T362	Modifier 4190 4198	directly
+T363	Device 4206 4217	spin column
+T364	Location 4218 4226	membrane
+T365	Action 4231 4239	incubate
+T366	Time 4244 4249	1 min
+T367	Temperature 4253 4269	room temperature
+T368	Action 4269 4279	Centrifuge
+T369	Speed 4283 4292	10,000 xg
+T370	Time 4297 4302	1 min
+T371	Temperature 4306 4322	room temperature
+T372	Reagent 4322 4325	DNA
+T374	Size 4340 4346	1.5 mL
+T375	Location 4347 4352	tube 
+T376	Method 4352 4359	ELUTION
+T377	Action 4359 4362	Add
+T378	Amount 4363 4369	100 μL
+T379	Reagent 4373 4388	Elution Buffer 
+T380	Modifier 4388 4396	directly
+T381	Device 4404 4415	spin column
+T382	Location 4416 4424	membrane
+T383	Action 4429 4437	incubate
+T384	Time 4442 4447	1 min
+T385	Temperature 4451 4467	room temperature
+T386	Action 4467 4477	Centrifuge
+T387	Speed 4481 4490	10,000 xg
+T388	Time 4495 4500	1 min
+T389	Temperature 4504 4520	room temperature
+T390	Reagent 4520 4523	DNA
+T392	Size 4538 4544	1.5 mL
+T393	Location 4545 4550	tube 
+T394	Modifier 4564 4573	increased
+T396	Action 4584 4590	repeat
+T397	Method 4620 4635	Troubleshooting
+T398	Device 4636 4647	Spin column
+T399	Modifier 4648 4655	clogged
+T400	Action 4657 4667	Centrifuge
+T401	Modifier 4671 4677	higher
+T402	Measure-Type 4678 4680	xg
+T403	Time 4685 4691	2 mins
+T405	Action 4708 4712	heat
+T406	Device 4713 4724	spin column
+T407	Modifier 4726 4735	including
+T408	Location 4736 4751	collection tube
+T410	Location 4757 4777	binding mixture tube
+T409	Modifier 4788 4810	previously transferred
+T411	Reagent 4811 4822	supernatant
+T412	Reagent 4827 4851	Binding Solution mixture
+T413	Temperature 4856 4860	55°C
+T414	Time 4865 4870	5 min
+T415	Action 4876 4886	centrifuge
+T416	Modifier 4890 4896	higher
+T417	Measure-Type 4897 4899	xg
+T418	Time 4904 4910	2 mins
+T419	Action 4912 4920	Continue
+T420	Method 4926 4934	protocol
+T421	Modifier 4940 4946	entire
+T422	Method 4947 4956	protocol 
+T423	Modifier 4959 4967	scalable
+T424	Modifier 4981 4988	initial
+T425	Measure-Type 4989 5002	sample weight
+T427	Modifier 5006 5017	transferred
+T428	Reagent 5018 5024	lysate
+T429	Modifier 5039 5047	relevant
+T430	Modifier 5049 5058	scalable 
+T431	Measure-Type 5058 5065	volumes
+T432	Action 5070 5075	shown
+T433	Reagent 5096 5103	reagent
+T434	Measure-Type 5104 5111	volumes
+T436	Numerical 5124 5127	2 X
+T437	Measure-Type 5128 5134	volume
+T439	Action 5147 5155	Incubate
+T440	Reagent 5156 5178	Tissue Lysis Additive 
+T441	Reagent 5182 5205	Tissue Binding Solution
+T442	Temperature 5209 5213	55°C
+T443	Modifier 5214 5228	until required
+T444	Method 5230 5235	LYSIS
+T445	Action 5235 5240	Place
+T446	Modifier 5241 5246	up to
+T447	Amount 5247 5252	40 mg
+T448	Reagent 5256 5262	tissue
+T449	Size 5270 5276	1.5 mL
+T450	Location 5277 5281	tube
+T451	Action 5281 5284	Add
+T452	Amount 5285 5291	260 μL
+T453	Reagent 5295 5309	Lysis Solution
+T454	Amount 5311 5316	20 μL
+T455	Reagent 5317 5338	Tissue Lysis Additive
+T456	Amount 5343 5348	20 μL
+T457	Reagent 5349 5363	PKGrind tissue
+T458	Device 5371 5382	tube pestle
+T459	Action 5384 5390	vortex
+T460	Modifier 5391 5398	briefly
+T461	Action 5398 5406	Incubate
+T462	Temperature 5410 5414	55°C
+T463	Modifier 5420 5430	occasional
+T464	Method 5431 5440	vortexing
+T465	Modifier 5447 5450	all
+T466	Reagent 5451 5457	tissue
+T467	Modifier 5461 5470	dissolved
+T468	Time 5472 5480	>3 hours
+T469	Time 5484 5493	overnight
+T470	Modifier 4550 4558	Optional
+T471	Modifier 4605 4619	a further time
+T628	Action 5495 5505	Centrifuge
+T629	Speed 5509 5518	10,000 xg
+T630	Time 5523 5528	1 min
+T631	Temperature 5532 5548	room temperature
+T632	Modifier 5548 5555	Without
+T633	Action 5556 5566	disturbing
+T634	Reagent 5571 5577	pellet
+T635	Action 5579 5587	transfer
+T636	Reagent 5592 5603	supernatant
+T637	Modifier 5609 5614	fresh
+T638	Size 5615 5621	1.5 mL
+T639	Location 5622 5626	tube
+T640	Method 5627 5641	SILICA BINDING
+T641	Modifier 5645 5654	following
+T642	Action 5665 5670	based
+T643	Amount 5674 5680	300 μL
+T644	Modifier 5684 5695	transterred
+T645	Reagent 5696 5707	supernatant
+T646	Action 5709 5712	Add
+T647	Amount 5713 5719	600 μL
+T648	Numerical 5721 5724	2 X
+T649	Measure-Type 5725 5731	volume
+T650	Reagent 5733 5756	Tissue Binding Solution
+T651	Action 5758 5764	vortex
+T652	Modifier 5765 5772	briefly
+T653	Action 5776 5780	mix 
+T654	Action 5780 5788	Transfer
+T655	Amount 5789 5795	650 μL
+T656	Reagent 5803 5810	mixture
+T657	Device 5816 5827	spin column
+T658	Action 5827 5837	Centrifuge
+T659	Speed 5843 5852	10,000 xg
+T660	Time 5857 5862	1 min
+T661	Temperature 5866 5882	room temperature
+T662	Action 5884 5891	discard
+T663	Reagent 5896 5908	flow-through
+T664	Action 5908 5914	Repeat
+T665	Modifier 5934 5937	all
+T666	Reagent 5942 5949	mixture
+T667	Action 5954 5968	passed through
+T668	Device 5973 5984	spin column
+T669	Method 5985 5989	WASH
+T670	Action 5990 5993	Add
+T671	Amount 5994 6000	500 μL
+T672	Reagent 6004 6017	Wash Solution
+T673	Device 6025 6036	spin column
+T674	Action 6036 6046	Centrifuge
+T675	Speed 6050 6059	10,000 xg
+T676	Time 6064 6069	1 min
+T677	Temperature 6073 6089	room temperature
+T678	Action 6091 6098	discard
+T679	Reagent 6103 6115	flow-through
+T680	Action 6115 6121	Repeat
+T681	Modifier 6136 6149	a second time
+T682	Action 6149 6159	Centrifuge
+T683	Speed 6163 6172	10,000 xg
+T684	Time 6177 6182	2 min
+T685	Temperature 6186 6202	room temperature
+T686	Action 6204 6211	replace
+T687	Location 6212 6227	collection tube
+T688	Modifier 6235 6240	fresh
+T689	Size 6241 6247	1.5 mL
+T690	Location 6248 6252	tube
+T691	Method 6253 6260	ELUTION
+T692	Action 6261 6264	Add
+T693	Amount 6265 6271	200 μL
+T694	Reagent 6275 6289	Elution Buffer
+T695	Modifier 6290 6298	directly
+T696	Device 6306 6317	spin column
+T697	Location 6318 6327	membrane 
+T698	Action 6331 6339	incubate
+T699	Time 6344 6349	1 min
+T700	Temperature 6353 6369	room temperature
+T701	Action 6369 6379	Centrifuge
+T702	Speed 6383 6392	10,000 xg
+T703	Time 6397 6402	1 min
+T704	Temperature 6406 6422	room temperature
+T705	Reagent 6422 6425	DNA
+T707	Size 6440 6446	1.5 mL
+T708	Location 6447 6451	tube
+T709	Method 6451 6465	SILICA BINDING
+T710	Modifier 6469 6478	following
+T711	Action 6489 6494	based
+T712	Amount 6498 6504	300 μL
+T713	Modifier 6508 6519	transterred
+T714	Reagent 6520 6531	supernatant
+T715	Action 6532 6535	Add
+T716	Amount 6536 6542	600 μL
+T717	Numerical 6544 6547	2 X
+T718	Measure-Type 6548 6554	volume
+T719	Reagent 6556 6579	Tissue Binding Solution
+T720	Action 6581 6587	vortex
+T721	Modifier 6588 6595	briefly
+T722	Action 6599 6603	mix 
+T723	Action 6603 6611	Transfer
+T724	Amount 6612 6618	650 μL
+T725	Reagent 6626 6633	mixture
+T726	Device 6639 6650	spin column
+T727	Action 6650 6660	Centrifuge
+T728	Speed 6666 6675	10,000 xg
+T729	Time 6680 6685	1 min
+T730	Temperature 6689 6705	room temperature
+T731	Action 6707 6714	discard
+T732	Reagent 6719 6731	flow-through
+T733	Action 6731 6737	Repeat
+T734	Modifier 6757 6760	all
+T735	Reagent 6765 6772	mixture
+T736	Action 6777 6791	passed through
+T737	Device 6796 6807	spin column
+T738	Method 6808 6812	WASH
+T739	Action 6813 6816	Add
+T740	Amount 6817 6823	500 μL
+T741	Reagent 6827 6840	Wash Solution
+T742	Device 6848 6859	spin column
+T743	Action 6859 6869	Centrifuge
+T744	Speed 6873 6882	10,000 xg
+T745	Time 6887 6892	1 min
+T746	Temperature 6896 6912	room temperature
+T747	Action 6914 6921	discard
+T748	Reagent 6926 6938	flow-through
+T749	Action 6938 6944	Repeat
+T750	Modifier 6959 6972	a second time
+T751	Action 6972 6982	Centrifuge
+T752	Speed 6986 6995	10,000 xg
+T753	Time 7000 7005	2 min
+T754	Temperature 7009 7025	room temperature
+T755	Action 7027 7034	replace
+T756	Location 7035 7050	collection tube
+T757	Modifier 7058 7063	fresh
+T758	Size 7064 7070	1.5 mL
+T759	Location 7071 7075	tube
+T760	Method 7076 7083	ELUTION
+T761	Action 7084 7087	Add
+T762	Amount 7088 7094	200 μL
+T763	Reagent 7098 7112	Elution Buffer
+T764	Modifier 7113 7121	directly
+T765	Device 7129 7140	spin column
+T766	Location 7141 7150	membrane 
+T767	Action 7154 7162	incubate
+T768	Time 7167 7172	1 min
+T769	Temperature 7176 7192	room temperature
+T770	Action 7192 7202	Centrifuge
+T771	Speed 7206 7215	10,000 xg
+T772	Time 7220 7225	1 min
+T773	Temperature 7229 7245	room temperature
+T774	Reagent 7245 7248	DNA
+T776	Size 7263 7269	1.5 mL
+T777	Location 7270 7274	tube
+T778	Method 7274 7278	WASH
+T779	Action 7278 7281	Add
+T780	Amount 7282 7288	500 μL
+T781	Reagent 7292 7305	Wash Solution
+T782	Device 7313 7324	spin column
+T783	Action 7324 7334	Centrifuge
+T784	Speed 7338 7347	10,000 xg
+T785	Time 7352 7357	1 min
+T786	Temperature 7361 7377	room temperature
+T787	Action 7379 7386	discard
+T788	Reagent 7391 7403	flow-through
+T789	Action 7403 7409	Repeat
+T790	Modifier 7424 7437	a second time
+T791	Action 7437 7447	Centrifuge
+T792	Speed 7451 7460	10,000 xg
+T793	Time 7465 7470	2 min
+T794	Temperature 7474 7490	room temperature
+T795	Action 7492 7499	replace
+T796	Location 7500 7515	collection tube
+T797	Modifier 7523 7528	fresh
+T798	Size 7529 7535	1.5 mL
+T799	Location 7536 7540	tube
+T800	Method 7541 7548	ELUTION
+T801	Action 7549 7552	Add
+T802	Amount 7553 7559	200 μL
+T803	Reagent 7563 7577	Elution Buffer
+T804	Modifier 7578 7586	directly
+T805	Device 7594 7605	spin column
+T806	Location 7606 7615	membrane 
+T807	Action 7619 7627	incubate
+T808	Time 7632 7637	1 min
+T809	Temperature 7641 7657	room temperature
+T810	Action 7657 7667	Centrifuge
+T811	Speed 7671 7680	10,000 xg
+T812	Time 7685 7690	1 min
+T813	Temperature 7694 7710	room temperature
+T814	Reagent 7710 7713	DNA
+T816	Size 7728 7734	1.5 mL
+T817	Location 7735 7739	tube
+T818	Method 7739 7746	ELUTION
+T819	Action 7746 7749	Add
+T820	Amount 7750 7756	200 μL
+T821	Reagent 7760 7774	Elution Buffer
+T822	Modifier 7775 7783	directly
+T823	Device 7791 7802	spin column
+T824	Location 7803 7812	membrane 
+T825	Action 7816 7824	incubate
+T826	Time 7829 7834	1 min
+T827	Temperature 7838 7854	room temperature
+T828	Action 7854 7864	Centrifuge
+T829	Speed 7868 7877	10,000 xg
+T830	Time 7882 7887	1 min
+T831	Temperature 7891 7907	room temperature
+T832	Reagent 7907 7910	DNA
+T834	Size 7925 7931	1.5 mL
+T835	Location 7932 7936	tube
+T837	Modifier 7950 7959	increased
+T838	Reagent 7960 7963	DNA
+T839	Action 7970 7976	repeat
+T840	Modifier 7991 8005	a further time
+T841	Method 8006 8021	Troubleshooting
+T842	Reagent 8021 8027	Lysate
+T845	Modifier 8052 8057	white
+T846	Action 8059 8063	Heat
+T847	Reagent 8064 8070	lysate
+T848	Temperature 8074 8078	55°C
+T849	Time 8083 8088	5 min
+T850	Action 8090 8096	vortex
+T851	Modifier 8097 8104	briefly
+T852	Action 8109 8116	proceed
+T853	Method 8122 8130	protocol
+T854	Reagent 8131 8173	Lysate and Tissue Binding Solution mixture
+T855	Modifier 8182 8188	cloudy
+T856	Action 8190 8194	Heat
+T857	Reagent 8195 8202	mixture
+T858	Temperature 8206 8210	55°C
+T859	Time 8215 8220	5 min
+T860	Action 8225 8232	proceed
+T861	Method 8238 8246	protocol
+T862	Device 8247 8258	Spin column
+T863	Modifier 8259 8266	clogged
+T864	Action 8268 8278	Centrifuge
+T865	Modifier 8282 8288	higher
+T866	Measure-Type 8289 8291	xg
+T867	Time 8296 8302	2 mins
+T868	Modifier 8304 8317	Alternatively
+T869	Action 8319 8323	heat
+T870	Device 8324 8335	spin column
+T871	Location 8347 8362	collection tube
+T872	Modifier 8337 8346	including
+T873	Location 8368 8388	binding mixture tube
+T874	Modifier 8399 8421	previously transferred
+T875	Reagent 8422 8433	supernatant
+T876	Reagent 8438 8469	Tissue Binding Solution mixture
+T877	Temperature 8474 8478	55°C
+T878	Time 8483 8488	5 min
+T879	Action 8494 8504	centrifuge
+T880	Modifier 8508 8514	higher
+T881	Measure-Type 8515 8517	xg
+T882	Time 8522 8528	2 mins
+T883	Reagent 8534 8547	water samples
+T885	Size 8572 8586	47 mm diameter
+T886	Modifier 8587 8604	cellulose nitrate
+T887	Device 8605 8621	membrane filters
+T889	Modifier 8638 8644	entire
+T890	Method 8645 8653	protocol
+T891	Modifier 8657 8665	scalable
+T892	Action 8666 8671	based
+T893	Modifier 8677 8688	transferred
+T894	Reagent 8689 8700	supernatant
+T895	Measure-Type 8701 8708	volumes
+T896	Modifier 8716 8724	relevant
+T897	Modifier 8726 8734	scalable
+T898	Measure-Type 8735 8742	volumes
+T899	Action 8747 8752	shown
+T900	Reagent 8773 8780	reagent
+T901	Measure-Type 8781 8788	volumes
+T902	Numerical 8801 8804	2 X
+T903	Measure-Type 8805 8811	volume
+T905	Action 8824 8832	Incubate
+T906	Reagent 8833 8853	Water Lysis Additive
+T907	Reagent 8858 8874	Binding Solution
+T908	Temperature 8878 8882	55°C
+T909	Modifier 8883 8897	until required
+T910	Method 8899 8904	LYSIS
+T911	Action 8904 8907	Add
+T912	Amount 8908 8911	1 g
+T913	Modifier 8912 8916	each
+T914	Size 8920 8927	0.15 mm
+T915	Size 8932 8951	1 - 1.4 mm diameter
+T916	Modifier 8952 8959	sterile
+T917	Modifier 8960 8966	garnet
+T918	Reagent 8967 8972	beads
+T919	Size 8976 8980	7 mL
+T920	Location 8981 8991	Bijou tube
+T921	Modifier 8996 9003	similar
+T922	Location 9004 9008	tube
+T924	Device 9026 9032	filter
+T925	Action 9034 9038	Roll
+T926	Device 9039 9045	filter
+T927	Action 9050 9055	place
+T928	Location 9059 9063	tube
+T929	Action 9063 9066	Add
+T930	Amount 9067 9073	750 μL
+T931	Reagent 9077 9091	Lysis Solution
+T932	Amount 9096 9102	250 μL
+T933	Reagent 9106 9126	Water Lysis Additive
+T934	Action 9126 9131	Place
+T935	Device 9135 9149	TissueLyser II
+T936	Modifier 9154 9161	similar
+T937	Device 9162 9171	apparatus
+T938	Generic-Measure 9176 9181	30 hz
+T939	Time 9186 9192	5 mins
+T940	Action 9192 9202	Centrifuge
+T941	Speed 9206 9214	4,000 xg
+T942	Time 9219 9224	1 min
+T943	Temperature 9228 9244	room temperature
+T944	Action 9244 9252	Transfer
+T945	Modifier 9253 9266	all available
+T946	Reagent 9267 9278	supernatant
+T947	Modifier 9284 9290	within
+T948	Modifier 9295 9301	garnet
+T949	Reagent 9302 9307	beads
+T950	Amount 9313 9319	1.5 mL
+T951	Location 9320 9324	tube
+T952	Action 9324 9334	Centrifuge
+T953	Speed 9338 9347	10,000 xg
+T954	Time 9352 9357	1 min
+T955	Temperature 9361 9377	room temperature
+T956	Modifier 9377 9384	Without
+T957	Action 9385 9395	disturbing
+T958	Reagent 9400 9406	pellet
+T959	Action 9408 9416	transfer
+T960	Reagent 9421 9432	supernatant
+T961	Modifier 9438 9443	fresh
+T962	Size 9444 9450	1.5 mL
+T963	Location 9451 9455	tube
+T964	Method 9456 9473	INHIBITOR REMOVAL
+T965	Modifier 9477 9486	following
+T966	Action 9497 9502	based
+T967	Amount 9506 9518	500 - 650 μL
+T968	Modifier 9522 9533	transterred
+T969	Reagent 9534 9540	lysate
+T970	Action 9542 9545	Add
+T971	Amount 9546 9552	200 μL
+T972	Numerical 9554 9559	0.3 X
+T973	Measure-Type 9560 9566	volume
+T974	Reagent 9571 9590	Flocculant Solution
+T975	Action 9592 9598	vortex
+T976	Modifier 9599 9606	briefly
+T977	Action 9611 9619	incubate
+T978	Temperature 9623 9626	4°C
+T979	Temperature 9630 9636	on ice
+T980	Modifier 9643 9650	minimum
+T981	Time 9654 9661	10 mins
+T982	Action 9661 9671	Centrifuge
+T983	Speed 9675 9684	10,000 xg
+T984	Time 9689 9694	1 min
+T985	Temperature 9698 9714	room temperature
+T986	Modifier 9714 9721	Without
+T987	Action 9722 9732	disturbing
+T988	Reagent 9737 9743	pellet
+T989	Action 9745 9753	transfer
+T990	Reagent 9758 9769	supernatant
+T991	Size 9775 9779	2 mL
+T992	Location 9780 9784	tube
+T993	Method 9785 9799	SILICA BINDING
+T995	Action 9823 9828	based
+T996	Amount 9832 9844	600 - 700 μL
+T997	Modifier 9848 9859	transterred
+T998	Reagent 9860 9871	supernatant
+T999	Action 9873 9876	Add
+T1000	Amount 9877 9884	1200 μL
+T1001	Numerical 9886 9889	2 X
+T1002	Measure-Type 9890 9896	volume
+T1003	Reagent 9901 9917	Binding Solution
+T1004	Action 9919 9925	vortex
+T1005	Modifier 9926 9933	briefly
+T1006	Action 9937 9940	mix
+T1007	Action 9940 9948	Transfer
+T1008	Amount 9949 9955	650 μL
+T1009	Reagent 9963 9970	mixture
+T1010	Device 9976 9987	spin column
+T1011	Action 9987 9997	Centrifuge
+T1012	Speed 10003 10012	10,000 xg
+T1013	Time 10017 10022	1 min
+T1014	Temperature 10026 10042	room temperature
+T1015	Action 10044 10051	discard
+T1016	Reagent 10056 10068	flow-through
+T1017	Action 10068 10074	Repeat
+T1018	Modifier 10094 10097	all
+T1019	Reagent 10102 10109	mixture
+T1020	Action 10114 10128	passed through
+T1021	Device 10133 10144	spin column
+T1022	Method 10145 10149	WASH
+T1023	Action 10150 10153	Add
+T1024	Amount 10154 10160	500 μL
+T1025	Reagent 10164 10177	Wash Solution
+T1026	Device 10185 10196	spin column
+T1027	Action 10196 10206	Centrifuge
+T1028	Speed 10210 10219	10,000 xg
+T1029	Time 10224 10229	1 min
+T1030	Temperature 10233 10249	room temperature
+T1031	Action 10251 10258	discard
+T1032	Reagent 10263 10275	flow-through
+T1033	Action 10275 10285	Centrifuge
+T1034	Speed 10289 10298	10,000 xg
+T1035	Temperature 10303 10308	2 min
+T1036	Temperature 10312 10328	room temperature
+T1037	Action 10330 10337	replace
+T1038	Location 10338 10353	collection tube
+T1039	Modifier 10361 10366	fresh
+T1040	Size 10367 10373	1.5 mL
+T1041	Location 10374 10378	tube
+T1042	Method 10379 10386	ELUTION
+T1043	Action 10387 10390	Add
+T1044	Amount 10391 10397	100 μL
+T1045	Reagent 10401 10415	Elution Buffer
+T1046	Modifier 10416 10424	directly
+T1047	Device 10432 10443	spin column
+T1048	Location 10444 10452	membrane
+T1049	Action 10457 10465	incubate
+T1050	Time 10470 10475	1 min
+T1051	Temperature 10479 10495	room temperature
+T1052	Action 10495 10505	Centrifuge
+T1053	Speed 10509 10518	10,000 xg
+T1054	Time 10523 10528	1 min
+T1055	Temperature 10532 10548	room temperature
+T1056	Reagent 10548 10551	DNA
+T1058	Size 10566 10572	1.5 mL
+T1059	Location 10573 10577	tube
+T1060	Method 10577 10594	INHIBITOR REMOVAL
+T1061	Modifier 10598 10607	following
+T1062	Action 10618 10623	based
+T1063	Amount 10627 10639	500 - 650 μL
+T1064	Modifier 10643 10654	transterred
+T1065	Reagent 10655 10661	lysate
+T1066	Action 10662 10665	Add
+T1067	Amount 10666 10673	1200 μL
+T1068	Numerical 10675 10678	2 X
+T1069	Measure-Type 10679 10685	volume
+T1070	Reagent 10690 10706	Binding Solution
+T1071	Action 10708 10714	vortex
+T1072	Modifier 10715 10722	briefly
+T1073	Action 10726 10729	mix
+T1074	Action 10729 10737	Transfer
+T1075	Amount 10738 10744	650 μL
+T1076	Reagent 10752 10759	mixture
+T1077	Device 10765 10776	spin column
+T1078	Action 10776 10786	Centrifuge
+T1079	Speed 10792 10801	10,000 xg
+T1080	Time 10806 10811	1 min
+T1081	Temperature 10815 10831	room temperature
+T1082	Action 10833 10840	discard
+T1083	Reagent 10845 10857	flow-through
+T1084	Action 10857 10863	Repeat
+T1085	Modifier 10883 10886	all
+T1086	Reagent 10891 10898	mixture
+T1087	Action 10903 10917	passed through
+T1088	Device 10922 10933	spin column
+T1089	Method 10934 10938	WASH
+T1090	Action 10939 10942	Add
+T1091	Amount 10943 10949	500 μL
+T1092	Reagent 10953 10966	Wash Solution
+T1093	Device 10974 10985	spin column
+T1094	Action 10985 10995	Centrifuge
+T1095	Speed 10999 11008	10,000 xg
+T1096	Time 11013 11018	1 min
+T1097	Temperature 11022 11038	room temperature
+T1098	Action 11040 11047	discard
+T472	Reagent 11052 11064	flow-through
+T473	Action 11064 11074	Centrifuge
+T474	Speed 11078 11087	10,000 xg
+T475	Time 11092 11097	2 min
+T476	Temperature 11101 11117	room temperature
+T477	Action 11119 11126	replace
+T478	Location 11127 11142	collection tube
+T479	Modifier 11150 11155	fresh
+T480	Size 11156 11162	1.5 mL
+T481	Location 11163 11167	tube
+T482	Method 11168 11175	ELUTION
+T483	Action 11176 11179	Add
+T484	Amount 11180 11186	100 μL
+T485	Reagent 11190 11204	Elution Buffer
+T486	Modifier 11205 11213	directly
+T487	Device 11221 11232	spin column
+T488	Location 11233 11241	membrane
+T490	Time 11259 11264	1 min
+T491	Temperature 11268 11284	room temperature
+T492	Action 11284 11294	Centrifuge
+T493	Speed 11298 11307	10,000 xg
+T494	Time 11312 11317	1 min
+T495	Temperature 11321 11337	room temperature
+T496	Reagent 11337 11340	DNA
+T498	Size 11355 11361	1.5 mL
+T499	Location 11362 11366	tube
+T500	Action 11246 11254	incubate
+T489	Method 11366 11380	SILICA BINDING
+T501	Modifier 11384 11393	following
+T502	Action 11404 11409	based
+T503	Amount 11413 11425	600 - 700 μL
+T504	Modifier 11429 11440	transterred
+T505	Reagent 11441 11452	supernatant
+T506	Action 11453 11456	Add
+T507	Amount 11457 11464	1200 μL
+T508	Numerical 11466 11469	2 X
+T509	Measure-Type 11470 11476	volume
+T510	Reagent 11481 11497	Binding Solution
+T511	Action 11499 11505	vortex
+T512	Modifier 11506 11513	briefly
+T513	Action 11517 11520	mix
+T514	Action 11520 11528	Transfer
+T515	Amount 11529 11535	650 μL
+T516	Reagent 11543 11550	mixture
+T517	Device 11556 11567	spin column
+T518	Action 11567 11577	Centrifuge
+T519	Speed 11583 11592	10,000 xg
+T520	Time 11597 11602	1 min
+T521	Temperature 11606 11622	room temperature
+T522	Action 11624 11631	discard
+T523	Reagent 11636 11648	flow-through
+T524	Action 11648 11654	Repeat
+T525	Modifier 11674 11677	all
+T526	Reagent 11682 11689	mixture
+T527	Action 11694 11708	passed through
+T528	Device 11713 11724	spin column
+T529	Method 11725 11729	WASH
+T530	Action 11730 11733	Add
+T531	Amount 11734 11740	500 μL
+T532	Reagent 11744 11757	Wash Solution
+T533	Device 11765 11776	spin column
+T534	Action 11776 11786	Centrifuge
+T535	Speed 11790 11799	10,000 xg
+T536	Time 11804 11809	1 min
+T537	Temperature 11813 11829	room temperature
+T538	Action 11831 11838	discard
+T539	Reagent 11843 11855	flow-through
+T540	Action 11855 11865	Centrifuge
+T541	Speed 11869 11878	10,000 xg
+T542	Time 11883 11888	2 min
+T543	Temperature 11892 11908	room temperature
+T544	Action 11910 11917	replace
+T545	Location 11918 11933	collection tube
+T546	Modifier 11941 11946	fresh
+T547	Size 11947 11953	1.5 mL
+T548	Location 11954 11958	tube
+T549	Method 11959 11966	ELUTION
+T550	Action 11967 11970	Add
+T551	Amount 11971 11977	100 μL
+T552	Reagent 11981 11995	Elution Buffer
+T553	Modifier 11996 12004	directly
+T554	Device 12012 12023	spin column
+T555	Location 12024 12032	membrane
+T556	Action 12037 12045	incubate
+T557	Time 12050 12055	1 min
+T558	Temperature 12059 12075	room temperature
+T559	Action 12075 12085	Centrifuge
+T560	Speed 12089 12098	10,000 xg
+T561	Time 12103 12108	1 min
+T562	Temperature 12112 12128	room temperature
+T563	Reagent 12128 12131	DNA
+T565	Location 12153 12157	tube
+T566	Size 12146 12152	1.5 mL
+T567	Method 12157 12161	WASH
+T568	Action 12161 12164	Add
+T569	Amount 12165 12171	500 μL
+T570	Reagent 12175 12188	Wash Solution
+T571	Device 12196 12207	spin column
+T572	Action 12207 12217	Centrifuge
+T573	Speed 12221 12230	10,000 xg
+T574	Time 12235 12240	1 min
+T575	Temperature 12244 12260	room temperature
+T576	Action 12262 12269	discard
+T577	Reagent 12274 12286	flow-through
+T578	Action 12286 12296	Centrifuge
+T579	Speed 12300 12309	10,000 xg
+T580	Time 12314 12319	2 min
+T581	Temperature 12323 12339	room temperature
+T582	Action 12341 12348	replace
+T583	Location 12349 12364	collection tube
+T584	Modifier 12372 12377	fresh
+T585	Size 12378 12384	1.5 mL
+T586	Location 12385 12389	tube
+T587	Method 12390 12397	ELUTION
+T588	Action 12398 12401	Add
+T589	Amount 12402 12408	100 μL
+T590	Reagent 12412 12426	Elution Buffer
+T591	Modifier 12427 12435	directly
+T592	Device 12443 12454	spin column
+T593	Location 12455 12463	membrane
+T594	Action 12468 12476	incubate
+T595	Time 12481 12486	1 min
+T596	Temperature 12490 12506	room temperature
+T597	Action 12506 12516	Centrifuge
+T598	Speed 12520 12529	10,000 xg
+T599	Time 12534 12539	1 min
+T600	Temperature 12543 12559	room temperature
+T601	Reagent 12559 12562	DNA
+T603	Size 12577 12583	1.5 mL
+T604	Location 12584 12588	tube
+T605	Method 12588 12595	ELUTION
+T606	Action 12595 12598	Add
+T607	Amount 12599 12605	100 μL
+T608	Reagent 12609 12623	Elution Buffer
+T609	Modifier 12624 12632	directly
+T610	Device 12640 12651	spin column
+T611	Location 12652 12660	membrane
+T612	Action 12665 12673	incubate
+T613	Time 12678 12683	1 min
+T614	Temperature 12687 12703	room temperature
+T615	Action 12703 12713	Centrifuge
+T616	Speed 12717 12726	10,000 xg
+T617	Time 12731 12736	1 min
+T618	Temperature 12740 12756	room temperature
+T619	Reagent 12756 12759	DNA
+T621	Size 12774 12780	1.5 mL
+T622	Location 12781 12785	tube
+T623	Modifier 12785 12793	Optional
+T624	Modifier 12799 12808	increased
+T625	Reagent 12809 12812	DNA
+T626	Action 12819 12825	repeat
+T627	Modifier 12840 12854	a further time
+T7	Reagent 80 86	sample
+T6	Measure-Type 182 188	amount
+T29	Reagent 521 532	precipitate
+T37	Measure-Type 703 711	diameter
+T43	Modifier 1758 1759	≥
+T57	Modifier 2549 2550	≥
+T203	Modifier 3342 3343	≥
+T272	Measure-Type 4574 4583	DNA yield
+T373	Measure-Type 5025 5031	amount
+T391	Action 5112 5116	used
+T395	Modifier 6664 6665	≥
+T404	Action 8028 8036	thickens
+T426	Action 8044 8051	becomes
+T435	Reagent 8389 8397	contents
+T438	Action 8548 8563	vacuum filtered
+T775	Action 9017 9021	hold
+T815	Modifier 10001 10002	≥
+T497	Modifier 11581 11582	≥
+T205	Modifier 5841 5842	≥
+T602	Modifier 10790 10791	≥

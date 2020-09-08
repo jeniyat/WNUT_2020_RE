@@ -1,0 +1,156 @@
+T1	Method 0 25	Cell Culture Transfection
+T2	Reagent 29 35	HEK293
+T4	Time 59 66	One day
+T5	Modifier 67 75	prior to
+T6	Action 90 95	plate
+T7	Reagent 96 101	cells
+T8	Concentration 124 144	500,000 cells per mL
+T9	Location 150 163	12-well plate
+T10	Action 165 171	Modify
+T11	Method 176 188	transfection
+T12	Action 215 224	calculate
+T14	Reagent 234 238	cDNA
+T15	Modifier 248 254	needed
+T17	Action 297 304	include
+T18	Reagent 305 322	negative controls
+T19	Measure-Type 331 343	total amount
+T20	Reagent 354 359	siRNA
+T22	Action 375 384	Sterilize
+T23	Location 389 406	biosafety cabinet
+T24	Concentration 412 415	10%
+T25	Reagent 416 422	bleach
+T26	Time 427 437	20 minutes
+T27	Action 439 449	Spray down
+T28	Location 454 471	biosafety cabinet
+T29	Concentration 477 480	70%
+T30	Reagent 481 488	ethanol
+T31	Action 493 496	use
+T32	Reagent 497 505	UV light
+T33	Time 510 520	15 minutes
+T34	Modifier 526 535	secondary
+T36	Action 574 582	aspirate
+T37	Modifier 583 586	all
+T38	Reagent 587 592	media
+T39	Modifier 598 604	plated
+T40	Reagent 605 610	cells
+T41	Modifier 618 625	sterile
+T42	Device 626 639	glass pipette
+T43	Modifier 641 659	Gently but quickly
+T44	Action 660 667	replace
+T45	Amount 673 679	800 µL
+T46	Modifier 680 699	fresh warm complete
+T47	Reagent 700 704	DMEM
+T48	Action 714 728	not to pipette
+T49	Modifier 729 746	vigorously enough
+T50	Action 750 755	cause
+T51	Reagent 756 761	cells
+T52	Action 765 771	detach
+T55	Reagent 822 834	master mixes
+T56	Amount 838 844	1.5 mL
+T57	Location 845 866	microcentrifuge tubes
+T60	Modifier 898 903	First
+T61	Action 905 908	add
+T62	Reagent 909 917	Opti-Mem
+T63	Location 936 941	tubes
+T65	Measure-Type 961 975	concentrations
+T66	Reagent 979 983	cDNA
+T68	Action 1026 1029	Mix
+T69	Modifier 1030 1040	thoroughly
+T70	Method 1044 1052	flicking
+T71	Action 1059 1062	add
+T72	Reagent 1067 1071	cDNA
+T73	Reagent 1085 1104	Opti-Mem master mix
+T74	Reagent 925 935	master mix
+T75	Location 1105 1110	tubes
+T76	Reagent 1119 1143	lipofectamine master mix
+T77	Action 1145 1148	add
+T78	Reagent 1149 1162	lipofectamine
+T79	Reagent 1166 1174	Opti-Mem
+T80	Action 1176 1179	mix
+T81	Modifier 1180 1184	well
+T82	Action 1212 1215	sit
+T83	Reagent 1203 1211	solution
+T84	Time 1220 1229	5 minutes
+T85	Action 1231 1234	Add
+T86	Modifier 1239 1246	diluted
+T87	Reagent 1247 1260	lipofectamine
+T88	Reagent 1264 1268	cDNA
+T89	Generic-Measure 1278 1287	1:1 ratio
+T90	Amount 1290 1297	+350 µL
+T91	Action 1299 1302	Mix
+T92	Modifier 1303 1307	well
+T93	Reagent 1313 1321	solution
+T94	Action 1322 1325	sit
+T95	Modifier 1330 1338	at least
+T96	Time 1339 1349	20 minutes
+T97	Modifier 1358 1364	plated
+T98	Reagent 1365 1370	cells
+T99	Action 1372 1377	label
+T100	Location 1378 1383	wells
+T101	Modifier 1384 1397	in triplicate
+T102	Modifier 1402 1406	each
+T103	Method 1407 1416	treatment
+T105	Mention 1436 1440	them
+T107	Action 1480 1483	Mix
+T108	Reagent 1488 1523	Lipofectamine + Master Mix solution
+T109	Modifier 1524 1534	thoroughly
+T110	Action 1539 1542	add
+T111	Amount 1543 1549	200 µL
+T112	Modifier 1553 1568	each respective
+T113	Reagent 1569 1572	mix
+T114	Method 1596 1611	circular motion
+T115	Action 1620 1627	pipette
+T116	Modifier 1628 1636	directly
+T117	Reagent 1643 1648	cells
+T118	Reagent 1654 1660	stream
+T119	Action 1661 1664	Mix
+T120	Reagent 1669 1674	media
+T121	Modifier 1680 1691	very gentle
+T122	Method 1692 1699	shaking
+T123	Action 1706 1712	return
+T124	Reagent 1717 1722	cells
+T125	Device 1730 1739	incubator
+T126	Temperature 1743 1747	37°C
+T127	Concentration 1752 1754	5%
+T128	Reagent 1755 1758	CO2
+T129	Time 1764 1772	next day
+T130	Action 1774 1782	aspirate
+T131	Modifier 1787 1790	old
+T132	Reagent 1791 1796	media
+T134	Action 1823 1826	add
+T135	Amount 1827 1831	1 mL
+T136	Modifier 1835 1848	warm complete
+T137	Reagent 1849 1859	DMEM media
+T138	Time 1861 1878	The following day
+T139	Action 1880 1888	plan for
+T140	Method 1889 1899	cell lysis
+T141	Method 1901 1914	protein assay
+T143	Method 1920 1942	gel sample preparation
+T3	Reagent 41 45	cDNA
+T144	Reagent 53 58	siRNA
+T145	Measure-Type 107 120	concentration
+T146	Reagent 347 350	DNA
+T21	Action 368 373	added
+T147	Method 76 88	transfection
+T148	Location 189 200	spreadsheet
+T13	Reagent 239 244	siRNA
+T16	Reagent 536 549	decontaminant
+T35	Numerical 551 556	Three
+T149	Location 557 562	wells
+T54	Location 790 814	transfection spreadsheet
+T150	Action 816 821	label
+T59	Modifier 876 896	triplicate condition
+T58	Reagent 984 989	siRNA
+T64	Action 943 955	Double check
+T67	Action 990 995	match
+T151	Location 1000 1024	transfection spreadsheet
+T53	Reagent 1072 1077	siRNA
+T152	Reagent 1269 1274	siRNA
+T104	Action 1429 1435	number
+T106	Action 1444 1449	match
+T153	Location 1454 1478	transfection spreadsheet
+T154	Modifier 1587 1595	dropwise
+T155	Modifier 1578 1585	careful
+T156	Modifier 1613 1619	Do not
+T133	Numerical 1797 1802	three
+T157	Location 1803 1808	wells

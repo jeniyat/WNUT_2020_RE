@@ -1,0 +1,23 @@
+T1	Concentration 14 17	1 M
+T2	Reagent 18 37	PMSF Stock Solution
+T3	Action 38 43	Weigh
+T4	Amount 44 50	1.74 g
+T5	Reagent 51 55	PMSF
+T6	Action 57 60	Add
+T7	Reagent 61 65	DMSO
+T8	Measure-Type 77 83	volume
+T9	Modifier 71 76	final
+T10	Amount 87 93	100 ml
+T11	Action 95 103	Dissolve
+T12	Modifier 104 114	completely
+T13	Reagent 116 122	Stocks
+T14	Temperature 138 143	-20°C
+T15	Time 154 162	6 months
+T16	Action 130 134	kept
+T17	Reagent 164 168	PMSF
+T18	Modifier 182 187	final
+T19	Measure-Type 188 201	concentration
+T20	Concentration 205 216	0.1- 1.0 mM
+T21	Action 7 11	make
+T22	Modifier 148 153	up to
+T23	Action 172 176	used

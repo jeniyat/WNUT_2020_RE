@@ -1,0 +1,118 @@
+T1	Method 53 61	analysis
+T4	Action 81 88	Prepare
+T5	Reagent 93 106	mucin samples
+T6	Action 106 114	Dissolve
+T7	Reagent 119 125	mucins
+T8	Reagent 129 134	water
+T9	Measure-Type 154 167	concentration
+T10	Method 170 180	Extraction
+T11	Reagent 184 190	lipids
+T12	Reagent 194 215	mucin sample solution
+T13	Amount 227 231	1 ml
+T14	Reagent 235 250	sample solution
+T15	Action 252 255	add
+T16	Amount 256 263	3.75 ml
+T17	Generic-Measure 264 267	1:2
+T18	Measure-Type 269 272	v/v
+T19	Reagent 274 284	chloroform
+T20	Reagent 286 294	methanol
+T22	Modifier 306 310	well
+T21	Action 299 305	vortex
+T23	Action 319 322	add
+T24	Amount 323 330	1.25 ml
+T25	Reagent 331 341	chloroform
+T26	Action 346 352	vortex
+T27	Modifier 353 357	well
+T28	Action 361 364	Add
+T29	Amount 365 372	1.25 ml
+T30	Reagent 373 377	dH2O
+T31	Action 382 388	vortex
+T32	Modifier 389 393	well
+T33	Action 397 407	Centrifuge
+T34	Speed 411 419	1000 RPM
+T35	Time 424 429	5 min
+T36	Action 490 497	Recover
+T37	Device 522 537	Pasteur pipette
+T38	Action 542 547	store
+T39	Location 551 556	tubes
+T40	Location 502 514	bottom phase
+T41	Action 558 565	Prepare
+T43	Action 597 604	Prepare
+T44	Reagent 609 616	solvent
+T45	Reagent 618 628	chloroform
+T46	Reagent 630 638	methanol
+T47	Generic-Measure 639 642	2:1
+T48	Action 646 649	Mix
+T49	Reagent 650 661	cholesterol
+T50	Reagent 665 672	solvent
+T51	Measure-Type 690 703	concentration
+T52	Concentration 718 724	5mg/ml
+T53	Measure-Type 733 739	volume
+T54	Action 728 732	Vary
+T55	Reagent 756 762	sample
+T56	Amount 764 768	1 ul
+T57	Amount 770 774	2 ul
+T58	Amount 776 780	4 ul
+T59	Amount 782 786	8 ul
+T60	Amount 788 793	16 ul
+T61	Amount 798 803	24 ul
+T62	Reagent 834 845	cholesterol
+T63	Modifier 849 858	different
+T64	Location 859 864	tubes
+T65	Action 807 813	assign
+T66	Action 866 877	Evaporating
+T67	Reagent 878 885	solvent
+T68	Reagent 903 910	samples
+T69	Reagent 915 928	mucin samples
+T70	Action 930 937	Measure
+T71	Measure-Type 938 959	background absorbance
+T72	Action 962 965	Add
+T73	Amount 966 972	100 ul
+T74	Reagent 973 999	concentrated sulfuric acid
+T75	Location 1010 1014	tube
+T76	Action 1019 1029	incubating
+T77	Temperature 1033 1037	90 C
+T78	Time 1042 1048	10 min
+T79	Location 1056 1072	dry heating bath
+T80	Action 1077 1084	Cooling
+T81	Temperature 1088 1104	room temperature
+T82	Action 1109 1118	measuring
+T83	Measure-Type 1119 1140	background absorbance
+T84	Generic-Measure 1144 1149	540nm
+T85	Action 1152 1159	Measure
+T86	Measure-Type 1164 1175	absorbanece
+T87	Action 1202 1209	Prepare
+T88	Action 1392 1401	Measuring
+T89	Measure-Type 1402 1412	absorbance
+T90	Generic-Measure 1416 1422	540 nm
+T91	Time 1429 1434	5 min
+T92	Modifier 1423 1428	after
+T93	Action 1320 1323	Add
+T94	Amount 1324 1329	50 ul
+T95	Reagent 1330 1366	sulfo-phosphoric-vanillin acid agent
+T96	Reagent 1214 1249	sulfo-phosphoric-vanillin acid agen
+T97	Amount 1251 1257	0.2 mg
+T98	Reagent 1258 1266	vanillin
+T99	Amount 1271 1273	ml
+T100	Concentration 1274 1277	17%
+T101	Reagent 1278 1293	phosphoric acid
+T102	Method 1182 1199	color development
+T103	Method 1371 1388	color development
+T104	Method 1438 1455	color development
+T2	Method 0 48	Colorimetric sulfo-phospho-vanillin (SPV) method
+T3	Reagent 65 71	lipids
+T105	Reagent 75 80	mucin
+T106	Modifier 222 226	each
+T107	Modifier 458 465	aqueous
+T108	Location 466 469	top
+T109	Modifier 471 478	organic
+T110	Location 479 485	bottom
+T42	Modifier 570 578	standard
+T111	Reagent 579 594	sample solution
+T112	Modifier 676 689	predetermined
+T113	Measure-Type 824 830	amount
+T114	Modifier 747 755	standard
+T115	Modifier 894 902	standard
+T116	Modifier 1005 1009	each
+T117	Modifier 1267 1270	per
+T118	Method 1299 1316	color development

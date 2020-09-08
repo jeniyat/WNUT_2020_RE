@@ -1,0 +1,165 @@
+T1	Method 0 10	Dissection
+T2	Reagent 14 23	mouse EDL
+T3	Reagent 28 42	Soleus muscles
+T4	Action 43 46	Pin
+T5	Location 83 98	dissecting dish
+T6	Reagent 117 132	Ringer solution
+T7	Method 138 148	extraction
+T8	Reagent 156 162	Soleus
+T9	Action 171 177	remove
+T10	Location 51 54	leg
+T11	Mention 109 111	it
+T12	Action 103 108	cover
+T13	Reagent 182 186	skin
+T14	Location 194 197	leg
+T15	Action 210 216	remove
+T16	Reagent 233 239	fascia
+T17	Modifier 217 220	all
+T18	Action 249 253	Hold
+T19	Reagent 258 273	Achilles tendon
+T20	Device 283 290	forceps
+T21	Device 320 328	scissors
+T22	Location 301 312	bodkin side
+T23	Modifier 330 339	carefully
+T24	Action 340 343	rub
+T25	Location 346 349	gap
+T26	Modifier 355 362	between
+T27	Reagent 367 382	Achilles tendon
+T28	Reagent 397 404	tendons
+T29	Location 415 418	gap
+T30	Action 431 434	cut
+T31	Reagent 439 454	Achilles tendon
+T32	Location 483 487	foot
+T33	Location 491 494	gap
+T34	Action 521 528	open up
+T35	Modifier 502 511	naturally
+T36	Action 540 544	help
+T37	Location 550 553	gap
+T38	Modifier 530 539	Carefully
+T39	Action 557 564	open up
+T40	Reagent 581 587	fascia
+T41	Modifier 221 232	surrounding
+T42	Modifier 569 580	surrounding
+T43	Modifier 617 626	carefully
+T44	Action 627 630	cut
+T45	Mention 631 633	it
+T46	Reagent 675 688	Soleus muscle
+T47	Location 644 647	gap
+T48	Location 666 670	knee
+T49	Modifier 748 759	darker pink
+T50	Modifier 761 770	Carefully
+T51	Action 771 774	cut
+T52	Reagent 779 785	tendon
+T53	Location 814 818	knee
+T54	Modifier 820 826	Gently
+T55	Action 827 831	hold
+T56	Reagent 836 849	Soleus muscle
+T57	Reagent 857 869	upper tendon
+T58	Device 879 886	forceps
+T59	Action 891 900	pull down
+T60	Modifier 901 912	very slowly
+T61	Modifier 917 924	careful
+T62	Modifier 955 966	surrounding
+T63	Reagent 967 973	fascia
+T64	Mention 719 721	it
+T65	Action 943 950	cutting
+T66	Mention 995 997	it
+T67	Reagent 1015 1021	muscle
+T68	Modifier 1009 1014	whole
+T69	Reagent 1036 1043	fascia 
+T70	Action 1043 1053	make a cut
+T71	Location 1061 1073	lower tendon
+T72	Action 1075 1083	Separate
+T73	Reagent 1088 1101	Soleus muscle
+T74	Location 1111 1114	leg
+T75	Action 1119 1124	clean
+T76	Modifier 1130 1133	all
+T77	Modifier 1134 1142	leftover
+T78	Reagent 1143 1149	fascia
+T79	Action 1391 1397	remove
+T80	Modifier 1398 1401	all
+T81	Reagent 1402 1408	fascia
+T82	Action 1410 1413	Rub
+T83	Reagent 1418 1425	tendons
+T84	Location 1433 1443	lower legs
+T85	Action 1313 1323	dissecting
+T86	Reagent 1328 1338	EDL muscle
+T87	Action 1347 1350	pin
+T88	Location 1355 1358	leg
+T89	Action 1180 1184	move
+T90	Reagent 1189 1195	muscle
+T91	Modifier 1201 1204	new
+T92	Location 1205 1220	dissecting dish
+T93	Action 1222 1225	pin
+T94	Reagent 1230 1236	muscle
+T95	Action 1262 1267	cover
+T96	Reagent 1273 1288	Ringer solution
+T97	Action 1294 1299	store
+T98	Temperature 1303 1307	4 °C
+T99	Numerical 1453 1454	4
+T100	Reagent 1455 1470	EDL tendon ends
+T101	Modifier 1487 1496	V-looking
+T102	Reagent 1497 1512	Tibialis tendon
+T103	Modifier 1553 1562	carefully
+T104	Action 1524 1531	checked
+T105	Reagent 1544 1547	EDL
+T106	Mention 1571 1575	them
+T107	Device 1588 1595	forceps
+T108	Action 1563 1570	lifting
+T109	Action 1603 1610	lifting
+T110	Reagent 1615 1626	tendon ends
+T111	Location 1631 1635	toes
+T112	Location 1643 1646	paw
+T113	Action 1654 1661	stretch
+T114	Action 1663 1666	Cut
+T115	Reagent 1671 1682	tendon ends
+T116	Location 1711 1715	foot
+T117	Reagent 1727 1738	tendon ends
+T118	Modifier 1758 1767	naturally
+T119	Action 1768 1776	opens up
+T120	Reagent 1796 1803	fascias
+T121	Modifier 1784 1795	surrounding
+T122	Action 1836 1840	Free
+T123	Action 1911 1914	cut
+T124	Reagent 1919 1931	upper tendon
+T125	Action 1933 1941	Separate
+T126	Reagent 1946 1956	EDL muscle
+T127	Location 1966 1969	leg
+T128	Action 1974 1979	free 
+T129	Modifier 1984 1987	all
+T130	Reagent 1988 1994	fascia
+T131	Reagent 1999 2002	fat
+T132	Reagent 2024 2031	muscles
+T133	Reagent 1845 1855	EDL muscle
+T134	Reagent 1881 1893	upper tendon
+T135	Action 1827 1834	removed
+T136	Modifier 2014 2023	dissected
+T137	Action 2004 2008	Move
+T138	Action 2060 2063	Pin
+T139	Modifier 2037 2042	clean
+T140	Location 2043 2058	dissecting dish
+T141	Reagent 2064 2071	muscles
+T142	Modifier 2072 2089	lightly stretched
+T143	Location 2097 2101	dish
+T144	Action 2106 2111	cover
+T145	Concentration 2117 2121	3.7%
+T146	Reagent 2122 2125	PFA
+T147	Action 2127 2132	Cover
+T148	Location 2137 2141	dish
+T149	Temperature 2169 2172	4°C
+T150	Time 2173 2182	overnight
+T151	Action 2160 2165	store
+T152	Seal 2147 2155	parafilm
+T153	Location 1865 1871	pocket
+T154	Location 1750 1756	pocket
+T155	Action 1743 1746	cut
+T156	Modifier 422 429	visible
+T157	Modifier 455 475	as close as possible
+T158	Mention 605 607	it
+T159	Modifier 651 658	open up
+T160	Modifier 692 699	visible
+T161	Action 709 718	recognize
+T162	Modifier 786 806	as close as possible
+T163	Modifier 1683 1703	as close as possible
+T164	Modifier 1897 1904	visible
+T165	Modifier 60 75	flexed position

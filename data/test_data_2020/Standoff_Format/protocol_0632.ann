@@ -1,0 +1,188 @@
+T1	Action 25 35	Centrifuge
+T2	Amount 36 46	10 – 15 ml
+T3	Reagent 50 61	yeast cells
+T4	Amount 67 72	15-ml
+T5	Location 81 85	tube
+T6	Modifier 73 80	conical
+T7	Speed 89 98	1,500 rcf
+T8	Temperature 100 116	room temperature
+T9	Time 122 127	3 min
+T10	Action 128 134	Decant
+T11	Reagent 135 146	supernatant
+T12	Action 151 157	freeze
+T13	Reagent 158 163	cells
+T14	Reagent 167 182	liquid nitrogen
+T15	Modifier 187 193	frozen
+T16	Reagent 194 205	cell pellet
+T17	Action 207 210	add
+T18	Amount 211 217	800 µl
+T19	Modifier 221 235	acid saturated
+T20	Reagent 236 242	phenol
+T21	Amount 247 253	800 µl
+T22	Reagent 257 269	lysis buffer
+T23	Action 270 276	Vortex
+T24	Reagent 283 290	pellets
+T25	Reagent 298 306	solution
+T26	Action 309 314	Place
+T27	Location 315 320	tubes
+T28	Device 324 334	MultiTherm
+T29	Action 346 356	pre-heated
+T30	Temperature 360 364	65°C
+T31	Action 366 373	Vortex 
+T32	Time 398 404	45 min
+T33	Temperature 408 412	65°C
+T34	Action 414 422	Transfer
+T35	Reagent 423 429	lysate
+T36	Modifier 433 443	RNase-free
+T37	Size 444 448	2-ml
+T38	Location 449 453	tube
+T39	Action 454 464	Centrifuge
+T40	Time 465 471	10 min
+T41	Speed 475 484	max speed
+T42	Device 488 503	microcentrifuge
+T43	Temperature 507 510	4°C
+T44	Action 511 519	Transfer
+T45	Reagent 524 537	aqueous phase
+T46	Modifier 543 559	fresh RNase-free
+T47	Size 560 564	2-ml
+T48	Location 565 569	tube
+T49	Amount 581 587	800 µl
+T50	Reagent 588 594	phenol
+T51	Action 595 601	Vortex
+T52	Modifier 602 609	briefly
+T53	Action 614 624	centrifuge
+T54	Time 625 630	5 min
+T55	Speed 634 643	5,000 rpm
+T56	Device 649 664	microcentrifuge
+T57	Temperature 668 684	room temperature
+T58	Action 685 694	Transfer 
+T59	Reagent 698 711	aqueous phase
+T60	Modifier 717 733	fresh RNase-free
+T61	Size 734 738	2-ml
+T62	Location 739 743	tube
+T63	Amount 755 761	800 µl
+T64	Reagent 762 772	chloroform
+T65	Action 773 779	Vortex
+T66	Modifier 780 787	briefly
+T67	Action 792 802	centrifuge
+T68	Time 803 808	5 min
+T69	Speed 812 821	5,000 rpm
+T70	Device 827 842	microcentrifuge
+T71	Temperature 846 862	room temperature
+T72	Action 863 871	Transfer
+T73	Reagent 872 885	aqueous phase
+T74	Modifier 891 907	fresh RNase-free
+T75	Size 908 912	2-ml
+T76	Location 913 917	tube
+T77	Action 919 922	Add
+T78	Amount 923 928	75 µl
+T79	Concentration 929 932	3 M
+T80	Reagent 933 938	NaOAc
+T81	pH 939 945	pH 5.2
+T82	Numerical 947 950	0.1
+T83	Measure-Type 951 957	volume
+T84	Modifier 963 964	~
+T85	Amount 965 971	1.8 ml
+T86	Concentration 972 976	100%
+T87	Reagent 977 984	ethanol
+T88	Modifier 986 987	~
+T89	Numerical 987 990	2.5
+T90	Measure-Type 991 998	volumes
+T91	Action 1000 1005	Place
+T92	Location 1006 1011	tubes
+T93	Temperature 1015 1020	-20°C
+T95	Modifier 1044 1045	>
+T96	Time 1045 1052	2 hours
+T97	Time 1054 1063	overnight
+T98	Action 1087 1093	Pellet
+T99	Reagent 1094 1097	RNA
+T100	Speed 1101 1110	max speed
+T101	Time 1115 1121	30 min
+T102	Device 1125 1140	microcentrifuge
+T103	Temperature 1144 1147	4°C
+T104	Modifier 1148 1157	Carefully
+T105	Action 1158 1164	decant
+T106	Reagent 1165 1176	supernatant
+T107	Action 1181 1184	add
+T108	Amount 1185 1189	1 ml
+T109	Concentration 1190 1193	70%
+T110	Reagent 1194 1198	EtOH
+T111	Action 1202 1206	wash
+T112	Reagent 1207 1213	pellet
+T113	Action 1214 1225	Centrifuge 
+T114	Speed 1228 1237	max speed
+T115	Time 1242 1248	15 min
+T116	Temperature 1252 1255	4°C
+T117	Action 1256 1262	Remove
+T118	Reagent 1263 1270	ethanol
+T119	Size 1279 1283	1-ml
+T120	Device 1284 1291	pipette
+T121	Modifier 1297 1307	RNase-free
+T122	Device 1308 1320	pipette tips
+T123	Action 1322 1332	Centrifuge
+T124	Modifier 1333 1340	briefly
+T125	Time 1342 1349	1-2 min
+T126	Speed 1354 1363	max speed
+T127	Action 1367 1374	collect
+T128	Modifier 1379 1387	residual
+T129	Reagent 1388 1395	ethanol
+T130	Location 1417 1421	tube
+T131	Action 1426 1432	remove
+T132	Size 1445 1450	10-ul
+T133	Device 1451 1459	pipette 
+T134	Modifier 1464 1474	RNase-free
+T135	Device 1475 1487	pipette tips
+T136	Action 1500 1506	Pellet
+T137	Reagent 1507 1510	RNA
+T138	Speed 1514 1523	max speed
+T139	Time 1528 1534	30 min
+T140	Device 1538 1553	microcentrifuge
+T141	Temperature 1557 1560	4°C
+T142	Modifier 1561 1570	Carefully
+T143	Action 1571 1577	decant
+T144	Reagent 1578 1589	supernatant
+T145	Action 1594 1597	add
+T146	Amount 1598 1602	1 ml
+T147	Concentration 1603 1606	70%
+T148	Reagent 1607 1611	EtOH
+T149	Action 1615 1619	wash
+T150	Reagent 1620 1626	pellet
+T151	Action 1627 1638	Centrifuge 
+T152	Speed 1641 1650	max speed
+T153	Time 1655 1661	15 min
+T154	Temperature 1665 1668	4°C
+T155	Action 1669 1675	Remove
+T156	Reagent 1676 1683	ethanol
+T157	Size 1692 1696	1-ml
+T158	Device 1697 1704	pipette
+T159	Modifier 1710 1720	RNase-free
+T160	Device 1721 1733	pipette tips
+T161	Action 1735 1745	Centrifuge
+T162	Modifier 1746 1753	briefly
+T163	Time 1755 1762	1-2 min
+T164	Speed 1767 1776	max speed
+T165	Action 1780 1787	collect
+T166	Modifier 1792 1800	residual
+T167	Reagent 1801 1808	ethanol
+T168	Location 1830 1834	tube
+T169	Action 1839 1845	remove
+T170	Size 1858 1863	10-ul
+T171	Device 1864 1872	pipette 
+T172	Modifier 1877 1887	RNase-free
+T173	Device 1888 1900	pipette tips
+T174	Action 1904 1913	Resuspend
+T175	Reagent 1914 1920	pellet
+T176	Amount 1924 1929	50 µl
+T177	Modifier 1930 1940	RNase-free
+T178	Reagent 1941 1943	TE
+T179	Method 1947 1968	pipetting up and down
+T180	Speed 376 393	maximum intensity
+T94	Action 1024 1035	precipitate
+T181	Reagent 1036 1039	RNA
+T182	Mention 1433 1437	that
+T183	Mention 1846 1850	that
+T184	Reagent 0 3	RNA
+T185	Method 4 13	Isolation
+T186	Reagent 19 24	Yeast
+T187	Location 1403 1409	bottom
+T188	Location 1816 1822	bottom

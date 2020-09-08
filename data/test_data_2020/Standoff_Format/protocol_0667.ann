@@ -1,0 +1,917 @@
+T1	Modifier 13 24	genome-wide
+T2	Action 25 34	profiling
+T3	Reagent 38 56	chromatin proteins
+T4	Location 62 69	96 well
+T5	Device 82 88	Biomek
+T6	Action 89 96	Harvest
+T7	Modifier 97 102	fresh
+T8	Reagent 103 113	culture(s)
+T9	Temperature 117 133	room temperature
+T10	Action 138 143	count
+T11	Reagent 144 149	cells
+T12	Method 155 175	AutoCUT&RUN protocol
+T13	Method 0 11	AutoCUT&RUN
+T14	Numerical 195 214	50,000 to 1,000,000
+T15	Modifier 215 224	mammalian
+T16	Reagent 225 230	cells
+T17	Reagent 243 257	Tissue samples
+T18	Action 270 278	profiled
+T19	Method 285 296	AutoCUT&RUN
+T20	Action 311 320	processed
+T21	Modifier 328 336	manually
+T22	Modifier 340 353	enzymatically
+T23	Modifier 361 371	homogenous
+T24	Reagent 372 382	suspension
+T25	Modifier 386 392	intact
+T26	Reagent 393 398	cells
+T27	Modifier 399 404	prior
+T28	Action 408 415	binding
+T29	Time 416 443	Concanavalin A-coated beads
+T30	Action 445 455	Centrifuge
+T31	Time 456 461	3 min
+T32	Speed 462 469	600 x g
+T33	Temperature 473 489	room temperature
+T34	Action 494 502	withdraw
+T35	Reagent 503 509	liquid
+T36	Action 511 520	Resuspend
+T37	Amount 524 530	1.5 mL
+T38	Temperature 531 547	room temperature
+T39	Reagent 548 559	Wash Buffer
+T40	Modifier 563 569	gently
+T41	Action 570 579	pipetting
+T42	Action 584 592	transfer
+T43	Modifier 593 605	if necessary
+T44	Size 611 615	2 mL
+T45	Location 616 620	tube
+T46	Action 622 628	Repeat
+T47	Numerical 643 657	two more times
+T48	Action 659 668	Resuspend
+T49	Amount 672 676	1 mL
+T50	Temperature 677 693	room temperature
+T51	Reagent 694 705	Wash Buffer
+T52	Modifier 709 715	gently
+T53	Action 716 725	pipetting
+T54	Modifier 727 732	While
+T55	Modifier 733 739	gently
+T56	Action 740 749	vortexing
+T57	Reagent 754 759	cells
+T58	Temperature 763 779	room temperature
+T59	Action 781 784	add
+T60	Reagent 789 826	Concanavalin A coated-bead suspension
+T61	Action 828 833	Place
+T62	Device 837 849	tube nutator
+T63	Temperature 853 869	room temperature
+T64	Time 874 882	5-10 min
+T65	Action 884 887	Mix
+T66	Modifier 888 892	well
+T67	Method 896 914	vigorous inversion
+T68	Action 918 924	ensure
+T69	Modifier 929 939	bead-bound
+T70	Reagent 940 945	cells
+T71	Modifier 955 965	homogenous
+T72	Reagent 966 976	suspension
+T73	Action 981 987	divide
+T74	Amount 993 1001	aliquots
+T75	Size 1005 1011	0.6-mL
+T76	Modifier 1012 1020	low-bind
+T77	Location 1021 1026	tubes
+T78	Numerical 1028 1031	one
+T79	Modifier 1036 1040	each
+T80	Reagent 1041 1049	antibody
+T81	Action 1062 1067	Place
+T82	Device 1075 1087	magnet stand
+T83	Action 1091 1096	clear
+T84	Action 1101 1109	pull off
+T85	Action 1114 1121	discard
+T86	Reagent 1126 1132	liquid
+T87	Action 1134 1139	Place
+T88	Modifier 1140 1144	each
+T89	Location 1145 1149	tube
+T90	Generic-Measure 1155 1164	low angle
+T91	Device 1172 1184	vortex mixer
+T92	Speed 1198 1206	1100 rpm
+T93	Action 1212 1218	squirt
+T94	Amount 1219 1225	150 µL
+T95	Reagent 1233 1248	Antibody Buffer
+T96	Modifier 1249 1252	per
+T97	Modifier 1281 1287	gently
+T99	Action 1288 1297	vortexing
+T100	Reagent 1311 1319	solution
+T101	Action 1323 1331	dislodge 
+T102	Modifier 1332 1343	most or all
+T103	Reagent 1351 1356	beads
+T104	Modifier 1260 1274	along the side
+T105	Action 1358 1361	Tap
+T106	Action 1365 1373	dislodge
+T107	Modifier 1378 1387	remaining
+T108	Reagent 1388 1393	beads
+T109	Action 1395 1398	Mix
+T110	Modifier 1406 1413	primary
+T111	Reagent 1414 1422	antibody
+T112	Modifier 1428 1433	final
+T113	Measure-Type 1434 1447	concentration
+T114	Concentration 1451 1456	1:100
+T115	Measure-Type 1494 1507	concentration
+T116	Method 1512 1530	immunofluorescence
+T117	Action 1532 1537	Place
+T118	Device 1545 1557	tube nutator
+T119	Temperature 1561 1577	room temperature
+T120	Time 1582 1587	2 hrs
+T121	Action 1589 1595	Remove
+T122	Reagent 1596 1602	liquid
+T123	Location 1612 1615	cap
+T124	Location 1620 1624	side
+T125	Modifier 1632 1637	quick
+T126	Action 1638 1643	pulse
+T127	Device 1649 1665	micro-centrifuge
+T128	Action 1667 1672	Place
+T129	Device 1680 1692	magnet stand
+T130	Action 1696 1701	clear
+T131	Time 1704 1708	30 s
+T132	Action 1714 1722	pull off
+T133	Modifier 1723 1726	all
+T134	Reagent 1734 1740	liquid
+T135	Action 1742 1745	Add
+T136	Amount 1746 1752	150 µL
+T137	Reagent 1753 1769	Digitonin Buffer
+T138	Action 1773 1777	wash
+T139	Action 1779 1782	mix
+T140	Method 1786 1795	inversion
+T141	Modifier 1803 1809	gentle
+T142	Method 1810 1819	pipetting
+T143	Size 1828 1832	1 mL
+T144	Device 1833 1836	tip
+T145	Action 1847 1854	persist
+T146	Action 1860 1866	remove
+T147	Reagent 1867 1873	liquid
+T148	Location 1883 1886	cap
+T149	Location 1891 1895	side
+T150	Modifier 1903 1908	quick
+T151	Action 1909 1914	pulse
+T152	Device 1920 1936	micro-centrifuge
+T153	Action 1938 1944	Repeat
+T154	Reagent 1945 1961	Digitonin Buffer
+T155	Action 1962 1966	wash
+T209	Action 1979 1984	Place
+T210	Device 1992 2004	magnet stand
+T211	Action 2008 2013	clear
+T212	Action 2018 2026	pull off
+T213	Modifier 2027 2030	all
+T214	Reagent 2038 2044	liquid
+T215	Action 2046 2051	Place
+T216	Modifier 2052 2056	each
+T217	Location 2057 2061	tube
+T218	Generic-Measure 2067 2076	low angle
+T219	Device 2084 2096	vortex mixer
+T220	Speed 2110 2118	1100 rpm
+T221	Action 2124 2130	squirt
+T222	Amount 2131 2137	150 µL
+T223	Reagent 2145 2161	Digitonin Buffer
+T224	Modifier 2163 2166	per
+T225	Modifier 2203 2217	along the side
+T226	Modifier 2224 2230	gently
+T227	Action 2231 2240	vortexing
+T228	Reagent 2254 2262	solution
+T230	Modifier 2275 2286	most or all
+T231	Reagent 2294 2299	beads
+T232	Action 2301 2307	Mix in
+T233	Modifier 2312 2321	secondary
+T234	Reagent 2322 2330	antibody
+T235	Modifier 2336 2341	final
+T236	Measure-Type 2342 2355	concentration
+T237	Concentration 2359 2364	1:100
+T238	Measure-Type 2402 2415	concentration
+T239	Action 2417 2422	Place
+T240	Device 2430 2442	tube nutator
+T241	Temperature 2446 2450	4 oC
+T242	Time 2456 2460	1 hr
+T243	Time 2464 2473	overnight
+T244	Action 2475 2478	Set
+T245	Device 2479 2491	Cooling Unit
+T247	Reagent 2505 2515	antifreeze
+T249	Device 2530 2549	Heating/Cooling ALP
+T250	Temperature 2598 2602	0 oC
+T251	Modifier 2555 2563	Aluminum
+T252	Device 2564 2577	Cooling Block
+T253	Action 2604 2611	Prepare
+T254	Amount 2612 2618	4.5 mL
+T255	Reagent 2622 2639	pA-MNase solution
+T256	Numerical 2644 2646	24
+T257	Method 2647 2668	AutoCUT&RUN reactions
+T258	Action 2672 2678	mixing
+T259	Reagent 2683 2691	pA-MNase
+T260	Modifier 2721 2726	final
+T261	Measure-Type 2727 2740	concentration
+T262	Concentration 2745 2754	700 ng/mL
+T263	Reagent 2758 2774	Digitonin Buffer
+T264	Action 2776 2784	Transfer
+T265	Reagent 2785 2802	pA-MNase solution
+T266	Location 2810 2819	reservoir
+T267	Action 2824 2832	dispense
+T268	Amount 2833 2839	175 µL
+T269	Modifier 2845 2849	each
+T270	Modifier 2857 2863	active
+T271	Location 2864 2869	wells
+T272	Modifier 2875 2882	labeled
+T273	Location 2883 2897	V-Bottom Plate
+T274	Modifier 2906 2919	Multi-Channel
+T275	Device 2920 2927	Pipette
+T277	Device 2957 2963	Biomek
+T278	Modifier 2976 2985	wide bore
+T279	Size 2986 2992	200 µL
+T280	Device 2993 2997	tips
+T281	Action 2999 3008	resuspend
+T282	Reagent 3009 3040	Concanavalin A bead-bound cells
+T283	Reagent 3043 3053	Antibodies
+T284	Action 3058 3063	array
+T285	Mention 3064 3068	them
+T286	Location 3074 3091	PCR 96 Well Plate
+T287	Action 3104 3110	record
+T288	Measure-Type 3115 3123	position
+T289	Modifier 3127 3131	each
+T290	Reagent 3132 3138	sample
+T291	Location 3146 3151	plate
+T292	Action 3156 3161	stack
+T293	Mention 3162 3164	it
+T294	Location 3170 3184	PCR Plate Rack
+T295	Device 3207 3213	Biomek
+T296	Action 3220 3228	Dispense
+T297	Amount 3229 3233	1 mL
+T298	Reagent 3237 3253	Digitonin Buffer
+T299	Modifier 3259 3263	each
+T300	Modifier 3271 3277	active
+T301	Location 3278 3283	wells
+T302	Modifier 3289 3296	labeled
+T303	Location 3297 3312	Deep Well Plate
+T304	Action 3317 3322	place
+T305	Mention 3323 3325	it
+T306	Device 3348 3354	Biomek
+T307	Action 3361 3366	Place
+T308	Modifier 3367 3372	fresh
+T309	Modifier 3373 3377	AP96
+T310	Amount 3378 3384	200 µL
+T311	Device 3385 3389	tips
+T312	Modifier 3411 3418	ALPAQUA
+T313	Device 3419 3431	Magnet Plate
+T314	Modifier 3455 3460	empty
+T315	Modifier 3461 3468	labeled
+T316	Location 3469 3484	Deep Well Plate
+T317	Action 3489 3499	collecting
+T318	Device 3535 3541	Biomek
+T319	Action 3548 3553	Start
+T320	Reagent 3558 3566	pA-MNase
+T321	Method 3567 3581	Binding Method
+T322	Action 3583 3590	Prepare
+T323	Reagent 3591 3612	pA-MNase Reaction Mix
+T324	Amount 3614 3619	50 µL
+T325	Action 3629 3633	Keep
+T326	Temperature 3634 3640	on Ice
+T327	Modifier 3641 3650	until use
+T328	Action 3652 3659	Prepare
+T329	Concentration 3660 3662	4X
+T330	Reagent 3663 3674	Stop Buffer
+T331	Amount 3676 3681	25 µL
+T332	Method 3700 3723	pA-MNase Binding Method
+T333	Modifier 3727 3735	complete
+T334	Action 3737 3743	remove
+T335	Modifier 3748 3755	labeled
+T336	Location 3756 3770	V-Bottom plate
+T337	Action 3771 3781	containing
+T338	Modifier 3782 3790	residual
+T339	Reagent 3791 3808	pA-MNase solution
+T340	Action 3813 3817	wash
+T341	Modifier 3818 3822	well
+T342	Reagent 3828 3836	DI water
+T343	Location 3843 3848	plate
+T344	Location 3402 3405	TL1
+T345	Location 3444 3446	P3
+T346	Location 3525 3527	P9
+T347	Location 3338 3340	P5
+T348	Location 3197 3199	P6
+T349	Location 2590 2593	P10
+T350	Location 2947 2949	P4
+T351	Action 3856 3862	reused
+T353	Modifier 3928 3935	labeled
+T354	Location 3936 3951	Deep Well Plate
+T355	Modifier 3906 3912	liquid
+T356	Modifier 3500 3506	liquid
+T357	Action 3953 3958	rinse
+T358	Modifier 3962 3966	well
+T359	Reagent 3972 3980	DI water
+T360	Action 3991 3996	place
+T361	Mention 3997 3999	it
+T362	Location 4012 4014	P9
+T363	Device 4022 4028	Biomek
+T156	Device 4039 4063	recirculating water bath
+T158	Reagent 4076 4086	antifreeze
+T159	Action 4094 4100	remain
+T160	Temperature 4104 4121	0 degrees celcius
+T161	Location 4147 4156	Reservoir
+T162	Modifier 4161 4174	Multi-Channel
+T163	Device 4175 4182	Pipette
+T164	Action 4183 4191	dispense
+T165	Amount 4192 4197	50 µL
+T166	Reagent 4201 4222	pA-MNase Reaction Mix
+T167	Modifier 4232 4238	active
+T168	Location 4239 4244	wells
+T169	Modifier 4250 4257	labeled
+T170	Location 4258 4272	V-Bottom Plate
+T171	Action 4277 4282	place
+T172	Mention 4283 4285	it
+T173	Location 4298 4300	P4
+T174	Device 4308 4314	Biomek
+T175	Location 4315 4319	deck
+T176	Location 4029 4033	deck
+T177	Location 3542 3546	deck
+T178	Location 3355 3359	deck
+T179	Location 3214 3218	deck
+T180	Location 2964 2968	deck
+T364	Action 4320 4328	Dispense
+T365	Amount 4329 4334	25 µL
+T366	Concentration 4338 4340	4X
+T367	Reagent 4341 4352	STOP Buffer
+T368	Modifier 4360 4366	active
+T369	Location 4367 4372	wells
+T370	Modifier 4378 4385	labeled
+T371	Location 4386 4407	V-Bottom Bottom Plate
+T372	Action 4412 4417	place
+T373	Mention 4418 4420	it
+T374	Location 4433 4435	P7
+T375	Device 4443 4449	Biomek
+T376	Modifier 4456 4462	Gently
+T377	Action 4463 4468	shake
+T378	Location 4473 4488	Deep Well Plate
+T379	Action 4489 4499	containing
+T380	Reagent 4500 4516	Digitonin Buffer
+T382	Reagent 4527 4536	digitonin
+T383	Modifier 4545 4554	suspended
+T384	Reagent 4558 4566	solution
+T385	Action 4577 4582	place
+T386	Mention 4583 4585	it
+T387	Location 4598 4600	P5
+T388	Device 4608 4614	Biomek
+T390	Modifier 4629 4634	fresh
+T391	Location 4635 4652	PCR 96 Well Plate
+T392	Location 4658 4672	PCR Plate Rack
+T393	Location 4685 4687	P8
+T394	Modifier 4702 4710	digested
+T395	Action 4692 4701	accepting
+T396	Reagent 4711 4720	chromatin
+T397	Modifier 4726 4730	AP96
+T398	Size 4731 4737	200 µL
+T399	Location 4738 4742	Tips
+T400	Location 4746 4749	TL1
+T401	Action 4757 4761	used
+T402	Modifier 4762 4767	again
+T403	Modifier 4789 4796	ALPAQUA
+T404	Device 4797 4809	Magnet Plate
+T405	Action 4817 4823	remain
+T406	Location 4836 4838	P3
+T407	Modifier 4846 4850	free
+T408	Location 4851 4865	PCR Plate Rack
+T409	Action 4873 4879	remain
+T410	Location 4892 4894	P6
+T411	Location 4900 4917	PCR 96 Well Plate
+T413	Reagent 4929 4960	Concanavalin A bead-bound cells
+T414	Reagent 4963 4973	Antibodies
+T415	Reagent 4976 4984	pA-MNase
+T416	Action 4992 4998	remain
+T417	Device 5006 5019	Cooling Block
+T418	Temperature 5027 5030	0oC
+T419	Location 5043 5046	P10
+T420	Device 5054 5060	Biomek
+T421	Action 5067 5073	Ensure
+T422	Method 5102 5124	pA-MNase Digest Method
+T423	Action 5132 5140	addition
+T424	Modifier 5126 5131	after
+T425	Reagent 5144 5162	MNase Reaction Mix
+T426	Modifier 5167 5173	before
+T427	Action 5174 5182	addition
+T428	Numerical 5186 5188	4X
+T429	Reagent 5189 5200	STOP Buffer
+T430	Modifier 5217 5224	desired
+T432	Measure-Type 5225 5239	digestion time
+T433	Action 5205 5208	set
+T434	Action 5241 5246	Start
+T435	Method 5251 5273	pA-MNase Digest Method
+T436	Action 5275 5282	Prepare
+T437	Numerical 5283 5285	4X
+T438	Device 5286 5296	End Repair
+T439	Reagent 5301 5323	A-tailing (ERA) buffer
+T440	Amount 5325 5332	12.5 µL
+T441	Method 5351 5376	pA-MNase Digestion Method
+T442	Modifier 5380 5388	complete
+T443	Action 5390 5396	remove
+T444	Modifier 5401 5408	labeled
+T445	Location 5409 5424	V-Bottom plates
+T447	Modifier 5436 5444	residual
+T448	Reagent 5445 5466	pA-MNase Reaction Mix
+T449	Numerical 5471 5473	4X
+T450	Reagent 5474 5485	Stop Buffer
+T451	Modifier 5502 5509	labeled
+T452	Location 5510 5526	Deep Well Plates
+T454	Modifier 5538 5546	residual
+T455	Reagent 5547 5563	Digitonin Buffer
+T456	Modifier 5568 5574	Liquid
+T457	Device 5590 5596	Biomek
+T458	Action 5603 5608	Empty
+T459	Location 5613 5619	plates
+T460	Action 5624 5628	wash
+T461	Modifier 5629 5633	well
+T462	Reagent 5639 5647	DI water
+T463	Location 5655 5661	plates
+T464	Action 5669 5675	reused
+T465	Action 5704 5708	Seal
+T466	Location 5713 5730	PCR 96 Well Plate
+T469	Reagent 5755 5777	Con-A bead-bound cells
+T470	Location 5788 5790	P3
+T471	Modifier 5800 5808	adhesive
+T472	Seal 5809 5814	cover
+T473	Action 5819 5824	store
+T474	Temperature 5828 5834	-20 oC
+T475	Modifier 5839 5848	potential
+T476	Method 5849 5864	troubleshooting
+T477	Action 5866 5874	Turn off
+T478	Device 5879 5903	recirculating water bath
+T479	Action 5905 5911	Remove
+T480	Location 5916 5933	PCR 96 Well Plate
+T482	Modifier 5945 5953	digested
+T483	Reagent 5954 5963	chromatin
+T484	Location 5974 5976	P8
+T485	Device 5987 5993	Biomek
+T486	Location 6008 6017	Reservoir
+T487	Modifier 6022 6035	Multi-Channel
+T488	Device 6036 6043	Pipette
+T489	Action 6044 6047	add
+T490	Amount 6048 6055	12.5 µL
+T491	Concentration 6056 6058	4X
+T492	Reagent 6059 6069	ERA buffer
+T493	Modifier 6073 6077	each
+T494	Reagent 6078 6084	sample
+T495	Action 6089 6092	mix
+T496	Method 6096 6117	pipetting up and down
+T497	Numerical 6118 6125	5 times
+T498	Action 6127 6131	Seal
+T499	Location 6136 6153	PCR 96 Well Plate
+T500	Modifier 6163 6171	adhesive
+T501	Seal 6172 6177	cover
+T502	Action 6182 6187	place
+T503	Device 6193 6205	thermocycler
+T504	Modifier 6220 6230	pre-cooled
+T505	Temperature 6234 6238	12oC
+T506	Action 6243 6246	run
+T507	Method 6261 6268	program
+T508	Modifier 6274 6280	heated
+T509	Seal 6281 6284	lid
+T510	Temperature 6295 6299	20oC
+T511	Action 6302 6308	Remove
+T512	Modifier 6309 6321	pre-annealed
+T513	Concentration 6322 6329	0.15 µM
+T514	Reagent 6330 6345	TruSeq adapters
+T515	Location 6351 6358	freezer
+T516	Action 6372 6376	thaw
+T517	Location 6377 6383	on ice
+T518	Action 6385 6392	Prepare
+T519	Numerical 6393 6395	2X
+T520	Reagent 6396 6417	Rapid Ligase solution
+T521	Amount 6419 6424	50 µL
+T522	Modifier 6443 6456	Multi-Channel
+T523	Device 6457 6464	Pipette
+T524	Action 6466 6469	add
+T525	Amount 6470 6474	5 µL
+T526	Concentration 6478 6485	0.15 µM
+T527	Modifier 6486 6498	pre-annealed
+T528	Reagent 6499 6514	TruSeq adapters
+T529	Reagent 6523 6529	sample
+T530	Modifier 6518 6522	each
+T531	Method 6541 6562	pipetting up and down
+T532	Numerical 6563 6570	5 times
+T533	Action 6534 6537	mix
+T534	Location 6580 6589	Reservoir
+T535	Modifier 6594 6607	Multi-Channel
+T536	Device 6608 6615	Pipette
+T537	Action 6617 6620	add
+T538	Amount 6621 6626	50 µL
+T539	Numerical 6627 6629	2X
+T540	Reagent 6630 6651	Rapid Ligase solution
+T541	Modifier 6655 6659	each
+T542	Reagent 6660 6666	sample
+T543	Action 6671 6674	mix
+T181	Modifier 6675 6679	well
+T182	Method 6683 6704	pipetting up and down
+T183	Numerical 6705 6713	10 times
+T184	Action 6715 6719	Seal
+T185	Location 6724 6741	PCR 96 Well Plate
+T186	Modifier 6751 6759	adhesive
+T187	Seal 6760 6765	cover
+T188	Action 6770 6775	place
+T189	Device 6781 6793	thermocycler
+T190	Modifier 6808 6818	pre-cooled
+T191	Temperature 6822 6826	20oC
+T192	Action 6831 6839	incubate
+T193	Temperature 6843 6847	20oC
+T194	Time 6852 6858	20 min
+T195	Location 4450 4454	deck
+T196	Location 4615 4619	deck
+T197	Location 5061 5065	deck
+T198	Location 5597 5601	deck
+T199	Location 5994 5998	deck
+T544	Method 6869 6879	incubation
+T545	Action 6880 6887	proceed
+T546	Method 6893 6915	Proteinase K digestion
+T547	Modifier 6916 6927	immediately
+T548	Numerical 6935 6938	two
+T549	Location 6939 6949	Reservoirs
+T550	Modifier 6956 6969	Multi-Channel
+T551	Device 6970 6977	Pipette
+T552	Action 6979 6982	add
+T553	Amount 6983 6987	2 µL
+T554	Concentration 6988 6991	10%
+T555	Reagent 6992 6995	SDS
+T556	Amount 7000 7004	2 µL
+T557	Reagent 7005 7017	Proteinase K
+T558	Concentration 7019 7027	20 mg/mL
+T559	Reagent 7037 7043	sample
+T560	Modifier 7032 7036	each
+T561	Action 7045 7049	Seal
+T562	Location 7054 7071	PCR 96 Well Plate
+T563	Modifier 7081 7089	adhesive
+T564	Seal 7090 7095	cover
+T565	Action 7100 7103	mix
+T566	Modifier 7104 7108	well
+T567	Method 7112 7121	vortexing
+T568	Action 7123 7132	Spin down
+T569	Reagent 7133 7141	solution
+T570	Speed 7144 7153	2,000 rpm
+T571	Time 7158 7163	1 min
+T572	Action 7168 7176	incubate
+T573	Device 7182 7194	thermocycler
+T574	Temperature 7198 7202	37oC
+T575	Time 7207 7223	30 min-overnight
+T576	Action 7225 7231	Remove
+T577	Reagent 7232 7250	Ampure Bead Slurry
+T578	Location 7256 7268	refrigerator
+T579	Action 7270 7279	resuspend
+T580	Reagent 7280 7285	beads
+T581	Method 7289 7298	vortexing
+T582	Action 7312 7323	equilibrate
+T583	Temperature 7327 7343	room temperature
+T584	Modifier 7344 7350	before
+T585	Action 7351 7356	using
+T586	Action 7358 7362	Spin
+T587	Location 7363 7380	PCR 96 Well Plate
+T588	Action 7381 7391	containing
+T589	Modifier 7392 7407	Adapter Ligated
+T590	Reagent 7408 7419	DNA samples
+T591	Speed 7424 7431	000 rpm
+T592	Time 7436 7441	1 min
+T593	Action 7443 7449	Remove
+T594	Seal 7450 7454	seal
+T595	Action 7459 7464	stack
+T596	Location 7470 7484	PCR Plate Rack
+T597	Location 7499 7501	P5
+T598	Device 7509 7515	Biomek
+T599	Location 7530 7539	Reservoir
+T600	Modifier 7544 7557	Multi-Channel
+T601	Device 7558 7565	Pipette
+T602	Action 7566 7576	distribute
+T603	Amount 7577 7582	90 µL
+T604	Reagent 7590 7608	Ampure Bead Slurry
+T605	Modifier 7618 7624	active
+T606	Location 7625 7630	wells
+T607	Location 7636 7653	PCR 96 Well Plate
+T608	Action 7658 7663	stack
+T609	Location 7669 7683	PCR Plate Rack
+T610	Location 7698 7700	P6
+T611	Device 7708 7714	Biomek
+T612	Action 7721 7729	Dispense
+T613	Amount 7730 7734	1 mL
+T614	Concentration 7738 7741	80%
+T615	Reagent 7742 7749	Ethanol
+T616	Modifier 7755 7759	each
+T617	Modifier 7767 7773	active
+T618	Location 7774 7779	wells
+T619	Modifier 7785 7792	labeled
+T620	Location 7793 7808	Deep Well Plate
+T621	Action 7813 7818	place
+T622	Location 7831 7833	P4
+T623	Device 7841 7847	Biomek
+T624	Numerical 7864 7866	24
+T625	Method 7867 7888	AutoCUT&RUN reactions
+T626	Action 7889 7896	prepare
+T627	Amount 7897 7901	6 mL
+T628	Reagent 7905 7912	HXP Mix
+T629	Concentration 7914 7917	20%
+T630	Reagent 7918 7926	PEG 8000
+T631	Concentration 7928 7932	2.5M
+T632	Reagent 7933 7937	NaCl
+T633	Location 7948 7957	Reservoir
+T634	Modifier 7962 7975	Multi-Channel
+T635	Device 7976 7983	Pipette
+T636	Action 7984 7994	distribute
+T637	Amount 7995 8001	100 µL
+T638	Reagent 8009 8016	HXP Mix
+T639	Modifier 8026 8032	active
+T640	Location 8033 8038	wells
+T641	Location 8044 8058	V-Bottom Plate
+T642	Action 8063 8068	place
+T643	Location 8081 8083	P7
+T644	Device 8091 8097	Biomek
+T645	Location 8112 8121	Reservoir
+T646	Modifier 8126 8139	Multi-Channel
+T647	Device 8140 8147	Pipette
+T648	Action 8148 8158	distribute
+T649	Amount 8159 8165	100 µL
+T650	Concentration 8169 8173	10mM
+T651	Reagent 8174 8182	Tris-HCl
+T652	pH 8183 8187	pH 8
+T653	Modifier 8197 8203	active
+T654	Location 8204 8209	wells
+T655	Numerical 8213 8216	two
+T656	Modifier 8217 8224	labeled
+T657	Location 8225 8240	V-Bottom Plates
+T658	Numerical 8242 8245	one
+T659	Method 8250 8260	tip washes
+T660	Numerical 8265 8268	one
+T661	Method 8273 8284	DNA elution
+T662	Action 8290 8295	place
+T663	Location 8309 8311	P1
+T664	Location 8316 8318	P2
+T665	Device 8326 8332	Biomek
+T666	Action 8339 8344	Place
+T667	Modifier 8345 8350	Fresh
+T668	Modifier 8351 8355	AP96
+T669	Size 8356 8362	200 µL
+T670	Device 8363 8367	Tips
+T671	Location 8371 8374	TL1
+T672	Modifier 8378 8385	labeled
+T673	Location 8386 8401	Deep Well Plate
+T674	Action 8406 8415	accepting
+T675	Modifier 8416 8422	liquid
+T676	Location 8441 8443	P9
+T677	Modifier 8451 8456	fresh
+T678	Location 8457 8474	PCR 96 Well Plate
+T679	Location 8488 8502	PCR Plate Rack
+T680	Action 8507 8516	accepting
+T681	Modifier 8517 8522	clean
+T682	Modifier 8523 8538	Adapter Ligated
+T683	Reagent 8539 8542	DNA
+T684	Location 8555 8557	P8
+T685	Device 8565 8571	Biomek
+T686	Action 8475 8482	stacked
+T687	Action 8578 8583	Start
+T688	Method 8588 8614	Pre-PCR DNA Cleanup Method
+T689	Action 8616 8623	Prepare
+T690	Reagent 8624 8643	KAPA PCR Master Mix
+T691	Method 8654 8680	Pre-PCR DNA Cleanup Method
+T692	Action 8694 8700	remove
+T693	Modifier 8705 8712	labeled
+T694	Location 8713 8728	V-Bottom Plates
+T696	Modifier 8740 8748	residual
+T697	Concentration 8749 8753	10mM
+T698	Reagent 8754 8762	Tris-HCl
+T699	pH 8763 8767	pH 8
+T700	Reagent 8772 8779	HXP Mix
+T701	Modifier 8796 8803	labeled
+T702	Location 8804 8820	Deep Well Plates
+T703	Modifier 8832 8840	residual
+T704	Reagent 8841 8848	Ethanol
+T705	Modifier 8853 8859	Liquid
+T706	Device 8875 8881	Biomek
+T708	Action 8888 8894	Remove
+T709	Location 8895 8912	PCR 96 Well Plate
+T710	Action 8913 8923	containing
+T711	Modifier 8924 8929	clean
+T712	Modifier 8930 8945	Adapter Ligated
+T713	Reagent 8946 8949	DNA
+T714	Location 8960 8962	P8
+T715	Device 8973 8979	Biomek
+T716	Location 8994 9003	Reservoir
+T717	Modifier 9008 9021	Multi-Channel
+T718	Device 9022 9029	Pipette
+T719	Action 9030 9033	add
+T720	Amount 9034 9039	20 µL
+T721	Reagent 9040 9059	KAPA PCR Master Mix
+T722	Modifier 9063 9067	each
+T723	Reagent 9068 9074	sample
+T724	Action 9079 9082	mix
+T725	Modifier 9083 9087	well
+T726	Method 9091 9112	pipetting up and down
+T727	Numerical 9113 9121	10 times
+T728	Action 9123 9127	Seal
+T729	Location 9132 9141	PCR plate
+T730	Modifier 9151 9159	adhesive
+T731	Seal 9160 9165	cover
+T732	Action 9167 9172	place
+T733	Device 9176 9188	thermocycler
+T734	Action 9193 9196	run
+T735	Method 9211 9218	program
+T736	Modifier 9224 9230	heated
+T737	Seal 9231 9234	lid
+T738	Action 9237 9241	Spin
+T739	Location 9242 9259	PCR 96 Well Plate
+T740	Modifier 9271 9284	PCR amplified
+T741	Speed 9304 9313	2,000 rpm
+T200	Time 9318 9323	1 min
+T742	Modifier 8684 8692	complete
+T201	Location 7516 7520	deck
+T202	Location 7715 7719	deck
+T203	Location 7848 7852	deck
+T204	Location 8098 8102	deck
+T205	Location 8333 8337	deck
+T206	Location 8572 8576	deck
+T207	Location 8882 8886	deck
+T208	Location 8980 8984	deck
+T743	Action 9324 9330	Remove
+T744	Seal 9331 9335	seal
+T745	Action 9340 9345	stack
+T746	Location 9351 9365	PCR Plate Rack
+T747	Location 9380 9382	P5
+T748	Device 9390 9397	Biomeck
+T749	Location 9412 9421	Reservoir
+T750	Modifier 9426 9439	Multi-Channel
+T751	Device 9440 9447	Pipette
+T752	Action 9448 9458	distribute
+T753	Amount 9459 9464	55 µL
+T754	Reagent 9472 9490	Ampure Bead Slurry
+T755	Modifier 9500 9506	active
+T756	Location 9507 9512	wells
+T757	Location 9518 9535	PCR 96 Well Plate
+T758	Action 9540 9545	stack
+T759	Location 9551 9565	PCR Plate Rack
+T760	Location 9580 9582	P6
+T761	Device 9590 9596	Biomek
+T762	Action 9603 9611	Dispense
+T763	Amount 9612 9616	1 mL
+T764	Concentration 9620 9623	80%
+T765	Reagent 9624 9631	Ethanol
+T766	Modifier 9637 9641	each
+T767	Modifier 9649 9655	active
+T768	Location 9656 9661	wells
+T769	Modifier 9667 9674	labeled
+T770	Location 9675 9690	Deep Well Plate
+T771	Action 9695 9700	place
+T772	Location 9713 9715	P4
+T773	Device 9723 9729	Biomek
+T774	Location 9744 9753	Reservoir
+T775	Modifier 9758 9771	Multi-Channel
+T776	Device 9772 9779	Pipette
+T777	Action 9780 9790	distribute
+T778	Amount 9791 9797	100 µL
+T779	Modifier 9805 9814	remaining
+T780	Reagent 9815 9822	HXP Mix
+T781	Modifier 9832 9838	active
+T782	Location 9839 9844	wells
+T783	Location 9850 9864	V-Bottom Plate
+T784	Action 9869 9874	place
+T785	Location 9887 9889	P7
+T786	Device 9897 9903	Biomek
+T787	Location 9918 9927	Reservoir
+T788	Modifier 9932 9945	Multi-Channel
+T789	Device 9946 9953	Pipette
+T790	Action 9954 9964	distribute
+T791	Amount 9965 9971	100 µL
+T792	Concentration 9975 9979	10mM
+T793	Reagent 9980 9988	Tris-HCl
+T794	pH 9989 9993	pH 8
+T795	Modifier 10003 10009	active
+T796	Location 10010 10015	wells
+T797	Numerical 10019 10022	two
+T798	Location 10023 10038	V-Bottom Plates
+T799	Numerical 10040 10043	one
+T800	Method 10048 10058	tip washes
+T801	Numerical 10063 10066	one
+T802	Method 10071 10082	DNA elution
+T803	Action 10088 10093	place
+T804	Location 10107 10109	P1
+T805	Location 10114 10116	P2
+T806	Device 10124 10130	Biomek
+T807	Action 10138 10139	l
+T808	Modifier 10143 10148	Fresh
+T809	Modifier 10149 10153	AP96
+T810	Size 10154 10160	200 µL
+T811	Device 10161 10165	Tips
+T812	Location 10169 10172	TL1
+T813	Modifier 10176 10183	labeled
+T814	Location 10184 10199	Deep Well Plate
+T815	Action 10204 10213	accepting
+T816	Modifier 10214 10220	liquid
+T817	Location 10239 10241	P9
+T818	Modifier 10249 10254	fresh
+T819	Location 10255 10272	PCR 96 Well Plate
+T820	Action 10273 10280	stacked
+T821	Location 10286 10300	PCR Plate Rack
+T822	Action 10305 10314	accepting
+T823	Modifier 10315 10320	clean
+T824	Reagent 10329 10342	DNA Libraries
+T825	Location 10355 10357	P8
+T826	Device 10365 10371	Biomek
+T827	Action 10378 10383	Start
+T828	Method 10388 10415	Post-PCR DNA Cleanup Method
+T829	Method 10426 10453	Post-PCR DNA Cleanup Method
+T830	Modifier 10457 10465	complete
+T831	Action 10467 10473	remove
+T832	Modifier 10478 10485	labeled
+T833	Location 10486 10501	V-Bottom plates
+T835	Modifier 10513 10521	residual
+T836	Concentration 10522 10526	10mM
+T837	Reagent 10527 10535	Tris-HCl
+T838	pH 10536 10540	pH 8
+T839	Reagent 10545 10555	HXP Buffer
+T840	Modifier 10572 10579	labeled
+T841	Location 10580 10596	Deep Well Plates
+T843	Modifier 10608 10616	residual
+T844	Reagent 10617 10624	Ethanol
+T845	Modifier 10629 10635	Liquid
+T846	Device 10651 10657	Biomek
+T847	Action 10664 10669	Empty
+T848	Location 10674 10680	plates
+T849	Action 10685 10689	wash
+T850	Modifier 10690 10704	extremely well
+T851	Reagent 10710 10718	DI water
+T852	Location 10726 10732	plates
+T853	Action 10740 10746	reused
+T854	Action 10775 10781	Remove
+T855	Location 10782 10799	PCR 96 Well Plate
+T856	Modifier 10811 10816	clean
+T857	Location 10845 10847	P8
+T858	Device 10858 10864	Biomek
+T859	Action 10874 10878	seal
+T860	Modifier 10887 10895	adhesive
+T861	Seal 10896 10901	cover
+T862	Modifier 10906 10916	subsequent
+T863	Method 10917 10925	analysis
+T865	Action 10927 10936	Determine
+T866	Measure-Type 10941 10958	size distribution
+T867	Method 10975 11008	Agilent 4200 TapeStation analysis
+T868	Action 11010 11018	Quantify
+T869	Measure-Type 11019 11032	library yield
+T870	Method 11039 11059	dsDNA-specific assay
+T871	Method 11069 11074	Qubit
+T872	Action 11076 11080	Pool
+T873	Modifier 11081 11088	indexed
+T874	Action 11111 11118	perform
+T875	Method 11119 11149	paired-end Illumina sequencing
+T876	Action 11196 11201	align
+T877	Method 11225 11246	Bowtie2 version 2.2.5
+T878	Action 11357 11364	mapping
+T879	Action 11439 11444	avoid
+T880	Reagent 11510 11513	DNA
+T881	Location 9398 9402	deck
+T882	Location 9597 9601	deck
+T883	Location 9730 9734	Deck
+T884	Location 9904 9908	deck
+T885	Location 10131 10135	deck
+T886	Location 10372 10376	deck
+T887	Location 10658 10662	deck
+T888	Location 10865 10869	deck
+T889	Method 10321 10328	CUT&RUN
+T890	Method 10817 10824	CUT&RUN
+T891	Reagent 235 241	sample
+T892	Modifier 231 234	per
+T893	Speed 1192 1195	low
+T894	Reagent 1253 1259	sample
+T98	Modifier 1703 1704	~
+T895	Speed 2104 2107	low
+T896	Reagent 2167 2173	sample
+T229	Action 2266 2274	dislodge
+T897	Measure-Type 2181 2201	digestion time point
+T898	Modifier 2109 2110	~
+T899	Modifier 2455 2456	~
+T246	Action 2493 2499	filled
+T248	Action 2520 2526	routed
+T900	Modifier 2640 2643	per
+T901	Modifier 2744 2745	~
+T276	Action 2929 2934	Place
+T902	Reagent 3507 3512	waste
+T903	Reagent 3620 3626	sample
+T904	Reagent 3682 3688	sample
+T905	Reagent 3913 3918	waste
+T906	Mention 3959 3961	it
+T352	Action 3896 3901	empty
+T157	Action 4064 4070	filled
+T381	Action 4621 4626	Place
+T389	Action 4537 4544	remains
+T412	Reagent 5333 5339	sample
+T431	Reagent 5575 5580	Waste
+T446	Modifier 6294 6295	>
+T453	Measure-Type 6289 6293	temp
+T467	Reagent 6426 6432	sample
+T468	Reagent 8860 8865	Waste
+T481	Reagent 9293 9302	libraries
+T695	Reagent 10221 10226	waste
+T707	Method 9285 9292	CUT&RUN
+T834	Reagent 10636 10641	Waste
+T842	Reagent 10825 10834	Libraries
+T864	Reagent 10962 10971	libraries
+T907	Method 11089 11096	CUT&RUN
+T908	Reagent 11097 11106	libraries
+T909	Reagent 11479 11485	genome
+T910	Modifier 11466 11478	experimental
+T911	Modifier 11501 11509	spike-in
+T912	Modifier 11365 11373	spike-in
+T913	Reagent 11374 11383	fragments
+T914	Method 11445 11458	cross-mapping
+T915	Modifier 1197 1198	~
+T916	Reagent 1840 1846	clumps
+T917	Reagent 8423 8428	waste

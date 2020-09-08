@@ -1,0 +1,102 @@
+T1	Method 11 22	3C3D RT-PCR
+T2	Action 23 30	Prepare
+T3	Method 56 64	reaction
+T4	Measure-Type 73 84	dead volume
+T5	Numerical 95 96	2
+T6	Action 105 111	Adjust
+T7	Device 136 153	robotic dispenser
+T8	Action 155 163	Dispense
+T9	Amount 164 168	15µL
+T10	Location 177 190	reaction well
+T11	Action 193 196	Add
+T12	Amount 197 200	5µL
+T13	Reagent 204 212	template
+T14	Modifier 214 223	extracted
+T15	Reagent 224 227	RNA
+T16	Reagent 229 237	controls
+T17	Reagent 241 244	NTC
+T18	Modifier 246 259	nuclease-free
+T19	Reagent 260 265	water
+T20	Reagent 268 282	Total reaction
+T21	Measure-Type 283 289	volume
+T22	Amount 293 297	20µL
+T24	Device 327 350	Eppendorf thermocyclers
+T25	Method 352 355	PCR
+T26	Measure-Type 356 369	cycling times
+T27	Modifier 370 379	Amplified
+T28	Reagent 380 388	products
+T29	Action 393 401	analysed
+T30	Method 405 424	gel electrophoresis
+T31	Device 448 455	QIAxcel
+T32	Method 461 480	gel electrophoresis
+T33	Concentration 484 488	1.5%
+T34	Reagent 489 500	agarose gel
+T35	Reagent 506 522	ethidium bromide
+T36	Action 560 564	Boil
+T37	Device 568 577	microwave
+T38	Time 582 596	1.5 -2 minutes
+T39	Reagent 603 617	agarose powder
+T40	Modifier 621 630	dissolved
+T41	Action 632 635	Add
+T42	Numerical 636 637	2
+T43	Reagent 638 643	drops
+T44	Reagent 647 663	ethidium bromide
+T45	Concentration 665 675	0.625mg/ml
+T46	Action 681 684	mix
+T47	Action 692 699	pouring
+T48	Reagent 714 722	gel form
+T49	Device 730 734	comb
+T50	Modifier 700 704	warm
+T51	Action 736 741	Leave
+T52	Modifier 746 752	approx
+T53	Time 753 762	30minutes
+T54	Temperature 766 782	room temperature
+T55	Action 791 796	Place
+T56	Reagent 797 800	gel
+T57	Location 807 811	tray
+T58	Location 822 826	tank
+T59	Action 831 836	cover
+T60	Concentration 842 846	0.5X
+T61	Reagent 847 850	TBE
+T62	Reagent 856 872	ethidium bromide
+T63	Action 874 877	Mix
+T64	Amount 878 881	2μl
+T65	Reagent 885 896	loading dye
+T66	Amount 901 905	10µl
+T67	Modifier 909 918	amplified
+T68	Reagent 919 926	product
+T69	Action 931 934	add
+T70	Location 940 944	well
+T71	Reagent 952 955	gel
+T72	Action 957 960	Mix
+T73	Amount 961 964	2μl
+T74	Reagent 968 979	loading dye
+T75	Amount 985 988	5μl
+T76	Generic-Measure 992 997	100bp
+T77	Reagent 998 1004	marker
+T78	Location 1018 1022	well
+T79	Reagent 1030 1033	gel
+T80	Location 1063 1067	lane
+T82	Action 1095 1098	Run
+T83	Reagent 1103 1106	gel
+T84	Time 1111 1124	60-90 minutes
+T85	Generic-Measure 1128 1136	80 volts
+T86	Reagent 1150 1155	bands
+T87	Reagent 1163 1169	marker
+T88	Action 1175 1184	separated
+T89	Modifier 1185 1195	adequately
+T90	Action 1204 1211	run off
+T91	Location 1216 1219	end
+T92	Reagent 1227 1230	gel
+T93	Action 1009 1012	add
+T94	Reagent 0 10	Aichivirus
+T95	Generic-Measure 46 52	number
+T96	Modifier 31 41	sufficient
+T97	Modifier 97 102	extra
+T98	Modifier 112 124	as necessary
+T99	Modifier 172 176	each
+T23	Method 302 307	assay
+T100	Method 552 558	recipe
+T101	Modifier 542 551	following
+T102	Action 527 531	made
+T81	Modifier 1048 1062	first and last

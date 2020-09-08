@@ -1,0 +1,21 @@
+T1	Action 23 27	Take
+T2	Modifier 32 36	FREE
+T3	Action 190 198	Subtract
+T4	Action 261 267	Divide
+T5	Action 107 111	Take
+T6	Modifier 116 120	FREE
+T7	Measure-Type 37 50	phage average
+T8	Measure-Type 121 134	phage average
+T9	Measure-Type 277 283	number
+T10	Reagent 287 302	infecting phage
+T11	Action 0 11	Calculating
+T12	Measure-Type 12 22	burst size
+T13	Reagent 310 316	phages
+T14	Modifier 329 333	FREE
+T15	Measure-Type 354 364	burst size
+T16	Measure-Type 96 101	burst
+T17	Measure-Type 179 184	burst
+T18	Measure-Type 227 232	burst
+T19	Reagent 240 246	phages
+T20	Modifier 236 239	new
+T21	Modifier 247 255	released

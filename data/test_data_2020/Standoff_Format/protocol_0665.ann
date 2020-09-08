@@ -1,0 +1,119 @@
+T1	Method 0 24	DNA Extraction Procedure
+T2	Reagent 31 34	SDS
+T3	Action 35 38	Cut
+T4	Reagent 39 45	tissue
+T5	Action 50 55	grind
+T6	Reagent 59 74	liquid nitrogen
+T7	Action 76 84	Transfer
+T8	Modifier 85 92	grinded
+T9	Reagent 93 99	tissue
+T10	Size 103 108	15 ml
+T11	Location 109 113	tube
+T12	Action 115 118	Add
+T13	Amount 119 122	6ml
+T14	Reagent 123 126	TEN
+T15	Amount 128 133	700µl
+T16	Concentration 134 137	20%
+T17	Reagent 138 141	SDS
+T18	Temperature 142 145	56℃
+T19	Modifier 145 152	preheat
+T20	Amount 155 160	150µl
+T21	Reagent 161 181	beta mercaptoethanol
+T22	Amount 186 192	150 µl
+T23	Reagent 193 205	proteinase K
+T24	Modifier 207 214	rapidly
+T25	Action 215 218	mix
+T26	Action 220 228	Incubate
+T27	Reagent 229 239	homogenate
+T28	Time 244 247	2 h
+T29	Temperature 251 255	56 ℃
+T30	Modifier 258 264	gently
+T31	Action 265 273	blending
+T32	Modifier 278 283	every
+T33	Time 284 294	5 ~ 10 min
+T34	Action 296 305	Cool down
+T35	Temperature 309 325	room temperature
+T36	Action 327 330	Add
+T37	Modifier 334 340	equal 
+T38	Measure-Type 340 346	volume
+T39	Reagent 350 371	Tris saturated phenol
+T40	Action 376 379	mix
+T41	Action 381 391	Centrifuge
+T42	Temperature 395 411	room temperature
+T43	Temperature 414 418	16 ℃
+T44	Speed 425 436	14000 RPM  
+T45	Time 440 446	10 min
+T46	Action 453 457	save
+T47	Reagent 458 469	supernatant
+T48	Action 471 474	Add
+T49	Reagent 475 485	chloroform
+T50	Reagent 490 505	isoamyl alcohol
+T51	Concentration 507 511	24:1
+T52	Reagent 521 532	supernatant
+T53	Action 539 542	mix
+T54	Action 544 554	Centrifuge
+T55	Speed 560 569	14000 RPM
+T56	Time 574 580	10 min
+T57	Action 582 586	save
+T58	Reagent 587 598	supernatant
+T59	Action 600 609	Resuspend
+T60	Reagent 610 623	nuclei pellet
+T61	Numerical 629 634	0.8 X
+T62	Measure-Type 635 641	volume
+T63	Modifier 645 651	frozen
+T64	Reagent 652 669	isopropyl alcohol
+T65	Action 671 675	Wash
+T66	Modifier 681 685	cold
+T67	Reagent 686 693	ethanol
+T68	Concentration 694 697	75%
+T69	Action 720 723	dry
+T70	Action 725 728	Add
+T71	Amount 729 735	200 µl
+T72	Reagent 736 739	TEN
+T73	Amount 744 748	2 µl
+T74	Reagent 749 754	RNAse
+T75	Concentration 756 765	100 mg/ml
+T76	Temperature 768 772	37 ℃
+T77	Time 777 783	30 min
+T78	Method 785 816	incubation period precipitation
+T79	Reagent 833 844	precipitate
+T80	Action 845 853	dissolve
+T81	Modifier 854 864	completely
+T82	Device 822 831	Tip dolly
+T83	Action 866 869	Add
+T84	Reagent 870 876	buffer
+T85	Reagent 878 881	TEN
+T86	Amount 886 892	200 µl
+T87	Concentration 893 896	20%
+T88	Reagent 897 900	SDS
+T89	Amount 906 911	40 µl
+T90	Reagent 912 922	Protease K
+T91	Amount 929 933	2 ml
+T92	Action 935 943	Incubate
+T93	Time 948 954	30 min
+T94	Temperature 958 962	56 ℃
+T95	Action 964 967	Add
+T96	Reagent 968 978	chloroform
+T97	Reagent 983 998	isoamyl alcohol
+T98	Concentration 1000 1004	24:1
+T99	Reagent 1009 1020	supernatant
+T100	Action 1027 1030	mix
+T101	Action 1031 1042	Centrifuge 
+T102	Speed 1047 1056	14000 RPM
+T103	Time 1061 1067	10 min
+T104	Action 1069 1073	save
+T105	Reagent 1074 1085	supernatant
+T106	Action 1087 1092	Wash 
+T107	Numerical 1092 1097	twice
+T108	Modifier 1103 1107	cold
+T109	Reagent 1108 1115	ethanol
+T110	Concentration 1116 1119	75%
+T111	Action 1121 1124	Add
+T112	Amount 1125 1131	300 µl
+T113	Reagent 1132 1134	EB
+T114	pH 1136 1142	pH 8.0
+T115	Action 1147 1155	dissolve
+T116	Modifier 413 414	＞
+T117	Modifier 923 928	up to
+T118	Numerical 700 703	1/2
+T119	Numerical 707 710	2/2
