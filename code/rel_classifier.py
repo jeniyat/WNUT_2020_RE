@@ -17,16 +17,17 @@ import argparse
 
 
 def single_run(x_train, y_train, x_test, y_test):
-    model = LogisticRegression(solver='lbfgs', multi_class='multinomial', n_jobs=8)
+    model = LogisticRegression(solver='lbfgs', multi_class='multinomial', n_jobs=8, max_iter=1000)
 
     model.fit(x_train, y_train)
+    pickle.dump(model, open('lr_model.m', 'wb'))
 
     print("Results on test set: ")
     pred_test = model.predict(x_test)
 
-    # print(classification_report(y_test, pred_test, target_names=cfg.RELATIONS, labels=range(len(cfg.RELATIONS))))
-    # print("Macro", precision_recall_fscore_support(y_test, pred_test, average='macro', labels=range(len(cfg.RELATIONS))))
-    # print("Micro", precision_recall_fscore_support(y_test, pred_test, average='micro', labels=range(len(cfg.RELATIONS))))
+    print(classification_report(y_test, pred_test, target_names=cfg.RELATIONS, labels=range(len(cfg.RELATIONS))))
+    print("Macro", precision_recall_fscore_support(y_test, pred_test, average='macro', labels=range(len(cfg.RELATIONS))))
+    print("Micro", precision_recall_fscore_support(y_test, pred_test, average='micro', labels=range(len(cfg.RELATIONS))))
 
     
 
@@ -64,15 +65,27 @@ def main():
 
 
     # train = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=cfg.TRAIN_ARTICLES_PATH)
-    train = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["train_data"])
+    # train = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["train_data"])
     # dev = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=cfg.DEV_ARTICLES_PATH)
     # test = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=cfg.TEST_ARTICLES_PATH)
-    test = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["test_data"])
-    dev = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["dev_data"])
+    # test = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["test_data"])
+    # dev = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["dev_data"])
 
-    pickle.dump(test, open('results/pickles/datasets/test.p', 'wb'))
-    pickle.dump(train, open('results/pickles/datasets/train.p', 'wb'))
-    pickle.dump(dev, open('results/pickles/datasets/dev.p', 'wb'))
+    # pickle.dump(test, open('results/pickles/datasets/test.p', 'wb'))
+    # pickle.dump(train, open('results/pickles/datasets/train.p', 'wb'))
+    # pickle.dump(dev, open('results/pickles/datasets/dev.p', 'wb'))
+
+    try:
+        train = pickle.load(open(cfg.Train_Dataset_PICKLE, 'rb'))
+    except Exception as e:
+        train = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["train_data"])
+        pickle.dump(train , open(cfg.Train_Dataset_PICKLE, 'wb'))
+
+    try:
+        test = pickle.load(open(cfg.Test_Dataset_PICKLE, 'rb'))
+    except Exception as e:
+        test = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["test_data"])
+        pickle.dump(test, open(cfg.Test_Dataset_PICKLE, 'wb'))
 
 
     

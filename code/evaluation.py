@@ -62,9 +62,13 @@ def main():
         gold_data = pickle.load(open(cfg.Test_Dataset_PICKLE, 'rb'))
     except Exception as e:
         gold_data = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["gold_data"])
-        pickle.dump(pred_data , open('pred_data.p', 'wb'))
-    
-    pred_data = pickle.load(open('pred_data.p', 'rb'))
+        pickle.dump(gold_data , open(cfg.Test_Dataset_PICKLE, 'wb'))
+
+    try:
+        pred_data = pickle.load(open('pred_data.p', 'rb'))
+    except Exception as e:
+        pred_data = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["pred_data"])
+        pickle.dump(pred_data ,open('pred_data.p', 'wb'))
 
 
     y_gold = []

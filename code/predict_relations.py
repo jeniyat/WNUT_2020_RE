@@ -20,17 +20,19 @@ import evaluation
 
 
 def single_run(train, x_train, y_train, test, x_test, y_test, output_dir):
-    model = LogisticRegression(solver='lbfgs', multi_class='multinomial', n_jobs=8)
-    try:
-        print("now loading the pickled model from: results/pickles/models/", )
-        model = pickle.load(open('results/pickles/models/LR_rel_classifier.p', 'rb'))
-    except Exception as e:
-        print("could not load the saved model. now training the model.")
+    model = LogisticRegression(solver='lbfgs', multi_class='multinomial', n_jobs=8, max_iter=1000)
+    # model.fit(x_train, y_train)
+    # try:
+    #     print("now loading the pickled model from: results/pickles/models/", )
+    #     model = pickle.load(open('results/pickles/models/LR_rel_classifier.p', 'rb'))
+    # except Exception as e:
+    #     print("could not load the saved model. now training the model.")
         
-        model.fit(x_train, y_train)
+    #     model.fit(x_train, y_train)
 
-        print("now dumping the model")
-        pickle.dump(model , open('LR_rel_classifier.p', 'wb'))
+    #     print("now dumping the model")
+    #     pickle.dump(model , open('results/pickles/models/LR_rel_classifier.p', 'wb'))
+    model = pickle.load(open('lr_model.m', 'rb'))
     
     list_of_test_protocols = test.protocols
     last_index = 0
@@ -51,6 +53,7 @@ def single_run(train, x_train, y_train, test, x_test, y_test, output_dir):
         last_index= protocol_rel_len
 
         protocol.write_rels(pred_x, test.rel_label_idx, write_copy=output_dir+protocol.basename)
+
     print("predictions are saved in :", output_dir)
         
         
@@ -63,12 +66,12 @@ def parse_args():
     parameters_maxent = OrderedDict()
     
     parser.add_argument(
-        "-train_data", default="../data/train_data_small/",
+        "-train_data", default="../data/train_data/",
         help="Standoff_Format gold files"
     )
 
     parser.add_argument(
-        "-test_data", default="../data/test_data_small/",
+        "-test_data", default="../data/test_data/",
         help="Standoff_Format test files"
     )
 
@@ -92,8 +95,8 @@ def main():
 
     output_dir = parameters_maxent["output_directory"]
 
-    train = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["train_data"])
-    test = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["test_data"])
+    # train = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["train_data"])
+    # test = WLPDataset(gen_rel_feat=True, prep_emb=False, dir_path=parameters_maxent["test_data"])
 
     shutil.rmtree(output_dir, ignore_errors=True)
 
@@ -139,7 +142,8 @@ def main():
         x_test = train.features.tranform(test_df, feat)
         single_run(train, x_train, y_train, test, x_test, y_test, output_dir)
 
-    evaluation.find_perfomance(gold_data_location=parameters_maxent["test_data"], pred_data_location=output_dir)
+    # evaluation.find_perfomance(gold_data_location=parameters_maxent["test_data"], pred_data_location=output_dir)
+    evaluation.main()
 
 
 if __name__ == '__main__':
