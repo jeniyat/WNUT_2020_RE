@@ -1,4 +1,4 @@
-This folder contains the surprised test data for the WNUT-2020 shared task on "Entity Recognition over Wet Lab Protocols". 
+The `Standoff_Format` folder contains the surprised test data for the WNUT-2020 shared task on "Relation Extraction from Wet Lab Protocols". 
 
 Currently the data of this folder contain any gold labels for the named entities only. The gold labels of the realations among these entities will be released after the evalauation period closes.
 
