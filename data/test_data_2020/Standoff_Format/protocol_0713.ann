@@ -6,4 +6,6 @@ T7	Reagent 78 97	Glacial acetic acid
 T8	Reagent 99 122	Hutner's Trace Elements
 T9	Modifier 124 133	Distilled
 T10	Reagent 134 138	dH2O
+R2	Mod-Link Arg1:T10 Arg2:T9	
 T11	Action 140 149	Autoclave
+E1	Action:T11 
