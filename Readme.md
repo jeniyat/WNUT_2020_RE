@@ -74,6 +74,17 @@ The participants are required to produce predictions on the protocols as [StandO
     └── train_data
 ```
 ## Relevant Paper:
+ Paper about the shared task:
+ 
+   
+	@inproceedings{tabassum2020,
+	  author={Tabassum, Jeniya and Lee, Sydney and Xu, Wei and Ritter, Alan },
+	  title={{WNUT-2020 Task 1 Overview: Extracting Entities and Relations from Wet Lab Protocols}},
+	  booktitle={Proceedings of EMNLP 2020 Workshop on Noisy User-generated Text {(WNUT)}},
+	  year = {2020}
+	} 
+
+  
 
  Paper about the dataset:
    
@@ -83,5 +94,7 @@ The participants are required to produce predictions on the protocols as [StandO
 	  booktitle = {Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL)},
 	  year       = {2018}
 	} 
+
+  
 
   
